@@ -1,0 +1,9 @@
+{
+
+    "responsive-layout.mobile#home": {
+        "children": [
+            "list-context.image-list#full-banner-home"
+        ]   
+    } 
+    
+} 

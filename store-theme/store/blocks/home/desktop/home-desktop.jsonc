@@ -1,0 +1,14 @@
+{
+
+    "responsive-layout.desktop#home": {
+        "children": [
+            "list-context.image-list#full-banner-home",
+            "flex-layout.row#deals",
+            "shelf.relatedProducts" ,
+            "flex-layout.row#banner-departamentos",
+            "flex-layout.row#obras-ambiente",
+            "flex-layout.row#slide-marcas"
+        ]   
+    }
+     
+}  

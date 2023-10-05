@@ -1,15 +1,15 @@
 {
+
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      "flex-layout.row#deals",
-      //"flex-layout.row#shelf",
-      "shelf.relatedProducts"
-      
+      "responsive-layout.desktop#home", 
+      "responsive-layout.mobile#home"
     ] 
-  },
+  }, 
 
-  "list-context.image-list#demo": {
+  // FULL BANNER 
+
+  "list-context.image-list#full-banner-home": {
     "children": ["slider-layout#demo-images"],
     "props": {
       "height": 570,
@@ -20,80 +20,421 @@
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
         },
         {
+          "image": "https://tfcvxe.vteximg.com.br/arquivos/01-Banner-Full-Bianco-Desk.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+        }, 
+        {
           "image": "https://tfcvxe.vteximg.com.br/arquivos/ids/159250/01-Semana-do-brasil.jpg?v=638294265313770000",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
         }
       ]
     }
   },
+  
+
   "slider-layout#demo-images": {
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
+        "desktop": 1, 
         "tablet": 1,
         "phone": 1
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": ["carousel", "fullbanner"],
+      "showPaginationDots": "never"
     }
   },
 
-  "rich-text#shelf-title": {
+  // BANERS DEPARTAMENTOS 
+
+  "flex-layout.row#banner-departamentos": {
+    "title": "Bloco departamentos",
+    "props": { 
+      "blockClass": "banner-departamentos", 
+      "marginBottom": 9, 
+      "marginTop": 9 
+    },
+    "children": ["flex-layout.col#banner-departamentos"]
+  },
+
+  "flex-layout.col#banner-departamentos": { 
+    "title": "Bloco departamentos", 
+    "children": [ 
+      "rich-text#shelf-destaque-banner",
+      "flex-layout.col#grid-departamentos"
+    ] 
+  },
+
+  "rich-text#shelf-destaque-banner": { 
+    "title": "Titulo departamentos",
     "props": {
-      "text": "## Summer",
-      "blockClass": "shelfTitle"
+      "text": "Busca por Departamento", 
+      "blockClass": "shelfTitle" 
     }
   },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
-  },
-  "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
+
+  "flex-layout.col#grid-departamentos":{
+    "children": [ 
+      "image#grid-departamentos-01",
+      "image#grid-departamentos-02",
+      "image#grid-departamentos-03",
+      "image#grid-departamentos-04",
+      "image#grid-departamentos-05",
+      "image#grid-departamentos-06" 
+    ],  
+    "props": { 
+      "blockClass": "grid-departamentos"
     }
   },
-  "slider-layout#demo-products": {
+
+  "image#grid-departamentos-01": { 
+    "props": {
+      "src": "/arquivos/banner-middle-01.png", 
+      "blockClass": "grid-departamentos",
+      "link": { 
+        "url": "/",
+        "attributeTitle": "",    
+        "newTab": false   
+      }
+    }, 
+    "title": "Imagem - departamentos"
+  },
+
+  "image#grid-departamentos-02": { 
+    "props": {
+      "src": "/arquivos/fastobra_banner_secundario_2.png", 
+      "blockClass": "grid-departamentos",
+      "link": { 
+        "url": "/",
+        "attributeTitle": "",    
+        "newTab": false   
+      }
+    }, 
+    "title": "Imagem - departamentos"
+  },
+
+  "image#grid-departamentos-03": { 
+    "props": {
+      "src": "/arquivos/fastobra_banner_secundario_3.png", 
+      "blockClass": "grid-departamentos",
+      "link": { 
+        "url": "/",
+        "attributeTitle": "",    
+        "newTab": false   
+      }
+    }, 
+    "title": "Imagem - departamentos"
+  },
+
+  "image#grid-departamentos-04": { 
+    "props": {
+      "src": "/arquivos/fastobra_banner_secundario_4.png", 
+      "blockClass": "grid-departamentos",
+      "link": { 
+        "url": "/",
+        "attributeTitle": "",    
+        "newTab": false   
+      }
+    }, 
+    "title": "Imagem - departamentos"
+  },
+
+  "image#grid-departamentos-05": { 
+    "props": {
+      "src": "/arquivos/fastobra_banner_secundario_5.png", 
+      "blockClass": "grid-departamentos",
+      "link": { 
+        "url": "/",
+        "attributeTitle": "",    
+        "newTab": false   
+      }
+    }, 
+    "title": "Imagem - departamentos"
+  },
+ 
+  "image#grid-departamentos-06": { 
+    "props": {
+      "src": "/arquivos/fastobra_banner_secundario_6.png", 
+      "blockClass": "grid-departamentos",
+      "link": { 
+        "url": "/",
+        "attributeTitle": "",    
+        "newTab": false   
+      }
+    }, 
+    "title": "Imagem - departamentos"
+  },
+
+  // OBRAS POR AMBIENTE 
+
+  "flex-layout.row#obras-ambiente": { 
+    "title": "Bloco obras por ambiente",
+    "props": { 
+      "blockClass": "obras-ambiente", 
+      "marginBottom": 9,  
+      "marginTop": 9 
+    },
+    "children": ["flex-layout.col#obras-ambiente"]
+  },
+  
+  "flex-layout.col#obras-ambiente": { 
+    "title": "Bloco obras por ambiente",  
+    "children": [ 
+      "rich-text#shelf-obras-ambiente-title",
+      "rich-text#shelf-obras-ambiente", 
+      "flex-layout.col#grid-obras-ambiente"
+    ]  
+  }, 
+
+  "flex-layout.col#grid-obras-ambiente": { 
+    "children": [ 
+      "image#obras-ambiente-01",
+      "image#obras-ambiente-02",
+      "image#obras-ambiente-03", 
+      "image#obras-ambiente-04" 
+    ],
+    "props": {
+      "blockClass": "grid-obras-ambiente" 
+    } 
+  }, 
+
+  "image#obras-ambiente-01": { 
+    "props": {
+      "src": "/arquivos/cozinhas%20e%20banheiros%20banner.jpg", 
+      "blockClass": "grid-obras-ambiente",
+      "link": { 
+        "url": "/",
+        "attributeTitle": "",    
+        "newTab": false   
+      }
+    }, 
+    "title": "Imagem - Obras ambiente"
+  },
+
+  "image#obras-ambiente-02": { 
+    "props": {
+      "src": "/arquivos/lajes%20e%20coberturas%20banner.jpg", 
+      "blockClass": "grid-obras-ambiente",
+      "link": { 
+        "url": "/",
+        "attributeTitle": "",    
+        "newTab": false   
+      }
+    }, 
+    "title": "Imagem - Obras ambiente"
+  },
+
+  "image#obras-ambiente-03": { 
+    "props": {
+      "src": "/arquivos/piscinas%20banner.jpg", 
+      "blockClass": "grid-obras-ambiente",
+      "link": { 
+        "url": "/",
+        "attributeTitle": "",    
+        "newTab": false   
+      }
+    }, 
+    "title": "Imagem - Obras ambiente"
+  },
+
+  "image#obras-ambiente-04": { 
+    "props": {
+      "src": "/arquivos/fundação%20banner.jpg", 
+      "blockClass": "grid-obras-ambiente", 
+      "link": { 
+        "url": "/",
+        "attributeTitle": "",    
+        "newTab": false   
+      }
+    }, 
+    "title": "Imagem - Obras ambiente"
+  },
+ 
+  "rich-text#shelf-obras-ambiente-title": { 
+    "title": "Titulo obras por ambiente",
+    "props": {
+      "text": "Obras por Ambiente", 
+      "blockClass": ["obras-ambiente", "shelfTitle", "custom"]
+    }  
+  }, 
+
+  "rich-text#shelf-obras-ambiente": {   
+    "props": {
+      "text": "Compre produtos já pensando em sua aplicação dependendo do tipo de obra!", 
+      "blockClass": ["obras-ambiente", "conteudo"]
+    } 
+  },    
+ 
+
+  // SLIDE MARCAS 
+
+  "flex-layout.row#slide-marcas": { 
+    "title": "Bloco marcas",
+    "props": { 
+      "blockClass": "slide-marcas", 
+      "marginBottom": 9,  
+      "marginTop": 9 
+    },
+    "children": ["flex-layout.col#slide-marcas"]
+  },
+
+  "flex-layout.col#slide-marcas": { 
+    "title": "Bloco marcas", 
+    "children": [ 
+      "rich-text#shelf-slide-marcas",
+      "list-context.image-list#slide-marcas" 
+    ] 
+  },
+
+  "rich-text#shelf-slide-marcas": { 
+    "title": "Titulo departamentos",
+    "props": {
+      "text": "Compre por marca", 
+      "blockClass": ["shelfTitle", "custom"] 
+    }
+  },
+
+  "list-context.image-list#slide-marcas": {
+    "children": ["slider-layout#slide-marcas"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "/arquivos/Sika%20Logo%20(2).png",
+          "mobileImage": "/arquivos/Sika%20Logo%20(2).png",
+          "link": {
+            "url": "/"  
+          }          
+        }, 
+        {
+          "image": "/arquivos/Vedacit%20Pro%20logo.png",
+          "mobileImage": "/arquivos/Vedacit%20Pro%20logo.png",
+          "link": {
+            "url": "/"  
+          } 
+        },
+        {
+          "image": "/arquivos/Viapol%20logo.png",
+          "mobileImage": "/arquivos/Viapol%20logo.png",
+          "link": {
+            "url": "/"  
+          } 
+        },
+        {
+          "image": "/arquivos/Weber%20Quartzolit%20Logo.png",
+          "mobileImage": "/arquivos/Weber%20Quartzolit%20Logo.png",
+          "link": {
+            "url": "/"  
+          } 
+        },
+        {
+          "image": "/arquivos/Tytan%20Logo.png",
+          "mobileImage": "/arquivos/Tytan%20Logo.png",
+          "link": {
+            "url": "/"  
+          } 
+        },
+        {
+          "image": "/arquivos/MC-Bauchimie%20Logo.png",
+          "mobileImage": "/arquivos/MC-Bauchimie%20Logo.png",
+          "link": {
+            "url": "/"  
+          } 
+        },
+        {
+          "image": "/arquivos/tubolit.jpg",
+          "mobileImage": "/arquivos/tubolit.jpg",
+          "link": {
+            "url": "/"  
+          } 
+        },
+        {
+          "image": "/arquivos/Portokoll%20Logo.png",
+          "mobileImage": "/arquivos/Portokoll%20Logo.png",
+          "link": {
+            "url": "/"  
+          } 
+        },
+        {
+          "image": "/arquivos/Quimicryl%20Logo.png",
+          "mobileImage": "/arquivos/Quimicryl%20Logo.png",
+          "link": {
+            "url": "/"  
+          } 
+        },
+        {
+          "image": "/arquivos/salvabras.jpg",
+          "mobileImage": "/arquivos/salvabras.jpg",
+          "link": {
+            "url": "/"  
+          } 
+        },
+        {
+          "image": "/arquivos/Kanaflex%20Logo.png",
+          "mobileImage": "/arquivos/Kanaflex%20Logo.png",
+          "link": {
+            "url": "/"  
+          } 
+        },
+        {
+          "image": "/arquivos/Maccaferri%20Logo.png",
+          "mobileImage": "/arquivos/Maccaferri%20Logo.png" 
+        },
+        {
+          "image": "/arquivos/3m%20Logo.png",
+          "mobileImage": "/arquivos/3m%20Logo.png" 
+        },
+        {
+          "image": "/arquivos/Ciser%20Logo.png",
+          "mobileImage": "/arquivos/Ciser%20Logo.png" 
+        },
+        {
+          "image": "/arquivos/Denver%20Logo.png",
+          "mobileImage": "/arquivos/Denver%20Logo.png" 
+        },
+        {
+          "image": "/arquivos/Dryko%20Logo.png",
+          "mobileImage": "/arquivos/Dryko%20Logo.png" 
+        },
+        {
+          "image": "/arquivos/Icobit%20Logo.png",
+          "mobileImage": "/arquivos/Icobit%20Logo.png" 
+        },
+        {
+          "image": "/arquivos/ITW%20Logo.png",
+          "mobileImage": "/arquivos/ITW%20Logo.png" 
+        },
+        {
+          "image": "/arquivos/marluvas.jpg",
+          "mobileImage": "/arquivos/marluvas.jpg" 
+        },
+        {
+          "image": "/arquivos/MBCC%201.jpg",
+          "mobileImage": "/arquivos/MBCC%201.jpg" 
+        },
+        {
+          "image": "/arquivos/Penetron%20logo.png",
+          "mobileImage": "/arquivos/Penetron%20logo.png" 
+        }
+      ]
+    }
+  },
+
+  "slider-layout#slide-marcas": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 1
+        "desktop": 5, 
+        "tablet": 1,
+        "phone": 1 
       },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
-    }
-  },
-
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly", 
+      "blockClass": ["carousel", "padrao"],
+      "showPaginationDots": "never" 
     }
   }
+  
+
 }
+ 

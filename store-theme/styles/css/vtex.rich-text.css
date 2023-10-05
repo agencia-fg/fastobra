@@ -33,9 +33,19 @@
 }
 
 .container--shelfTitle {
-  color: #727273;
-  justify-content: center;
-  text-align: center;
+  justify-content: left;
+  text-align: left;
+  font-family: Raleway, sans-serif; 
+  font-weight: 700;
+  font-size: 1.5em;
+  color: black;
+}
+
+.container--shelfTitle .paragraph--shelfTitle.paragraph--custom{
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0.36px;
 }
 
 .headingLevel2--shelfTitle {
@@ -160,6 +170,28 @@
   margin-left: 10px; 
   height: 30px; 
   background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNi4zMzEiIGhlaWdodD0iMjYuMzMxIiB2aWV3Qm94PSIwIDAgMjYuMzMxIDI2LjMzMSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE0LjMxNSAtMTQuMzE1KSI+PHBhdGggZD0iTTIyLjM4Nyw2LjA3NkExMy4wNTIsMTMuMDUyLDAsMCwwLDEuODUxLDIxLjgyMkwwLDI4LjU4MWw2LjkxOC0xLjgxNmExMy4wMDgsMTMuMDA4LDAsMCwwLDYuMjM2LDEuNTg3aC4wMDZBMTMuMTc0LDEzLjE3NCwwLDAsMCwyNi4zMzEsMTUuM2ExMy4xLDEzLjEsMCwwLDAtMy45NDQtOS4yMjhaTTEzLjE2LDI2LjE1NGExMC44MjYsMTAuODI2LDAsMCwxLTUuNTI1LTEuNTExbC0uMzk0LS4yMzUtNC4xLDEuMDc2LDEuMDkzLTQtLjI1OS0uNDExQTEwLjg2NiwxMC44NjYsMCwxLDEsMjQuMTI3LDE1LjMsMTAuOTY2LDEwLjk2NiwwLDAsMSwxMy4xNiwyNi4xNTRabTUuOTQ4LTguMTIzYy0uMzIzLS4xNjUtMS45MjgtLjk1Mi0yLjIyOC0xLjA1OHMtLjUxNy0uMTY1LS43MzUuMTY1LS44NCwxLjA1OC0xLjAzNCwxLjI4MS0uMzgyLjI0Ny0uNzA1LjA4MmE4Ljg3NSw4Ljg3NSwwLDAsMS00LjQzNy0zLjg3OWMtLjMzNS0uNTc2LjMzNS0uNTM1Ljk1OC0xLjc4MWEuNi42LDAsMCwwLS4wMjktLjU3Yy0uMDgyLS4xNjUtLjczNS0xLjc2OS0xLjAwNS0yLjQyMi0uMjY0LS42MzUtLjUzNS0uNTQ3LS43MzUtLjU1OHMtLjQwNi0uMDEyLS42MjMtLjAxMmExLjIwOCwxLjIwOCwwLDAsMC0uODcuNDA2LDMuNjY0LDMuNjY0LDAsMCwwLTEuMTQsMi43MjFBNi4zODcsNi4zODcsMCwwLDAsNy44NTIsMTUuNzhhMTQuNTY5LDE0LjU2OSwwLDAsMCw1LjU3Miw0LjkyNWMyLjA2OS44OTMsMi44OC45NywzLjkxNC44MTdhMy4zMzksMy4zMzksMCwwLDAsMi4yLTEuNTUyLDIuNzI3LDIuNzI3LDAsMCwwLC4xODgtMS41NTJDMTkuNjQ4LDE4LjI3MiwxOS40MzEsMTguMTksMTkuMTA4LDE4LjAzMVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE0LjMxNSAxMi4wNjUpIiBmaWxsPSIjMTExMTEwIi8+PC9nPjwvc3ZnPg==);
+}
+
+.paragraph--obras-ambiente{
+  margin: 0;
+}
+
+.paragraph--obras-ambiente.paragraph--shelfTitle{
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0.36px;
+  color: #111110;
+  margin-bottom: 0px;
+}
+
+.paragraph--obras-ambiente.paragraph--conteudo{
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 18px;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #111110;
 }
 
 @media only screen and (min-width: 640px) {

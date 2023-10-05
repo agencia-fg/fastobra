@@ -134,3 +134,34 @@
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }
+
+.flexRowContent--banner-departamentos .flexCol--grid-departamentos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+} 
+
+.flexRowContent--slide-marcas :global(.vtex-slider-layout-0-x-imageElement){
+  filter: grayscale(1);
+  transition: all 0.4s; 
+  max-width: 110px;
+}
+
+.flexRowContent--slide-marcas :global(.vtex-slider-layout-0-x-slide--carousel):hover :global(.vtex-slider-layout-0-x-imageElement){
+  filter: grayscale(0);
+  transition: all 0.4s;
+}
+
+.flexRowContent--banner-departamentos .flexCol--grid-departamentos :global(.vtex-store-components-3-x-imageElement--grid-departamentos){
+  width: 100%;
+} 
+
+.flexRowContent--obras-ambiente .flexCol--grid-obras-ambiente{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 30px;
+}
+
+.flexRowContent--obras-ambiente .flexCol--grid-obras-ambiente :global(.vtex-store-components-3-x-imageElement){
+  width: 100%;
+}

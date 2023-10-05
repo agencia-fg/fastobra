@@ -8,7 +8,8 @@
 
   "minicart.v2": {
     "props": {
-      "customPixelEventId": "add-to-cart-button"
+      "customPixelEventId": "add-to-cart-button",
+      "quantityDisplay": "always"  
     },
     "children": ["minicart-base-content"]
   }

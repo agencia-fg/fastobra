@@ -7,6 +7,7 @@
   :global(.vtex-store-components-3-x-searchBarContainer) {
   transition: all 0.3s ease;
   display: block;
+  padding: 0px;
 }
 
 /* desktop/mobile main header padding and background transitions */
@@ -18,14 +19,10 @@
 
 /* main header desktop has a bigger padding when not stuck */
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  align-items:center ;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  align-items: center;
 }
-
-
-
-
 /*
  * remove the extra padding when stuck from the desktop header
  * we add a transition only when "stuck" for the "unstick" step seem faster
@@ -33,8 +30,8 @@
 :global(.vtex-sticky-layout-0-x-wrapper--stuck)
   :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
   transition: padding 0.3s ease, background 0.3s ease;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 12px; 
+  padding-bottom: 12px;
 }
 
 .hover-b--action-secondary:hover, .hover-bg-action-secondary:focus, .hover-bg-action-secondary:hover {
