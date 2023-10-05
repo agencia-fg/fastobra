@@ -1,0 +1,131 @@
+.flexRowContent--menu-link,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 40em) {
+
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+
+  .flexRowContent--menu-link,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+
+.flexRowContent--menu-link {
+
+  color: #fff;
+}
+
+.flexRowContent--main-header {
+  background-color: #fff;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #fff;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
+  color: #727273;
+  font-size: 14px;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer) :global(.vtex-styleguide-9-x-noAppearance) {
+
+  background: #e3e3e3;
+}
+
+.flexRowContent--bloco-whatsapp-topo {
+  align-items: center;
+}
+
+.flexRowContent--bloco-whatsapp-topo .stretchChildrenWidth:nth-child(2n) {
+  width: 30% !important;
+}
+
+.flexRow--deals {
+  background-color: #e3e3e3;
+  padding: 14px 0px;
+}
+
+.flexRow--bloco-whatsapp-topo {
+  margin-left: 25px;
+  width: 160px;
+}
+
+.flexRow--menu-link {
+  padding: 10px 0;
+  background-color: #003a7f;
+}
+
+.flexColChild--bloco-deals :global(.vtex-store-components-3-x-imageElement) {
+  margin-top: 5px;
+}
+
+.flexCol--bloco-deals {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--bloco-deals {
+  margin-left: 20px;
+}
+
+.flexColChild--bloco-deals .flexCol .flexColChild {
+  height: unset !important;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}

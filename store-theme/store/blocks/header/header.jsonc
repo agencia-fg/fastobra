@@ -1,0 +1,217 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#3-desktop",
+      "sticky-layout#4-desktop"
+    ]
+  },
+  "flex-layout.row#1-desktop": {
+    "children": [
+      "telemarketing"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#3-desktop": {
+    "title": "Header avisos importantes",
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "rich-text#aviso-topo-frete"
+    ]
+  },
+  "rich-text#aviso-topo-frete": {
+    "props": {
+      "text": "<span class='vtex-rich-text-0-x-paragraph--aviso-frete-gratis-topo'> Frete Grátis </span>  em compras acima de R$199,90 (Consulte as regiões)",
+      "blockClass": "aviso-topo-frete"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "sticky-layout#4-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#4-desktop"
+    ]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      // "flex-layout.col#category-menu",
+      // "flex-layout.col#spacer",
+      "search-bar",
+      "flex-layout.row#aviso-topo",
+      "flex-layout.row#whatsapp-topo",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "search-bar": {
+    "props": {
+      "autocompleteFullWidth": true,
+      "placeholder": " O que você procura ?"
+    }
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo-fastobra.png",
+      "width": "220",
+      "height": "38"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-apparel",
+      "menu-item#category-home",
+      "menu-item#more"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo-fastobra.png",
+      "width": "180",
+      "height": "31"
+    }
+  },
+  "flex-layout.row#whatsapp-topo": {
+    "children": [
+      "rich-text#topo-whatsapp",
+      "image#whatsapp"
+    ],
+    "props": {
+      "blockClass": [
+        "bloco-whatsapp-topo"
+      ]
+    }
+  },
+  "image#whatsapp": {
+    "props": {
+      "src": "/arquivos/whatsapp-icon-topo.svg",
+      "maxHeight": 26,
+      "blockClass": [
+        "icon-topo-whatsapp"
+      ]
+    }
+  },
+  "rich-text#topo-whatsapp": {
+    "props": {
+      "text": "Compre pelo Whatsapp ",
+      "blockClass": "texto-whatsapp"
+    }
+  },
+  "flex-layout.row#aviso-topo": {
+    "children": [
+      "rich-text#topo-aviso",
+      "image#aviso"
+    ],
+    "props": {
+      "blockClass": [
+        "bloco-whatsapp-topo"
+      ]
+    }
+  },
+  "image#aviso": {
+    "props": {
+      "src": "/arquivos/central-atendimento.svg",
+      "maxHeight": 26,
+      "blockClass": [
+        "icon-topo-whatsapp"
+      ]
+    }
+  },
+  "rich-text#topo-aviso": {
+    "props": {
+      "text": "Central de\n atendimento ",
+      "blockClass": "texto-atendimento"
+    }
+  },
+  "login": {
+    "props": {
+      "iconSize": 30
+    }
+  }
+}

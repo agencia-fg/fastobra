@@ -1,0 +1,161 @@
+.wrapper--aviso-frete-gratis-topo{
+  padding-left: 5px;
+}
+
+.paragraph--aviso-frete-gratis-topo{
+  font-weight: bold;
+  color: #ff6344;
+  font-family: 'Raleway', sans-serif;
+  line-height: 14px;
+  font-size: 12px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+
+.paragraph--aviso-topo-frete {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0;
+}
+
+.container--deals {
+  color: #ffffff;
+  /* text-align: center;
+  justify-content: center; */
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034E;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034E;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034E;
+}
+
+.container--title {
+  color: #03034E;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.paragraph--deals{
+  font-family: 'Raleway', sans-serif;
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  display: block;
+  color: #e6381f;
+}
+
+.paragraph--deals-content{
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #002470;
+  margin-top: 5px;
+}
+
+.paragraph--texto-whatsapp:hover{
+  font-weight: 700;
+}
+
+.paragraph--texto-whatsapp{
+  width: 95px;
+}
+
+.wrapper--texto-whatsapp, .wrapper--texto-atendimento{
+  font-family: 'Raleway', sans-serif;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  color: #363631;
+  width: 150px;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034E;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}

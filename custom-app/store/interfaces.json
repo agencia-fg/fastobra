@@ -1,0 +1,8 @@
+{
+
+  "newslatter-custom": {
+    "component": "Newslatter",
+    "composition": "children"
+  }
+
+}

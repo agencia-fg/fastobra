@@ -1,0 +1,47 @@
+.input {
+    display: flex;
+    width: 280px;
+    height: 42px;
+    padding: 13px 10px;
+    align-items: center;
+}
+
+.inputDate {
+    display: flex;
+    height: 42px;
+    /* padding: 12px 10px; */
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.blocoInput {
+    background: #002470;
+    width: 79%;
+    height: 120px;
+    padding: 0 30px;
+    position: relative;
+    right: -21%;
+    padding-left: 8%;
+    top: -120px;
+}
+
+.formNewslatter {
+    display: flex;
+    padding: 0px 163.32px 37px 153.59px;
+    align-items: center;
+}
+
+.inputSubmit {
+    border-radius: 5px;
+    background: #EA5B0B;
+    height: 45px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    width: 183.97px;
+
+
+}

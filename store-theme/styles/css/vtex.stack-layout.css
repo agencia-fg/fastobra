@@ -1,0 +1,28 @@
+.stackItem--product {
+  width: 100%;
+  min-height: 257px
+}
+
+.stackItem--quickview {
+  right: 0;
+  top: 0;
+  left: auto;
+}
+
+
+/*LOGIN*/
+
+:global(.vtex-login-2-x-label) {
+  text-transform: capitalize;
+  color: #363631;
+}
+
+:global(.vtex-login-2-x-label)::after {
+  content: "";
+  background: url(https://tfcvxe.vtexassets.com/arquivos/usuario-icon-topo.svg);
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 5px;
+}
