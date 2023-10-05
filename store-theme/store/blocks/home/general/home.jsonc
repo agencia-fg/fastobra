@@ -3,11 +3,10 @@
     "blocks": [
       "list-context.image-list#demo",
       "flex-layout.row#deals",
-      "newslatter-custom",
-      //  "flex-layout.row#shelf",
+      //"flex-layout.row#shelf",
       "shelf.relatedProducts"
       
-    ]
+    ] 
   },
 
   "list-context.image-list#demo": {

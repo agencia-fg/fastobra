@@ -16,13 +16,3 @@
   text-transform: capitalize;
   color: #363631;
 }
-
-:global(.vtex-login-2-x-label)::after {
-  content: "";
-  background: url(https://tfcvxe.vtexassets.com/arquivos/usuario-icon-topo.svg);
-  height: 30px;
-  width: 30px;
-  position: absolute;
-  margin-top: -10px;
-  margin-left: 5px;
-}

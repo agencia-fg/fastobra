@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto + Slab:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto + Slab:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap');  
+
 .notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
+  background-color: #e6f1e6; 
+  color: #03034e; 
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
@@ -65,7 +70,14 @@
   margin: 1rem 0;
 }
 
+.container{
+  max-width: 1236px;
+}
+
 @media only screen and (min-width: 640px) {
+  .searchBarContainer{
+    margin: 0px 25px;
+  }
   .newsletter .container {
     padding: 140px;
   }

@@ -62,9 +62,14 @@
   padding: 14px 0px;
 }
 
+.flexRow--menu-categorias-header{
+  border-top: 1px solid #e0e0e09c;
+  border-bottom: 1px solid #e0e0e09c; 
+}
+
 .flexRow--bloco-whatsapp-topo {
   margin-left: 25px;
-  width: 160px;
+  width: 120px;
 }
 
 .flexRow--menu-link {

@@ -1,0 +1,73 @@
+{
+    "header-layout.desktop": {
+        "children": [
+            "flex-layout.row#top-header",
+            "sticky-layout#desktop",
+            "flex-layout.row#header-menu"
+        ]
+    },
+
+    "sticky-layout#desktop": {
+        "props": {
+            "blockClass": "sticky-header"
+        },
+        "children": [
+            "flex-layout.row#desktop"
+        ]
+    },
+
+    "flex-layout.row#top-header": {
+        "title": "Header avisos importantes",
+        "props": {
+            "blockClass": "menu-link",
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "rich-text#aviso-topo-frete"
+        ]
+    },
+
+    "rich-text#aviso-topo-frete": {
+        "props": {
+            "text": "<span class='vtex-rich-text-0-x-paragraph--aviso-frete-gratis-topo'> Frete Grátis </span>  em compras acima de R$199,90 (Consulte as regiões)",
+            "blockClass": "aviso-topo-frete"
+        }
+    },
+
+    "flex-layout.col#spacer": {
+        "props": {
+            "width": "grow"
+        }
+    },
+
+    "flex-layout.row#desktop": {
+        "props": {
+            "blockClass": "main-header",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false
+        },
+        "children": [
+            "flex-layout.col#logo-desktop",
+            "search-bar",
+            "flex-layout.row#aviso-topo",
+            "flex-layout.row#whatsapp-topo",
+            "login",
+            "minicart.v2"
+        ]
+    },
+
+    // MENU DE CATEGORIAS
+    "flex-layout.row#header-menu": {
+        "children": ["vtex.menu@2.x:menu#category-menu"],
+        "props": {
+        "blockClass": "menu-categorias-header" 
+        }
+    }
+
+}

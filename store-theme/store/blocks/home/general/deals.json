@@ -136,9 +136,9 @@
       "rich-text#deal-content4"
     ]
   },
-  "rich-text#deal-content4": {
+  "rich-text#deal-content4": { 
     "props": {
-      "text": "(cupom não cumulativo)",
+      "text": "(cupom não cumulativo)", 
       "blockClass": "deals-content"
     }
   },

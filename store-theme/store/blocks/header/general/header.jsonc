@@ -1,0 +1,121 @@
+{
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "search-bar": {
+    "props": {
+      "autocompleteFullWidth": true,
+      "placeholder": " O que você procura ?"
+    }
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo-fastobra.png"  
+    }
+  },
+  
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#mais-vendidos",
+      "menu-item#mantas",
+      "menu-item#impermeabilizantes",
+      "menu-item#pintura",
+      "menu-item#saldao"
+    ],
+    "props": { 
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "/arquivos/logo-fastobra.png",
+      "width": "180",
+      "height": "31"
+    }
+  },
+  "flex-layout.row#whatsapp-topo": {
+    "children": [
+      "rich-text#topo-whatsapp"
+    ],
+    "props": {
+      "blockClass": [
+        "bloco-whatsapp-topo"
+      ], 
+      "preventHorizontalStretch": true
+    }
+  },
+
+  "rich-text#topo-whatsapp": {
+    "props": {
+      "text": "[Compre pelo Whatsapp](https://api.whatsapp.com/send?phone=5511940168899)",
+      "blockClass": "texto-whatsapp"
+    }
+  },
+
+  "flex-layout.row#aviso-topo": {
+    "children": [
+      "rich-text#topo-aviso" 
+    ],
+    "props": {
+      "blockClass": [
+        "bloco-whatsapp-topo"
+      ],
+      "preventHorizontalStretch": true
+    } 
+  },
+
+  "rich-text#topo-aviso": {
+    "props": {
+      "text": "Central de\n atendimento ",
+      "blockClass": "texto-atendimento"
+    }
+  },
+
+  "login": {
+    "props": {
+      "iconSize": 30
+    }
+  }
+
+}

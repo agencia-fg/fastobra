@@ -249,7 +249,7 @@
         {"name": "regular", "value": 2.5},
         {"name": "large", "value": 3}
       ],
-      "typography":{
+      "typography":{ 
         "measure": [30, 34, 20],
         "styles": {
           "heading-1": {
