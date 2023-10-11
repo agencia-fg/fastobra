@@ -6207,9 +6207,9 @@ text-table@^0.2.0:
   version "0.0.1"
   resolved "https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.custom-app@0.0.1+build1696365336/public/@types/tfcvxe.custom-app#05e6799b775ad6eb4486947a404a4572c76f74de"
 
-"tfcvxe.store-theme@https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.store-theme@0.0.1+build1696874337/public/@types/tfcvxe.store-theme":
+"tfcvxe.store-theme@https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.store-theme@0.0.1+build1697044938/public/@types/tfcvxe.store-theme":
   version "0.0.1"
-  resolved "https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.store-theme@0.0.1+build1696874337/public/@types/tfcvxe.store-theme#a48265cb8e950492a26a91dfe9774c7518ca526e"
+  resolved "https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.store-theme@0.0.1+build1697044938/public/@types/tfcvxe.store-theme#3f9b0fde50af1767f6453c764fddb3f0795a6dd5"
 
 throat@^5.0.0:
   version "5.0.0"
@@ -6699,9 +6699,9 @@ verror@1.10.0:
   version "3.127.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.127.0/public/@types/vtex.search-result#90f37663ff4060060c2cf5116da06dd5bf1e0cb2"
 
-"vtex.search@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search@2.16.6/public/@types/vtex.search":
-  version "2.16.6"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search@2.16.6/public/@types/vtex.search#cd1f25104962983349876747c54b72629ff2272d"
+"vtex.search@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search@2.16.7/public/@types/vtex.search":
+  version "2.16.7"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search@2.16.7/public/@types/vtex.search#9f7cb532aa8b4c8a60f56ad4ba330d064266f3b6"
 
 "vtex.shelf@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.shelf@1.47.3/public/@types/vtex.shelf":
   version "1.47.3"
