@@ -2,7 +2,8 @@
   "add-to-cart-button": {
     "props": {
       "addToCartFeedback": "customEvent",
-      "customPixelEventId": "add-to-cart-button"
+      "customPixelEventId": "add-to-cart-button",
+      "text": "Comprar" 
     }
   },
 
@@ -11,6 +12,50 @@
       "customPixelEventId": "add-to-cart-button",
       "quantityDisplay": "always"  
     },
-    "children": ["minicart-base-content"]
+    "children": ["minicart-product-list", "minicart-base-content"]
+  },
+
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": [/*"minicart-product-list", "minicart-bar", "flex-layout.row#minicart-footer"*/]
+  },
+
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#empty-state"]
+  },
+
+  "flex-layout.row#empty-state": {
+    "children": ["flex-layout.col#empty-state"]
+  },
+
+  "flex-layout.col#empty-state": {
+    "children": [
+      "rich-text#empty-state",
+      "drawer-close-button#close-minicart-empty"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5,
+      "blockClass": "empty-minicart"
+    }
+  },
+
+  "rich-text#empty-state": {  
+    "props": {
+      "text": "SEU CARRINHO ESTÁ VAZIO!",
+      "blockClass": "empty-state",
+      "textAlignment": "CENTER", 
+      "textPosition": "CENTER"  
+    },   
+    "title": "Texto - Carrinho vazio" 
+  },
+
+  "drawer-close-button#close-minicart-empty": {
+    "props": {
+      "text": "Continuar comprando",
+      "blockClass": "close-empty"
+    }
   }
+ 
 }

@@ -1,0 +1,11 @@
+{
+    "footer-layout.desktop": {
+        "children": [
+            "flex-layout.row#newsletter-footer", 
+            "flex-layout.row#menu-footer", 
+            "flex-layout.row#footer-2-desktop",
+            "flex-layout.row#footer-3-desktop",
+            "image#whats-flutuante"
+        ] 
+    }
+}  

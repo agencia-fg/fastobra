@@ -2,39 +2,18 @@
     "header-layout.desktop": {
         "children": [
             "flex-layout.row#top-header",
-            "sticky-layout#desktop",
+            "sticky-layout#header-desktop",
             "flex-layout.row#header-menu"
-        ]
-    },
+        ] 
+    }, 
 
-    "sticky-layout#desktop": {
+    "sticky-layout#header-desktop": {
         "props": {
             "blockClass": "sticky-header"
         },
         "children": [
-            "flex-layout.row#desktop"
+            "flex-layout.row#desktop" 
         ]
-    },
-
-    "flex-layout.row#top-header": {
-        "title": "Header avisos importantes",
-        "props": {
-            "blockClass": "menu-link",
-            "horizontalAlign": "center",
-            "preventHorizontalStretch": true,
-            "preventVerticalStretch": true,
-            "fullWidth": true
-        },
-        "children": [
-            "rich-text#aviso-topo-frete"
-        ]
-    },
-
-    "rich-text#aviso-topo-frete": {
-        "props": {
-            "text": "<span class='vtex-rich-text-0-x-paragraph--aviso-frete-gratis-topo'> Frete Grátis </span>  em compras acima de R$199,90 (Consulte as regiões)",
-            "blockClass": "aviso-topo-frete"
-        }
     },
 
     "flex-layout.col#spacer": {
@@ -60,14 +39,26 @@
             "login",
             "minicart.v2"
         ]
-    },
+    }, 
 
     // MENU DE CATEGORIAS
     "flex-layout.row#header-menu": {
         "children": ["vtex.menu@2.x:menu#category-menu"],
         "props": {
-        "blockClass": "menu-categorias-header" 
-        }
-    }
+            "blockClass": "menu-categorias-header"
+        }  
+    }, 
 
-}
+    "custom-category-menu#header-all-category-menu": { 
+        "props": {
+            "showAllDepartments": true,
+            "showSubcategories": true, 
+            "menuDisposition": "left", 
+            "departments": [],   
+            "sortSubcategories": "name", 
+            "mobileMode": false,
+            "alwaysShowSubcategories": true 
+        }
+    }  
+
+} 

@@ -5,6 +5,7 @@
       "blockClass": "menu-desktop"
     },
     "children": [
+      "custom-category-menu#header-all-category-menu", 
       "menu-item#mais-vendidos",
       "menu-item#mantas",
       "menu-item#impermeabilizantes",

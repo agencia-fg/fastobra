@@ -31,8 +31,7 @@
       "blockClass": "savingsSummaryListDesktop"
     },
     "children": [
-      "product-price-savings#summaryPercentage",
-      "product-price-savings#summary"
+      "product-price-savings#summaryPercentage"
     ]
   },
   "flex-layout.row#summaryListDesktop": {
@@ -64,7 +63,6 @@
     "children": [
       "vtex.store-components:product-brand#summaryListDesktop",
       "product-summary-name#summaryListDesktop",
-      "flex-layout.col#productRating",
       "flex-layout.row#productSpecifications"
     ]
   },

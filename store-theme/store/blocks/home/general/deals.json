@@ -6,16 +6,55 @@
       "flex-layout.col#blocodeals3",
       "flex-layout.col#blocodeals4"
     ],
-    "props": {
+    "props": { 
       "blockClass": "deals"
     }
   },
 
+  "flex-layout.row#deals-mobile": {
+    "children": [
+      "slider-layout#deals"
+    ],
+    "props": { 
+      "blockClass": "deals",
+      "fullWidth": true  
+    } 
+  },
+
+  "responsive-layout.mobile#deals": {
+    "children": [
+      "slider-layout#deals"
+    ]   
+  },
+
+  "slider-layout#deals": { 
+    "children": [
+      "flex-layout.col#blocodeals1",
+      "flex-layout.col#blocodeals2",
+      "flex-layout.col#blocodeals3",
+      "flex-layout.col#blocodeals4" 
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1, 
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "deals", 
+      "showPaginationDots": "never",  
+      "usePagination": true,
+      "centerMode": "center", 
+      "centerModeSlidesGap:": 0
+    } 
+  },
+ 
   "flex-layout.col#blocodeals1":{
 
     "children":[
       "image#deal1",
-      "flex-layout.col#deals1"
+      "flex-layout.col#deals1" 
     ],
     "props":{
       "blockClass":"bloco-deals"

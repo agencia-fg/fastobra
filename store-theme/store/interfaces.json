@@ -1,0 +1,13 @@
+{
+    "custom-category-menu": {
+        "component": "HeaderCategoryMenu"
+    },
+
+    "newsletter-home": {
+        "component": "NewsletterHome"
+    },
+
+    "newsletter-footer": {
+        "component": "NewsletterFooter"
+    }
+}

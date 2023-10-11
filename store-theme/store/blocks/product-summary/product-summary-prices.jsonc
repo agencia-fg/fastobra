@@ -1,0 +1,56 @@
+{
+    "flex-layout.col#product-price-summary": { 
+      "children": [
+        "flex-layout.row#selling-price-savings", 
+        "product-spot-price#price",
+        "product-installments#summary" 
+      ],
+      "props": { 
+        "width": "100%",  
+        "blockClass": "product-price-summary"
+      }
+    },  
+     
+    "product-installments#summary": {
+      "props": {
+        "installmentsCriteria": "max-quantity",       
+        "blockClass": "summary",
+        "message": "ou em até {installmentsNumber} {installmentValue}",  
+        "hasInterest": true 
+      }   
+    },
+
+    "product-spot-price#price": {
+      "props": {
+        "blockClass": "summary-vitrine",
+        "message": "ou {spotPriceValue}"
+      }
+    },
+    
+    "flex-layout.row#selling-price-savings": {
+      "props": {
+        "colGap": 2,
+        "preserveLayoutOnMobile": true,
+        "preventHorizontalStretch": true
+      }, 
+      "children": [
+        "product-list-price#summary",
+        "product-selling-price#summary" 
+      ]
+    }, 
+
+    "product-list-price#summary": {
+      "props": {
+        "blockClass": "summary"
+      }
+    },  
+     
+    "product-selling-price#summary": {
+      "props": {
+        "blockClass": "summary",
+        "message": "{sellingPriceValue} Á vista"
+      }
+    }
+
+} 
+  

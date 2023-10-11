@@ -165,3 +165,456 @@
 .flexRowContent--obras-ambiente .flexCol--grid-obras-ambiente :global(.vtex-store-components-3-x-imageElement){
   width: 100%;
 }
+
+.flexRow--copyrigth{
+  background: #002470;
+  padding: 35px 0;
+}
+
+.flexRow--copyrigth .flexRowContent--copyrigth{
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.flexRow--copyrigth .flexRowContent--copyrigth :global(.vtex-rich-text-0-x-paragraph--copyrigth){
+  font-family: 'Raleway', sans-serif;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #fff;
+  margin: 0;
+}
+
+.flexRow--copyrigth .flexCol--plataformas-footer{
+  display: flex;
+  flex-direction: revert;
+  align-items: center;
+  gap: 20px;
+  justify-content: right;
+}
+
+.flexRow--copyrigth .flexCol--plataformas-footer::before{
+  content: 'Desenvolvimento e tecnologia:';
+  font-family: 'Raleway', sans-serif;
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #fff;
+}
+
+.flexRow--menu-row.flexRow--footer{
+  background: #e3e3e3;
+  padding: 20px 0;
+}
+
+.flexRowContent--menu-row.flexRowContent--footer{
+  justify-content: space-between;
+} 
+
+.flexRow--menu-row.flexRow--footer :global(.vtex-menu-2-x-menuItem) :global(.vtex-menu-2-x-styledLinkContent){
+  font-family: 'Raleway', sans-serif;
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px; 
+  color: #363631;
+  margin-bottom: 6px;
+  display: block; 
+}
+
+.flexRow--menu-row.flexRow--footer :global(.vtex-menu-2-x-menuContainer--marcas-footer){
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 0px 75px;
+}
+
+.flexRow--menu-row.flexRow--footer :global(.vtex-menu-2-x-menuContainer--termos-footer){
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0px 75px;
+}
+
+.flexRow--menu-row.flexRow--footer :global(.vtex-menu-2-x-menuContainerNav--marcas-footer)::before{
+  font-family: 'Raleway', sans-serif;
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #363631;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  content: 'MARCAS';
+  display: block;
+  margin-left: 20px;
+}
+
+.flexRow--menu-row.flexRow--footer :global(.vtex-menu-2-x-menuContainerNav--termos-footer)::before{
+  font-family: 'Raleway', sans-serif;
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #363631;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  content: 'TERMOS MAIS BUSCADOS';
+  display: block;
+  margin-left: 20px;
+}
+
+.flexRow--menu-footer .flexRowContent--menu-footer{
+  justify-content: space-evenly;  
+}
+
+.flexRow--menu-footer{
+  background: #111110;
+  padding: 44px 0;
+}
+
+.flexRow--menu-footer :global(.vtex-menu-2-x-styledLinkContent--footer-menu){
+  font-family: 'Raleway', sans-serif;
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #fff; 
+  display: block;
+  margin-bottom: 4px;
+}
+
+.flexRowContent--selo-seguranca-footer{
+  align-items: center;
+  display: flex; 
+  gap: 10px; 
+}
+
+
+.flexRow--selo-seguranca-footer::before{
+  content: 'CERTIFICADOS'; 
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  line-height: 14px;
+  font-size: 14px; 
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 14px;
+  display: block; 
+}
+
+.flexRow--grid-pagamentos-footer .flexRowContent--grid-pagamentos-footer{
+  display: grid;  
+  grid-template-columns: 50px 50px 50px 50px 50px;
+  gap: 4px; 
+  margin-bottom: 30px;
+}
+
+.flexRow--grid-pagamentos-footer .flexRowContent--grid-pagamentos-footer .stretchChildrenWidth{
+  width: 100%!important;
+}
+
+.flexRow--grid-pagamentos-footer::before{ 
+  content: 'pagamentos'; 
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  line-height: 14px;
+  font-size: 14px; 
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 14px;
+  display: block;
+}
+
+.flexRowContent--main-header-mobile{
+  justify-content: space-between; 
+  border-bottom: 1px solid #e3e3e3; 
+}
+
+.flexRowContent--menu-categorias-header{
+  position: relative;
+}
+
+.flexRow--newsletter-home .flexRowContent--newsletter-home{
+  max-width: 1236px;
+  margin: auto; 
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.flexRow--newsletter-home{
+  background: #002470;
+  position: relative;
+  padding: 15px 0px;
+}
+
+.flexRow--newsletter-home::after{
+  content: '';
+  background: #ea5b0b;
+  width: 43%;
+  height: auto;
+  clip-path: polygon(0% 0%, 75% 0%, 81% 50%, 75% 100%, 0% 100%);
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 24px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.flexRowContent--newsletter-footer{
+  background: #ff6344;
+  border-radius: 30px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 30px; 
+}
+
+.flexCol--summary-flutuante :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper__plus-button),
+.flexCol--summary-flutuante :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper__minus-button){
+  border: 1px solid #003a7f;
+  background: #cbe1f7;
+  width: 20px!important;   
+  height: 20px;
+  border-radius: 100px!important; 
+}
+
+.flexCol--summary-flutuante :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper__input){
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  width: 30px;
+  height: 25px; 
+}
+
+.flexCol--summary-flutuante :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper-container){
+  align-items: center;
+} 
+
+.flexCol--summary-flutuante :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
+  font-family: 'Raleway', sans-serif;
+    line-height: 14px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: center;
+    color: black;
+}
+
+.flexCol--summary-flutuante{
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: center;
+  padding: 10px 12px 0px 12px;
+  gap: 18px;
+}
+
+.flexCol--summary-flutuante .flexColChild--summary-flutuante{
+  height: auto!important;
+}
+
+.flexCol--summary-flutuante .flexColChild--summary-flutuante :global(.vtex-button){
+  background: #003a7f;
+  border: none; 
+  border-radius: 3px;
+}
+
+.flexCol--summary-flutuante .flexColChild--summary-flutuante :global(.vtex-button):hover{
+  background: #005a9c; 
+}
+
+.flexCol--summary-flutuante .flexColChild--summary-flutuante :global(.vtex-add-to-cart-button-0-x-buttonText){
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: bold; 
+  letter-spacing: 0.6px;
+}
+
+
+.flexCol--summary-flutuante :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper__plus-button__text){
+  color: #111110;
+  font-weight: bold;
+}
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados){
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  height: 535px;
+}
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem){ 
+  position: absolute;
+} 
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem){ 
+  position: absolute;
+} 
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem) :global(.vtex-button__label){
+  padding: 0px;
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+  font-family: none;
+} 
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItemActive) :global(.vtex-button__label){
+  font-size: 0px;
+}
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItemActive) :global(.vtex-button__label)::after{
+  content: '×';
+  font-size: 20px; 
+}
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-contentContainer) :global(.vtex-list-context-0-x-list){
+  margin: 15px 0px 0px 0px; 
+  padding: 0;
+  list-style: none;
+  height: 460px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-contentContainer) :global(.vtex-list-context-0-x-list)::-webkit-scrollbar-track{
+  border-radius: 25px;
+  background: rgba(0, 90, 156, 0.2);
+}
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-contentContainer) :global(.vtex-list-context-0-x-list)::-webkit-scrollbar-thumb{
+  background: #005a9c;
+  border-radius: 25px;
+  height: 22vh;
+}
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-contentContainer) :global(.vtex-list-context-0-x-list)::-webkit-scrollbar{
+  width: 9px;
+} 
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem) :global(.vtex-button){
+  width: 31px;
+  height: 31px;
+  background: #005a9c;
+  display: block;
+  min-height: auto;
+  border-radius: 100%;  
+  border: 3px solid rgba(203, 225, 247, 0.78);
+}
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItemActive) :global(.vtex-button){ 
+  border: none;
+} 
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer)::after{
+  background-image: url('assets/imgs/produto-aplicado.png');
+  content: '';
+  display: block; 
+  width: 100%;  
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+} 
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--selantes){
+  right: 135px;
+  top: 175px;
+}
+ 
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--fundacao){
+  right: 112px;
+  top: 300px;
+}
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--telhas){
+  right: 325px;
+  top: 55px;
+}
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--acabamentos){
+  right: 417px;
+  top: 229px; 
+}
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--piscinas){
+  right: 300px;
+  top: 415px;
+}
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--selantes-adesivos){
+  right: 496px;
+  top: 230px;
+}
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--lajes){
+  right: 560px;
+  top: 185px;
+}
+
+
+.flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer){
+  position: relative;
+  margin-top: 30px;
+}
+
+
+.flexRow--produtos-aplicados{
+  background: #cbe1f7;
+  padding-top: 30px;
+}
+
+.flexRow--produtos-aplicados .flexRowContent--produtos-aplicados{
+  margin: 0;
+}
+
+@media(max-width: 768px){ 
+  .flexRowContent--obras-ambiente .flexCol--grid-obras-ambiente{
+    grid-template-columns: 1fr;
+    gap: 12px; 
+  }
+  .flexRowContent--slide-marcas :global(.vtex-slider-layout-0-x-slide--carousel){ 
+    padding: 0px 12px;
+  }
+  .flexRow--copyrigth .flexRowContent--copyrigth :global(.vtex-rich-text-0-x-paragraph--copyrigth){
+    text-align: center;
+  } 
+  .flexRow--copyrigth .flexCol--plataformas-footer::before{
+    width: 100px; 
+  }
+  .flexRow--copyrigth .flexCol--plataformas-footer{
+    justify-content: center;
+  }
+  .flexRow--copyrigth .flexRowContent--copyrigth{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+  .flexRow--menu-footer .flexRowContent--menu-footer{
+    text-align: center; 
+  }
+  .flexRowContent--selo-seguranca-footer{
+    justify-content: center; 
+    gap: 12px;
+  }
+  .flexRow--grid-pagamentos-footer .flexRowContent--grid-pagamentos-footer{
+    justify-content: center;  
+  }
+  .flexCol--bloco-deals {
+    display: block; 
+  }  
+  .flexColChild--bloco-deals {
+    height: auto!important;
+    text-align: center;
+    margin: 0;
+  }
+  .flexColChild--bloco-deals :global(.vtex-store-components-3-x-imageElement) {
+    margin-bottom: 12px;
+  } 
+  .flexRowContent--newsletter-footer{
+    display: block; 
+  }
+}

@@ -19,10 +19,7 @@
 }
 
 .slide--shelf {
-  margin-bottom: 25px;
-  padding-left: .5rem;
-  padding-right: .5rem;
-  min-height: 550px;
+  margin-bottom: 25px; 
 }
 
 .caretIcon{
@@ -48,3 +45,51 @@
 .sliderRightArrow--fullbanner{
   right: 8vw; 
 }
+ 
+.slide--departamentos {
+  width: 14.7%!important;
+  margin-left: 0.4%!important;
+  margin-right: 0.4%!important; 
+} 
+
+.sliderLayoutContainer--shelf .sliderTrackContainer--shelf{
+  padding-top: 35px;
+}
+
+.sliderLayoutContainer--shelf .paginationDotsContainer--shelf{
+  top: 0px;
+  left: 0px;
+  right: unset;
+  bottom: unset;
+}
+
+.sliderRightArrow--shelf {
+  position: absolute; 
+  top: -15px; 
+  right: 0;
+}
+
+.sliderLeftArrow--shelf{
+  position: absolute; 
+  top: -15px;
+  right: 45px;  
+  left: unset;  
+}
+
+.sliderTrackContainer--produtos-aplicados .sliderTrack--produtos-aplicados{
+    display: block;
+    width: 100%!important; 
+    transform: translate3d(0px, 0px, 0px)!important;
+}
+
+@media(min-width: 768px){
+  .sliderLayoutContainer--shelf .sliderTrackContainer--shelf{
+    padding-top: 35px;
+  }
+  .slide--shelf { 
+    margin: 0px 15px; 
+  }
+  .slide--shelf .slideChildrenContainer--shelf{
+    padding-bottom: 70px; 
+  }
+} 
