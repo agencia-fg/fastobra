@@ -84,7 +84,7 @@
   },
   "rich-text#deal-content1": {
     "props": {
-      "text": "Em compras acima \n de R$199,90 (Consulte as regiões)",
+      "text": "Em compras acima \n de R$199,90 (Consulte as regiões).",
       "blockClass": "deals-content"
     }
   },
