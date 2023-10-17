@@ -9,10 +9,11 @@
             "flex-layout.row#shelf-03",
             "flex-layout.row#banner-departamentos",
             "flex-layout.row#shelf-04",
+            "flex-layout.row#produtos-aplicados",  
             "flex-layout.row#shelf-05", 
             "flex-layout.row#obras-ambiente",
             "flex-layout.row#slide-marcas"
-        ]   
+        ]    
     } 
     
 } 

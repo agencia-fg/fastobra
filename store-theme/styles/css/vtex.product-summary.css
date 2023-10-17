@@ -89,8 +89,8 @@
 .container--productLine :global(.vtex-flex-layout-0-x-flexCol--product-price-summary){
   background: #f8f8f8;
   border-top: 1px solid #e3e3e3;
-  padding: 15px 15px; 
-  height: auto; 
+  padding: 15px 15px;  
+  height: 100%; 
   text-align: center;
   line-height: 22px;
 }
@@ -182,22 +182,25 @@
 }
 
 .container--productLine :global(.vtex-flex-layout-0-x-flexCol--summary-flutuante){
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
   transition: all 0.3s;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px; 
   border: 1px solid #e3e3e3;
-  border-top: none;
+}  
+
+.container--vitrine :global(.vtex-flex-layout-0-x-flexCol--summary-flutuante){
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
   height: 70px;
   top: unset;
   bottom: -0px;
+  border-top: none;
 }  
 
-.container--productLine:hover :global(.vtex-flex-layout-0-x-flexCol--summary-flutuante){
+.container--vitrine:hover :global(.vtex-flex-layout-0-x-flexCol--summary-flutuante){
   opacity: 1;
-  visibility: visible;
+  visibility: visible; 
   transition: all 0.3s; 
 }
 
@@ -258,5 +261,20 @@
     border: 1px solid #e3e3e3;
     border-radius: 3px; 
   } 
-  
+  .container--productLine.container--padrao{
+    box-shadow: 0px 0px 6px #00000021;
+  } 
+  .container--productLine :global(.vtex-flex-layout-0-x-flexCol--product-price-summary) :global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: auto!important; 
+  }
+}
+
+@media(max-width: 768px){
+  .container--produtos-aplicados .element--produtos-aplicados{
+    width: 97%;
+    grid-template-columns: 160px 1fr;
+  }
+  .container--productLine :global(.vtex-flex-layout-0-x-flexCol--product-price-summary){
+    padding: 15px 5px;
+  }  
 }

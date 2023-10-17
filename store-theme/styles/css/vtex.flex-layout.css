@@ -373,8 +373,8 @@
   padding: 30px 30px; 
 }
 
-.flexCol--summary-flutuante :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper__plus-button),
-.flexCol--summary-flutuante :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper__minus-button){
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper__plus-button), 
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper__minus-button){
   border: 1px solid #003a7f;
   background: #cbe1f7;
   width: 20px!important;   
@@ -382,7 +382,7 @@
   border-radius: 100px!important; 
 }
 
-.flexCol--summary-flutuante :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper__input){
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper__input){
   border: none;
   font-size: 14px;
   font-weight: 600;
@@ -390,20 +390,36 @@
   height: 25px; 
 }
 
-.flexCol--summary-flutuante :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper-container){
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper-container){
   align-items: center;
 } 
 
-.flexCol--summary-flutuante :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
   font-family: 'Raleway', sans-serif;
-    line-height: 14px;
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 0px;
-    text-align: center;
-    color: black;
+  line-height: 14px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-align: center;
+  color: black;
 }
 
+.flexRow--product-main :global(.vtex-product-quantity-1-x-quantitySelectorContainer){
+  width: 80px;
+} 
+
+.flexRow--product-main :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper__input){
+  border: 1px solid #003a7f;
+  height: 30px;
+  border-radius: 3px;
+  margin: 0px 5px;
+  width: 30px;  
+}
+
+.flexRow--product-main :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
+ text-align: left; 
+ font-size: 14px;
+}
 .flexCol--summary-flutuante{
   display: grid;
   grid-template-columns: 80px 1fr;
@@ -434,7 +450,7 @@
 }
 
 
-.flexCol--summary-flutuante :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper__plus-button__text){
+:global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-numeric-stepper__plus-button__text){
   color: #111110;
   font-weight: bold;
 }
@@ -570,6 +586,37 @@
   margin: 0;
 }
 
+.flexCol--infos-pdp :global(.vtex-store-components-3-x-productNameContainer){
+  font-family: 'Raleway', sans-serif;
+  line-height: 29px;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: #002470;
+  margin-bottom: 15px;
+}
+
+.flexCol--infos-pdp .flexRowContent--brand-share{
+  align-items: center;
+} 
+
+.flexRowContent--product-main{
+  width: 1010px; 
+  margin: auto;
+}
+
+.flexCol--infos-pdp{
+  border-top: 4px solid #003a7f;
+  padding: 15px 20px;
+}
+
+.flexCol--infos-pdp :global(.vtex-product-identifier-0-x-product-identifier){
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #111110; 
+}
+
 @media(max-width: 768px){ 
   .flexRowContent--obras-ambiente .flexCol--grid-obras-ambiente{
     grid-template-columns: 1fr;
@@ -617,4 +664,46 @@
   .flexRowContent--newsletter-footer{
     display: block; 
   }
-}
+  .flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados){
+    grid-template-columns: 1fr;
+    height: auto;  
+  }
+  .flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer){
+    height: 270px;
+  }
+  .flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--fundacao){
+    right: 12px;
+    top: 121px;
+  }  
+  .flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--selantes){
+    right: 13%;
+    top: 22%;
+  }   
+  .flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--telhas){
+    right: 48%;
+    top: 2%;
+  }
+  
+  .flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--acabamentos){
+    right: 43%;
+    top: 32%;
+  }
+  
+  .flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--piscinas){
+    right: 34%;
+    top: 63%;
+  }
+  
+  .flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--selantes-adesivos){
+    left: 21%;
+    top: 40%;
+  }
+  
+  .flexCol--vitrine-produto .flexColChild--vitrine-produto :global(.vtex-tab-layout-0-x-container--produtos-aplicados) :global(.vtex-tab-layout-0-x-listContainer) :global(.vtex-tab-layout-0-x-listItem--lajes){
+    left: 31%;
+    top: 24%;
+  }
+  .flexRow--produtos-aplicados{
+    padding-bottom: 30px;
+  }
+}  

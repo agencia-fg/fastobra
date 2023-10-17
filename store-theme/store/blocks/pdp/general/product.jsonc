@@ -1,14 +1,8 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#product-breadcrumb",
-      "condition-layout.product#availability",
-      "flex-layout.row#description",
-      "flex-layout.row#specifications-title",
-      "product-specification-group#table",
-      "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers"
+      "responsive-layout.mobile#product",
+      "responsive-layout.desktop#product"
     ]
   },
   "flex-layout.row#specifications-title": {
@@ -42,14 +36,15 @@
       "Else": "flex-layout.row#product-availability"
     }
   },
-  "flex-layout.row#product-main": {
+  "flex-layout.row#product-main": { 
     "props": {
-      "colGap": 7,
-      "rowGap": 7,
+      "colGap": 5,
+      "rowGap": 5,  
       "marginTop": 4,
-      "marginBottom": 7,
-      "paddingTop": 7,
-      "paddingBottom": 7
+      "marginBottom": 7, 
+      "paddingTop": 4,
+      "paddingBottom": 7,
+      "blockClass": "product-main"
     },
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
@@ -76,8 +71,8 @@
 
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
-    "props": {
-      "width": "60%",
+    "props": {  
+      "width": "52%",    
       "rowGap": 0
     }
   },
@@ -90,33 +85,50 @@
         "desktop": "auto",
         "phone": "16:9"
       },
-      "displayThumbnailsArrows": true
+      "zoomMode": "disabled", 
+      "displayThumbnailsArrows": false,
+      "thumbnailVisibility": "hidden" 
     }
   },
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
-      "rowGap": 0
+      "rowGap": 0, 
+      "blockClass": "infos-pdp"
     },
     "children": [
       "flex-layout.row#product-name",
-      "product-rating-summary",
-      "flex-layout.row#list-price-savings",
-      "flex-layout.row#selling-price",
-      "product-installments",
-      "product-separator",
       "product-identifier.product",
-      "sku-selector",
+      "flex-layout.row#brand-share", 
+      "product-rating-summary",
+      "product-separator",  
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
-      "flex-layout.row#buy-button",
-      "availability-subscriber",
-      "shipping-simulator",
-      "share#default"
-    ]
-  },
+      "flex-layout.row#buy-button", 
+      "availability-subscriber", 
+      "shipping-simulator"        
+    ] 
+  }, 
 
+  "flex-layout.row#brand-share":{
+    "children": ["vtex.store-components:product-brand", "share#default"],
+    "props":{
+      "horizontalAlign": "between",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "brand-share",
+      "marginTop": 4, 
+      "marginBottom": 3 
+    } 
+  },
+ 
+  "vtex.store-components:product-brand": {
+    "props": { 
+      "withLink": "text"       
+    }  
+  },
+  
   "flex-layout.row#product-name": {
     "props": {
       "marginBottom": 3
@@ -176,7 +188,7 @@
       "social": {
         "Facebook": true,
         "WhatsApp": true,
-        "Twitter": false,
+        "Twitter": true, 
         "Pinterest": true
       }
     }

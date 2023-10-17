@@ -13,7 +13,7 @@
   },
 
   "store.account": {
-    "blocks": ["my-account"],
+    "blocks": ["my-account"], 
     "parent": {
       "challenge": "challenge.profile"
     }
@@ -48,7 +48,7 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "**PAGE NOT FOUND**",
-      "font": "t-heading-1"
+      "font": "t-heading-1" 
     }
   }
 }

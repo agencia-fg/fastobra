@@ -1,20 +1,44 @@
 {
 
-  "product-summary.shelf": {
-    "children": [
+  // Product Summary vitrines
+  "product-summary.shelf#vitrine": {
+    "children": [ 
       "stack-layout#prodsum",
+      "flex-layout.col#infos-product-summary-shelf",                 
+      "flex-layout.col#product-price-summary",
+      "responsive-layout.desktop#summary-flutuante"  
+    ],
+    "props": {
+      "blockClass": ["vitrine", "productLine"]
+    } 
+  }, 
+
+  // Product summary padrão 
+  "product-summary.shelf": { 
+    "children": [ 
+      "stack-layout#prodsum", 
       "flex-layout.col#infos-product-summary",             
       "flex-layout.col#product-price-summary",
       "responsive-layout.desktop#summary-flutuante"  
     ],
     "props": {
-      "blockClass": "productLine"  
+      "blockClass": ["productLine", "padrao"]
     } 
-  }, 
+  },
 
   "flex-layout.col#infos-product-summary": {
     "children": [ 
-      "product-summary-brand",
+      "product-summary-name"  
+    ],
+    "props": { 
+      "blockClass": "infos-product-summary",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#infos-product-summary-shelf": {
+    "children": [ 
+      "product-summary-brand", 
       "product-summary-name"  
     ],
     "props": { 

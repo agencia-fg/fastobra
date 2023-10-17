@@ -567,7 +567,7 @@
   
   "list-context.product-list#vitrine-01": { 
     "title": "01 - Vitrine",    
-    "blocks": ["product-summary.shelf"], 
+    "blocks": ["product-summary.shelf#vitrine"], 
     "children": ["slider-layout#slider-products"],
     "props": { 
       "orderBy": "OrderByTopSaleDESC"
@@ -607,7 +607,7 @@
   
   "list-context.product-list#vitrine-02": { 
     "title": "02 - Vitrine",    
-    "blocks": ["product-summary.shelf"], 
+    "blocks": ["product-summary.shelf#vitrine"], 
     "children": ["slider-layout#slider-products"],
     "props": { 
       "orderBy": "OrderByTopSaleDESC"
@@ -647,7 +647,7 @@
   
   "list-context.product-list#vitrine-03": { 
     "title": "03 - Vitrine",    
-    "blocks": ["product-summary.shelf"], 
+    "blocks": ["product-summary.shelf#vitrine"], 
     "children": ["slider-layout#slider-products"],
     "props": { 
       "orderBy": "OrderByTopSaleDESC"
@@ -687,7 +687,7 @@
   
   "list-context.product-list#vitrine-04": { 
     "title": "04 - Vitrine",    
-    "blocks": ["product-summary.shelf"], 
+    "blocks": ["product-summary.shelf#vitrine"], 
     "children": ["slider-layout#slider-products"],
     "props": { 
       "orderBy": "OrderByTopSaleDESC"
@@ -726,10 +726,10 @@
   },
   
   "list-context.product-list#vitrine-05": { 
-    "title": "05 - Vitrine",    
-    "blocks": ["product-summary.shelf"], 
+    "title": "05 - Vitrine",     
+    "blocks": ["product-summary.shelf#vitrine"], 
     "children": ["slider-layout#slider-products"],
-    "props": { 
+    "props": {  
       "orderBy": "OrderByTopSaleDESC"
     }
   },

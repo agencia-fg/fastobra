@@ -27,12 +27,13 @@
       }
     },
     
-    "flex-layout.row#selling-price-savings": {
+    "flex-layout.row#selling-price-savings": { 
       "props": {
-        "colGap": 2,
-        "preserveLayoutOnMobile": true,
-        "preventHorizontalStretch": true
-      }, 
+        "colGap": 2, 
+        "preserveLayoutOnMobile": false, 
+        "preventHorizontalStretch": false,
+        "horizontalAlign": "center" 
+      },  
       "children": [
         "product-list-price#summary",
         "product-selling-price#summary" 
