@@ -1,0 +1,15 @@
+{
+    "flex-layout.col#product-price": { 
+      "children": [
+        "product-list-price", 
+        "product-selling-price#summary",
+        "product-spot-price#price",
+        "product-installments#summary" 
+      ],
+      "props": { 
+        "width": "100%",  
+        "blockClass": "product-price" 
+      }
+    }     
+} 
+  

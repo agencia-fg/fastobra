@@ -5,6 +5,21 @@
       "customPixelEventId": "add-to-cart-button",
       "text": "Comprar" 
     }
+  }, 
+ 
+  "add-to-cart-button#pdp-01": {
+    "props": {
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button",
+      "text": "Adicionar ao carrinho"
+    }
+  },
+  
+  "add-to-cart-button#pdp-02": {
+    "props": {
+      "isOneClickBuy": true, 
+      "text": "Comprar" 
+    } 
   },
 
   "minicart.v2": {

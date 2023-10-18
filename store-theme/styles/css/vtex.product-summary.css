@@ -107,14 +107,10 @@
   justify-content: center;
 }
 
-.container--productLine :global(.vtex-product-price-1-x-installments--summary){
-  font-family: 'Raleway', sans-serif;
-  line-height: 14px;
-  font-size: 10px;
-  font-weight: 500;
-  letter-spacing: 0px;
-  text-align: center;
-  color: black;
+.container--productLine :global(.vtex-product-price-1-x-installments--summary),
+.container--productLine  :global(.vtex-product-price-1-x-spotPrice--summary-vitrine){ 
+  text-align: center; 
+  font-size: 10px; 
 }
 
 .container--produtos-aplicados :global(.vtex-product-price-1-x-installments--summary){
@@ -127,58 +123,8 @@
   color: black;
 }
 
-.container--productLine :global(.vtex-product-price-1-x-installments--summary) :global(.vtex-product-price-1-x-installmentsNumber--summary)::after,
-.container--produtos-aplicados :global(.vtex-product-price-1-x-installments--summary) :global(.vtex-product-price-1-x-installmentsNumber--summary)::after{
-  content: 'x';
-}
-
-.container--productLine :global(.vtex-product-price-1-x-installments--summary) :global(.vtex-product-price-1-x-installmentsNumber--summary),
-.container--produtos-aplicados :global(.vtex-product-price-1-x-installments--summary) :global(.vtex-product-price-1-x-installmentsNumber--summary){ 
-  content: 'x';
-  color: #ff6344;
-} 
-
-.container--productLine :global(.vtex-product-price-1-x-listPrice--summary) :global(.vtex-product-price-1-x-currencyContainer){
-  font-family: 'Raleway', sans-serif;
-  line-height: 14px;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  color: #b5b6b1;
-  text-decoration: line-through;
-  margin-right: 5px;
-} 
-
-.container--productLine :global(.vtex-product-price-1-x-sellingPriceValue) :global(.vtex-product-price-1-x-currencyContainer){
-  font-family: 'Raleway', sans-serif;
-  line-height: 14px;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 0px;
-  color: #003a7f; 
-}
-
-.container--productLine :global(.vtex-product-price-1-x-sellingPrice--summary){
-  font-family: 'Raleway', sans-serif; 
-  line-height: 14px;
-  font-size: 13px; 
-  font-weight: 500;
-  letter-spacing: 0px;
-  color: #111110;
-}
-
-.container--productLine  :global(.vtex-product-price-1-x-spotPrice--summary-vitrine){
-  font-family: 'Raleway', sans-serif; 
-  line-height: 14px;
-  font-size: 12px;
-  font-weight: 500; 
-  letter-spacing: 0px;
-  text-align: center;
-  margin-top: 8px;
-}
-
 .element{
-  padding: 0px;
+  padding: 0px; 
 }
 
 .container--productLine :global(.vtex-flex-layout-0-x-flexCol--summary-flutuante){
@@ -195,7 +141,7 @@
   height: 70px;
   top: unset;
   bottom: -0px;
-  border-top: none;
+  border-top: none; 
 }  
 
 .container--vitrine:hover :global(.vtex-flex-layout-0-x-flexCol--summary-flutuante){
@@ -219,10 +165,10 @@
 
 .container--produtos-aplicados :global(.vtex-button){
   background: transparent;
-  color: #003a7f;
+  color: #003a7f; 
   border: 1px solid #003a7f;
   min-height: auto;
-  height: 40px;
+  height: 40px; 
   margin-top: 15px;
 }
 

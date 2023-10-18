@@ -1,17 +1,13 @@
 {
   
-    "responsive-layout.desktop#product": {
-      "children": [
-        "flex-layout.row#product-breadcrumb",
-        "condition-layout.product#availability",
-        "flex-layout.row#description",
-        "flex-layout.row#specifications-title",
-        "product-specification-group#table",
-        "shelf.relatedProducts",
-        "product-reviews",
-        "product-questions-and-answers"
-      ]
-    }
+  "responsive-layout.desktop#product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "condition-layout.product#availability",
+      "flex-layout.row#description"  
+      /*"shelf.relatedProducts" */
+    ]
+  }  
   
-  }
+}
   

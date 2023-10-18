@@ -10,16 +10,16 @@
       "menu-item#plastcor",
       "menu-item#penetron", 
       "menu-item#mbcc", 
-      "menu-item#itw",
+      "menu-item#itw", 
       "menu-item#icobit",
       "menu-item#dryko",
-      "menu-item#denver",
-      "menu-item#viapol", 
+      "menu-item#denver", 
+      "menu-item#viapol",  
       "menu-item#tubolit",
       "menu-item#portokoll",
       "menu-item#quimicryl",
       "menu-item#salvabras",
-      "menu-item#kanaflex",
+      "menu-item#kanaflex", 
       "menu-item#maccferri",
       "menu-item#3m",
       "menu-item#ciser"
@@ -1033,7 +1033,9 @@
           "itemProps": { 
             "noFollow": false,
             "tagTitle": "Quem Somos",
-            "text": "Quem Somos"
+            "text": "Quem Somos",
+            "type": "internal",
+            "href": "/institucional/nossa-historia"
           }
         },
         {
@@ -1044,7 +1046,9 @@
           "itemProps": { 
             "noFollow": false,
             "tagTitle": "Trabalhe conosco",
-            "text": "Trabalhe conosco"
+            "text": "Trabalhe conosco",            
+            "type": "internal",
+            "href": "/institucional/nossa-historia"
           }
         },
         {
@@ -1055,7 +1059,9 @@
           "itemProps": { 
             "noFollow": false,
             "tagTitle": "Políticas",
-            "text": "Políticas" 
+            "text": "Políticas",            
+            "type": "internal",
+            "href": "/institucional/politicas"
           }
         },
         {
@@ -1066,7 +1072,9 @@
           "itemProps": {
             "noFollow": false,
             "tagTitle": "Nossas Lojas",
-            "text": "Nossas Lojas"
+            "text": "Nossas Lojas",            
+            "type": "internal",
+            "href": "/institucional/nossas-lojas"
           }
         }
       ]
@@ -1088,7 +1096,9 @@
           "itemProps": { 
             "noFollow": false,
             "tagTitle": "Frete e Entrega",
-            "text": "Frete e Entrega"
+            "text": "Frete e Entrega",            
+            "type": "internal",
+            "href": "/institucional/frete-entrega"
           }
         },
         {
@@ -1099,7 +1109,9 @@
           "itemProps": { 
             "noFollow": false,
             "tagTitle": "Devoluções",
-            "text": "Devoluções"
+            "text": "Devoluções",            
+            "type": "internal",
+            "href": "/institucional/devolucoes" 
           }
         },
         {
@@ -1113,7 +1125,7 @@
             "text": "Minha Conta" 
           }
         },
-        {
+        { 
           "id": "footerItem",
           "type": "custom",
           "iconId": null,

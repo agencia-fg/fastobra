@@ -6207,9 +6207,9 @@ text-table@^0.2.0:
   version "0.0.1"
   resolved "https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.custom-app@0.0.1+build1696365336/public/@types/tfcvxe.custom-app#05e6799b775ad6eb4486947a404a4572c76f74de"
 
-"tfcvxe.store-theme@https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.store-theme@0.0.1+build1696874337/public/@types/tfcvxe.store-theme":
+"tfcvxe.store-theme@https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.store-theme@0.0.1+build1697044938/public/@types/tfcvxe.store-theme":
   version "0.0.1"
-  resolved "https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.store-theme@0.0.1+build1696874337/public/@types/tfcvxe.store-theme#a48265cb8e950492a26a91dfe9774c7518ca526e"
+  resolved "https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.store-theme@0.0.1+build1697044938/public/@types/tfcvxe.store-theme#91af1769415da61f5e59b78c9c6fa32e159500a9"
 
 throat@^5.0.0:
   version "5.0.0"

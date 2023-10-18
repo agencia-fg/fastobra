@@ -8,7 +8,7 @@
   "flex-layout.row#contact-us": {
     "props": {
       "blockClass": "contact"
-    },
+    }, 
     "children": [
       "flex-layout.col#contact-us"
     ]

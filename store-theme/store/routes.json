@@ -7,8 +7,8 @@
   },
   "store.custom#contact-us": {
     "path": "/contact-us"
-  },
-  "store.custom#nossa-historia": {
+  },  
+  "store.custom#nossa-historia": { 
     "path": "/institucional/nossa-historia"
   },
   "store.custom#nossas-lojas": {
@@ -19,7 +19,7 @@
   },
   "store.custom#compras-atacado": {
     "path": "/institucional/compras-atacado"
-  },
+  }, 
   "store.custom#contato": {
     "path": "/institucional/contato"
   },

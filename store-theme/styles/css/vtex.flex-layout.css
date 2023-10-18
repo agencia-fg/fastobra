@@ -414,6 +414,8 @@
   border-radius: 3px;
   margin: 0px 5px;
   width: 30px;  
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .flexRow--product-main :global(.vtex-product-quantity-1-x-quantitySelectorContainer) :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
@@ -601,7 +603,7 @@
 } 
 
 .flexRowContent--product-main{
-  width: 1010px; 
+  max-width: 1060px; 
   margin: auto;
 }
 
@@ -616,10 +618,70 @@
   letter-spacing: 0px;
   color: #111110; 
 }
+ 
+.flexRow--product-main .flexCol--add :global(.vtex-add-to-cart-button-0-x-buttonText),
+.flexRow--product-main .flexCol--buy :global(.vtex-button){
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 18px 0;  
+}
+
+.flexRow--product-main .flexCol--add :global(.vtex-button__label),
+.flexRow--product-main .flexCol--buy :global(.vtex-button__label){ 
+  padding: 0px!important;   
+}  
+
+.flexRow--product-main .flexCol--add :global(.vtex-button){
+  background: #003a7f;
+  border: none;
+  transition: all 0.4s;
+} 
+
+.flexRow--product-main .flexCol--add :global(.vtex-button):hover{
+  background: #005a9c;
+  transition: all 0.4s; 
+} 
+
+.flexRow--product-main .flexCol--buy :global(.vtex-button):hover{
+  background: #ff875c;
+  transition: all 0.4s; 
+} 
+
+.flexRow--product-main .flexCol--buy :global(.vtex-button){
+  background: #ff6344; 
+  border: none; 
+} 
+
+.flexRow--product-main :global(.vtex-product-price-1-x-listPrice){
+  display: block;
+}
+
+.flexRow--product-main :global(.vtex-product-price-1-x-installments):global(.vtex-product-price-1-x-installments--summary){
+  display: block;
+  text-align: left;
+  margin-top: 8px;
+} 
+
+.flexRow--product-main .flexCol--product-price{
+  padding-top: 12px;
+  padding-bottom: 10px; 
+}
+
+.flexRow--product-description{
+  padding: 58px 0 45px;
+  background: #fcfcfc; 
+} 
+
+.flexRow--product-description .flexRowContent--product-description{
+  max-width: 850px;
+  margin: 0 auto;
+}
 
 @media(max-width: 768px){ 
   .flexRowContent--obras-ambiente .flexCol--grid-obras-ambiente{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
     gap: 12px; 
   }
   .flexRowContent--slide-marcas :global(.vtex-slider-layout-0-x-slide--carousel){ 

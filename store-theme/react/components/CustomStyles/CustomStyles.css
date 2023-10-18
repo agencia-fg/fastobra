@@ -1,0 +1,9 @@
+/* Geral */
+
+:global(.vtex-store-components-3-x-productDescriptionText) strong{
+    font-weight: 600;
+} 
+
+:global(.vtex-store-components-3-x-productDescriptionText) h2{
+    font-size: 18px;
+}

@@ -4,7 +4,8 @@
           "flex-layout.row#newsletter-footer", 
           "flex-layout.row#menu-footer",
           "flex-layout.row#footer-3-desktop",
-          "image#whats-flutuante" 
+          "image#whats-flutuante",
+          "custom-styles" 
         ]
       } 
 } 

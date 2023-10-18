@@ -1,12 +1,74 @@
 .listPrice {
-  color: #727273;
-  margin-bottom: .25rem;
-  font-size: 1rem;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #b5b6b1;
+  margin-bottom: 8px; 
+}
+
+.spotPrice{
+  font-family: 'Raleway',sans-serif;
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 500; 
+  letter-spacing: 0px; 
+  margin-top: 8px;
+  display: block;
+}
+ 
+.installments.installments--summary{
+  font-family: 'Raleway', sans-serif;
+  line-height: 14px;
+  font-size: 12px;
+  font-weight: 500; 
+  letter-spacing: 0px;
+  text-align: center;
+  color: black;
+}
+
+.installments--summary .installmentsNumber--summary::after{
+  content: 'x';
+}
+
+.installments--summary .installmentsNumber--summary{
+  content: 'x';
+  color: #ff6344;
+}
+
+.listPrice--summary .currencyContainer{
+  font-family: 'Raleway', sans-serif;
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #b5b6b1;
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+
+.sellingPriceValue .currencyContainer{
+  font-family: 'Raleway', sans-serif;
+  line-height: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #003a7f; 
+}
+
+.sellingPrice--summary{
+  font-family: 'Raleway', sans-serif; 
+  line-height: 14px;
+  font-size: 13px; 
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #111110;
 }
 
 .sellingPrice {
-  color: #3f3f40;
-  font-size: 1.25rem;
+  color: #111110;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0px;
 }
 
 .sellingPriceValue {
@@ -35,7 +97,6 @@
   border-radius: 1000px;
   align-items: center;
   display: flex;
-
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   font-size: 0.875rem;
@@ -56,11 +117,6 @@
 .listPrice--summary {
   margin-bottom: 0.25rem;
   font-size: .875rem;
-}
-
-.installments--summary {
-  margin-bottom: 2rem;
-  font-size: 0.875rem;
 }
 
 .savings--summaryPercentage {

@@ -43,6 +43,7 @@
 @media(max-width: 768px){
     .footernewsletter{
         grid-template-columns: 1fr;
-        margin-top: 15px;
+        margin-top: 15px; 
     }
 }
+

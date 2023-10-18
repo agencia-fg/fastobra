@@ -3,6 +3,10 @@
         "component": "HeaderCategoryMenu"
     },
 
+    "custom-styles": {
+        "component": "CustomStyles"
+    },
+
     "newsletter-home": {
         "component": "NewsletterHome"
     },
@@ -10,4 +14,4 @@
     "newsletter-footer": {
         "component": "NewsletterFooter"
     }
-}
+} 

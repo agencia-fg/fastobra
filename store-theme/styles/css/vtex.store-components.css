@@ -173,6 +173,10 @@
 .carouselGaleryCursor .caretIcon{
   display: none;
 } 
+
+.carouselGaleryCursor{
+  cursor: auto; 
+}
   
 .carouselGaleryCursor .swiperCaretNext{
   background: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOCIgaGVpZ2h0PSIzOCIgdmlld0JveD0iMCAwIDM4IDM4Ij48ZGVmcz48c3R5bGU+LmF7ZmlsbDojMTExMTEwO29wYWNpdHk6MC43NTE7fS5ie2ZpbGw6I2ZmZjt9PC9zdHlsZT48L2RlZnM+PGNpcmNsZSBjbGFzcz0iYSIgY3g9IjE5IiBjeT0iMTkiIHI9IjE5Ii8+PHBhdGggY2xhc3M9ImIiIGQ9Ik05Ljk5MywxOC45YS45OTMuOTkzLDAsMCwxLS43NjUtMS42MjlsNC40NDktNS4zMjNMOS4zODcsNi42MTlhMS4wMTUsMS4wMTUsMCwxLDEsMS42LTEuMjUxbDQuOCw1Ljk1OWEuOTkzLjk5MywwLDAsMSwwLDEuMjYxbC00Ljk2Niw1Ljk1OUEuOTkzLjk5MywwLDAsMSw5Ljk5MywxOC45WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNi4zNzYgNy4wOTQpIi8+PC9zdmc+) #111110;
@@ -210,14 +214,14 @@
 .shareButtons .shareSocialButton::after{
   content: '';
   display: block;
-  width: 20px;  
-  height: 20px; 
+  width: 18px;  
+  height: 18px; 
   background-size: cover; 
-  background: #003a7f;
-  background-repeat: no-repeat;
+  background: #003a7f; 
+  background-repeat: no-repeat; 
   background-position: center; 
   border-radius: 100px; 
-  background-size: 14px;
+  background-size: 12px;
 }
 
 .productBrandNameLink{ 
@@ -249,6 +253,144 @@
 .shareButtons .shareSocialButton--pinterest::after{ 
   background-image: url("data:image/svg+xml;charset=utf-8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNTAgNTAiIHdpZHRoPSI1MHB4IiBoZWlnaHQ9IjUwcHgiPgo8ZyBpZD0ic3VyZmFjZTE4NTM1MTQ1MCI+CjxwYXRoIHN0eWxlPSIgc3Ryb2tlOm5vbmU7ZmlsbC1ydWxlOm5vbnplcm87ZmlsbDpyZ2IoMTAwJSwxMDAlLDEwMCUpO2ZpbGwtb3BhY2l0eToxOyIgZD0iTSAyNSAyIEMgMTIuMzE2NDA2IDIgMiAxMi4zMTY0MDYgMiAyNSBDIDIgMzQuODgyODEyIDguMjY5NTMxIDQzLjMzMjAzMSAxNy4wMzUxNTYgNDYuNTc4MTI1IEMgMTYuNzg1MTU2IDQ0LjMyNDIxOSAxNi44MjQyMTkgNDAuNjM2NzE5IDE3LjIzODI4MSAzOC44NTE1NjIgQyAxNy42Mjg5MDYgMzcuMTc1NzgxIDE5Ljc2MTcxOSAyOC4xNjQwNjIgMTkuNzYxNzE5IDI4LjE2NDA2MiBDIDE5Ljc2MTcxOSAyOC4xNjQwNjIgMTkuMTE3MTg4IDI2Ljg3ODkwNiAxOS4xMTcxODggMjQuOTcyNjU2IEMgMTkuMTE3MTg4IDIxLjk4NDM3NSAyMC44NTE1NjIgMTkuNzUzOTA2IDIzLjAwNzgxMiAxOS43NTM5MDYgQyAyNC44NDM3NSAxOS43NTM5MDYgMjUuNzI2NTYyIDIxLjEyODkwNiAyNS43MjY1NjIgMjIuNzgxMjUgQyAyNS43MjY1NjIgMjQuNjI4OTA2IDI0LjU1NDY4OCAyNy4zODI4MTIgMjMuOTQ1MzEyIDI5LjkzNzUgQyAyMy40NDE0MDYgMzIuMDgyMDMxIDI1LjAxOTUzMSAzMy44MjQyMTkgMjcuMTI4OTA2IDMzLjgyNDIxOSBDIDMwLjk1MzEyNSAzMy44MjQyMTkgMzMuODg2NzE5IDI5Ljc5Njg3NSAzMy44ODY3MTkgMjMuOTgwNDY5IEMgMzMuODg2NzE5IDE4LjgzMjAzMSAzMC4xOTE0MDYgMTUuMjM0Mzc1IDI0LjkxMDE1NiAxNS4yMzQzNzUgQyAxOC43OTI5NjkgMTUuMjM0Mzc1IDE1LjIwMzEyNSAxOS44MjAzMTIgMTUuMjAzMTI1IDI0LjU2MjUgQyAxNS4yMDMxMjUgMjYuNDEwMTU2IDE1LjkxNDA2MiAyOC4zOTQ1MzEgMTYuODAwNzgxIDI5LjQ3MjY1NiBDIDE2Ljk3NjU2MiAyOS42ODM1OTQgMTcuMDAzOTA2IDI5Ljg3MTA5NCAxNi45NDkyMTkgMzAuMDg1OTM4IEMgMTYuNzg5MDYyIDMwLjc2NTYyNSAxNi40MjU3ODEgMzIuMjI2NTYyIDE2LjM1NTQ2OSAzMi41MjczNDQgQyAxNi4yNjE3MTkgMzIuOTIxODc1IDE2LjA0Mjk2OSAzMy4wMDM5MDYgMTUuNjM2NzE5IDMyLjgxMjUgQyAxMi45NDkyMTkgMzEuNTYyNSAxMS4yNjk1MzEgMjcuNjM2NzE5IDExLjI2OTUzMSAyNC40ODQzNzUgQyAxMS4yNjk1MzEgMTcuNzAzMTI1IDE2LjE5OTIxOSAxMS40NzI2NTYgMjUuNDc2NTYyIDExLjQ3MjY1NiBDIDMyLjkzNzUgMTEuNDcyNjU2IDM4LjczMDQ2OSAxNi43ODUxNTYgMzguNzMwNDY5IDIzLjg5MDYyNSBDIDM4LjczMDQ2OSAzMS4zMDA3ODEgMzQuMDU4NTk0IDM3LjI2MTcxOSAyNy41NzQyMTkgMzcuMjYxNzE5IEMgMjUuMzk0NTMxIDM3LjI2MTcxOSAyMy4zNDc2NTYgMzYuMTMyODEyIDIyLjY0ODQzOCAzNC43OTI5NjkgQyAyMi42NDg0MzggMzQuNzkyOTY5IDIxLjU3MDMxMiAzOC44OTg0MzggMjEuMzA4NTk0IDM5LjkwNjI1IEMgMjAuODU1NDY5IDQxLjY0NDUzMSAxOC45MTc5NjkgNDUuMjUgMTcuOTQ1MzEyIDQ2Ljg5MDYyNSBDIDIwLjE3MTg3NSA0Ny42MDkzNzUgMjIuNTM5MDYyIDQ4IDI1IDQ4IEMgMzcuNjgzNTk0IDQ4IDQ4IDM3LjY4MzU5NCA0OCAyNSBDIDQ4IDEyLjMxNjQwNiAzNy42ODM1OTQgMiAyNSAyIFogTSAyNSAyICIvPgo8L2c+Cjwvc3ZnPgo="); 
 }
+
+.shippingContainer :global(.vtex-input__label){
+  font-size: 0px; 
+}
+
+.shippingContainer :global(.vtex-input__label)::after{
+  content: 'SIMULE O FRETE OU RETIRADA';
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0px; 
+  color: #111110;
+  margin-bottom: 8px;
+}
+
+.shippingContainer :global(.vtex-address-form-4-x-input){
+  border: 1px solid #e3e3e3;
+  border-radius: 3px; 
+  font-size: 14px; 
+  font-weight: 500;
+  letter-spacing: 0px;
+  padding: 11px 16px;
+}
+
+.shippingContainer :global(.vtex-input-prefix__group){
+  border: none;
+  box-shadow: none; 
+}
+
+.shippingContainer :global(.vtex-input__suffix){
+  display: none; 
+}
+
+
+.shippingContainer{
+  position: relative;
+  display: flex;
+  align-items: flex-end;  
+  margin-top: 35px;
+}
+
+.shippingContainer :global(.vtex-button){
+  width: 105px;
+  background: #ff6344;
+  border-radius: 3px;
+  border: none;
+  height: 40px;
+  margin-left: 12px;
+}
+
+.shippingContainer :global(.vtex-address-form__postalCode-forgottenURL){
+  display: none; 
+}
+
+.shippingContainer :global(.vtex-button__label){
+  color: #fff;
+  font-size: 0px;
+}
+
+.shippingContainer :global(.vtex-button__label)::after{
+  content: 'CALCULAR';
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.6px; 
+}
+
+.shippingTable{
+  border: none;
+}
+
+.shippingTable .shippingTableRadioBtn{
+  display: none;   
+}  
+
+.shippingTable .shippingTableRow{
+  padding: 12px 0;
+  border-top: 1px solid #e3e3e3;
+  display: grid; 
+  grid-template-columns: auto;
+  justify-content: space-between; 
+  position: relative;
+}
+
+.shippingTable .shippingTableRow .shippingTableLabel{
+  display: block;
+  font-size: 14px;
+  margin-bottom: 3px;
+  text-transform: uppercase; 
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #111110; 
+}
+
+.shippingTable .shippingTableRow .shippingTableCellDeliveryName{
+  padding: 0px; 
+}
+
+.shippingTable .shippingTableRow .shippingTableCellDeliveryEstimate,
+.shippingTable .shippingTableRow  .shippingTableCellDeliveryPrice{
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #111110;
+  padding: 0px;
+}
+
+.shippingTable .shippingTableRow  .shippingTableCellDeliveryPrice{
+  position: absolute;
+  right: 0; 
+  bottom: 0px;
+  top: 0px;
+  margin: auto;
+  height: 20px;
+}
+
+.shippingTable .shippingTableRow .shippingTableCellDeliveryEstimate{
+  order: 3;
+} 
+
+.shippingContainer :global(.vtex-address-form__postalCode){
+  padding: 0;  
+}
+
+.productDescriptionContainer .productDescriptionTitle{
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #002470;
+}
+
+.productDescriptionContainer .productDescriptionText{
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: black;
+}
+
 
 @media(max-width: 768px){
   :global(.vtex-search-result-3-x-searchResultContainer) .container{
