@@ -77,7 +77,8 @@
       "title": "Conteúdo Principal",
       "children": [ 
         "rich-text#con-txt-page-title",
-        "rich-text#con-txt-page"
+        "rich-text#con-txt-page",
+        "formulario-contato"
       ],
       "props": { 
         "verticalAlign": "top", 

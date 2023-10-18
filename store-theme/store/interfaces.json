@@ -13,5 +13,9 @@
 
     "newsletter-footer": {
         "component": "NewsletterFooter"
+    },
+
+    "formulario-contato": {
+        "component": "FormularioContato"
     }
 } 
