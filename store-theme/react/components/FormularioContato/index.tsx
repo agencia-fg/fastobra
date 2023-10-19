@@ -6,7 +6,8 @@ const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    email: '',
+    subject: '',
+    message: '',
   }); 
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -30,11 +31,17 @@ const ContactForm: React.FC = () => {
       });
 
       if (response.ok) {
-        // Exibir uma mensagem de sucesso ou redirecionar o usuário após o envio bem-sucedido.
+        // Exibir uma mensagem de sucesso ou redirecionar o usuário após o envio bem-sucedido.  
+        const box = document.getElementById('mensagemsucesso');
+        if (box != null) {
+          box.style.display = 'block';
+        }
         console.log('Dados enviados com sucesso!');
-        setFormData({
+        setFormData({ 
             name: '',
             email: '',
+            subject: '',
+            message: '',
           });
       } else { 
         // Lidar com erros, como validações do servidor.
@@ -46,22 +53,23 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} >
-        <div className={styles.newsletterhome}> 
-            <div>
+    <form onSubmit={handleSubmit} className='formulariocontato'>
+        <div className={styles.formulariocontato}>  
+          <div className={styles.duascolunas}>
+            <div className={styles.colunas}>
                 <label htmlFor="name">Nome</label>
                 <input
                     type="text"
-                    id="nome" 
-                    name="nome"
+                    id="name" 
+                    name="name"
                     value={formData.name}
                     onChange={handleChange} 
-                    placeholder='Digite seu nome'
+                    placeholder='Ex: João Silva'
                     className={styles.input}
                     required
                 /> 
             </div>
-            <div>
+            <div className={styles.colunas}>
                 <label htmlFor="email">E-mail</label>
                 <input
                     type="email"
@@ -70,13 +78,40 @@ const ContactForm: React.FC = () => {
                     value={formData.email}
                     onChange={handleChange}
                     className={styles.input}
-                    placeholder='Digite seu e-mail'
+                    placeholder='exemplo@email.com'
                     required
                 />
             </div> 
+          </div> 
+            <div>
+                <label htmlFor="subject">Assunto</label>
+                <input
+                    type="subject"
+                    id="subject"
+                    name="subject"
+                    value={formData.subject}
+                    onChange={handleChange}
+                    className={styles.input}
+                    placeholder='Ex.: Vendas B2B, Meu Pedido, etc'
+                    required
+                />
+            </div>  
+            <div>
+                <label htmlFor="message">Mensagem</label>
+                <textarea 
+                  id="message"
+                  name="message"
+                  value={formData.message}
+                  //@ts-ignore
+                  onChange={handleChange}
+                  className={styles.input}  
+                  required
+                ></textarea>
+            </div>  
             <div>
                 <button type="submit">Enviar</button>
-            </div>    
+            </div>   
+            <div id="mensagemsucesso" className={styles.sucessomensagem}>Sua mensagem foi enviada com sucesso!</div>
         </div>
     </form>
   ); 

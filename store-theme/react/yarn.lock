@@ -6207,9 +6207,9 @@ text-table@^0.2.0:
   version "0.0.1"
   resolved "https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.custom-app@0.0.1+build1696365336/public/@types/tfcvxe.custom-app#05e6799b775ad6eb4486947a404a4572c76f74de"
 
-"tfcvxe.store-theme@https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.store-theme@0.0.1+build1697044938/public/@types/tfcvxe.store-theme":
+"tfcvxe.store-theme@https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.store-theme@0.0.1+build1697656529/public/@types/tfcvxe.store-theme":
   version "0.0.1"
-  resolved "https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.store-theme@0.0.1+build1697044938/public/@types/tfcvxe.store-theme#91af1769415da61f5e59b78c9c6fa32e159500a9"
+  resolved "https://prod1--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.store-theme@0.0.1+build1697656529/public/@types/tfcvxe.store-theme#d7e186a759bb0738163adece0e6141c4259b24b1"
 
 throat@^5.0.0:
   version "5.0.0"
@@ -6563,10 +6563,6 @@ verror@1.10.0:
   version "1.0.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@1.0.0/public/@types/vtex.css-handles#336b23ef3a9bcb2b809529ba736783acd405d081"
 
-"vtex.device-detector@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.device-detector@0.2.6/public/@types/vtex.device-detector":
-  version "0.2.6"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.device-detector@0.2.6/public/@types/vtex.device-detector#3219242fa5c2f14023d33c3549c2d8de93c76d1f"
-
 "vtex.disclosure-layout@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.disclosure-layout@1.0.3/public/@types/vtex.disclosure-layout":
   version "1.0.3"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.disclosure-layout@1.0.3/public/@types/vtex.disclosure-layout#15590cd6a3f23e5a7591d76ad1a44b5c0c6a088a"
@@ -6614,10 +6610,6 @@ verror@1.10.0:
 "vtex.my-account@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.my-account@1.27.0/public/@types/vtex.my-account":
   version "1.27.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.my-account@1.27.0/public/@types/vtex.my-account#a0d6dc12364422b9e649aa1e4da4b2756453fdfe"
-
-"vtex.native-types@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.native-types@0.10.1/public/@types/vtex.native-types":
-  version "0.10.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.native-types@0.10.1/public/@types/vtex.native-types#7ddf7f34265f8902dfad93d3a13021108023a584"
 
 "vtex.order-manager@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.order-manager@0.12.0/public/@types/vtex.order-manager":
   version "0.12.0"
