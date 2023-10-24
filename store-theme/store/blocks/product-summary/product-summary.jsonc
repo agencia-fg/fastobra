@@ -14,16 +14,46 @@
   }, 
 
   // Product summary padrão 
-  "product-summary.shelf": { 
+  "product-summary.shelf": {  
     "children": [ 
       "stack-layout#prodsum", 
       "flex-layout.col#infos-product-summary",             
-      "flex-layout.col#product-price-summary",
-      "responsive-layout.desktop#summary-flutuante"  
+      "condition-layout.product#summary-estoque",
+      "condition-layout.product#summary-estoque-price"           
     ],
     "props": {
       "blockClass": ["productLine", "padrao"]
     } 
+  },
+
+  "condition-layout.product#summary-estoque":{
+    "props": {
+      "conditions": [
+        { 
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.col#product-price-summary",
+      "Else": "rich-text#produto-indisponivel"
+    }
+  },
+
+  "condition-layout.product#summary-estoque-price":{
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "responsive-layout.desktop#summary-flutuante" 
+    }
+  },
+
+  "rich-text#produto-indisponivel": { 
+    "props": {
+      "text": "Produto Indisponível",
+      "blockClass": "indisponivel" 
+    }
   },
 
   "flex-layout.col#infos-product-summary": {
@@ -51,7 +81,7 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection" 
+      "vtex.product-highlights@2.x:product-highlights#collection"
     ]
   },
 
@@ -108,7 +138,9 @@
 
   "flex-layout.col#infos-produtos-aplicados": {
     "children": [ 
-      "product-summary-name",
+      "product-summary-name",      
+      "product-list-price#summary-produtos-aplicados",
+      "product-selling-price#summary-produtos-aplicados",
       "product-installments#summary", 
       "add-to-cart-button"
     ],

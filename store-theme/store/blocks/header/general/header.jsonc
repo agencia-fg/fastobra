@@ -107,12 +107,14 @@
   },
 
   "flex-layout.row#aviso-topo": {
-    "children": [
-      "rich-text#topo-aviso" 
+    "children": [ 
+      "rich-text#topo-aviso",
+      "flex-layout.col#flutuante-atendimento"
     ],
     "props": {
       "blockClass": [
-        "bloco-whatsapp-topo"
+        "bloco-whatsapp-topo",
+        "flutuante" 
       ],
       "preventHorizontalStretch": true
     } 
@@ -128,8 +130,48 @@
   "login": {
     "props": {
       "iconSize": 30,
-      "logInButtonBehavior": "link"
+      "logInButtonBehavior": "link",
+      "accountOptionLinks": [
+        {
+          "label": "Minha conta", 
+          "path": "/account#/profile"
+        }, 
+        {
+          "label": "Meus pedidos", 
+          "path": "/account#/orders"
+        },
+        {
+          "label": "Favoritos", 
+          "path": "/account/#/wishlist"
+        } 
+      ]
     }
-  } 
+  },
+
+  "flex-layout.col#flutuante-atendimento":{
+    "children": [
+      "rich-text#flutuante-atendimento",
+      "link#flutuante-atendimento"
+    ],
+    "props": {
+      "blockClass": [
+        "flutuante-atendimento"
+      ]
+    } 
+  }, 
+
+  "rich-text#flutuante-atendimento": {
+    "props": {
+      "text": "#### Contato \n  sac@fastobra.com.br  [Telefone: (11) 3103 4660](tel:11940168899)  [Whatsapp: (11) 9.4016-8899](https://api.whatsapp.com/send?phone=5511940168899) \n \n #### ATENDIMENTO \n Segunda à Quinta - 8h às 18h \n Sexta - 8h às 17h",
+      "blockClass": "flutuante-atendimento" 
+    } 
+  },
+
+  "link#flutuante-atendimento": {
+    "props": {
+      "href": "/institucional/contato",
+      "label": "fale conosco"
+    }
+  }
 
 } 

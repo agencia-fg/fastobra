@@ -185,6 +185,16 @@
   padding-top: 0px;
 }
 
+.element--produtos-aplicados :global(.vtex-product-price-1-x-sellingPrice),
+.element--produtos-aplicados :global(.vtex-product-price-1-x-sellingPriceValue--summary) :global(.vtex-product-price-1-x-currencyContainer){
+  font-size: 18px;  
+  font-weight: bold;
+  letter-spacing: 0px; 
+  color: #363631;
+  margin-bottom: 5px;
+  line-height: 22px;
+}
+
 .container--produtos-aplicados :global(.vtex-add-to-cart-button-0-x-buttonText){
   line-height: 14px;
   font-size: 12px; 

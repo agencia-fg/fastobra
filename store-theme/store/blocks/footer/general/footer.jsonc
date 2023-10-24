@@ -345,7 +345,8 @@
     "props": { 
       "blockClass": "newsletter-footer",
       "fullWidth": false, 
-      "marginBottom": 9
+      "marginBottom": 9,
+      "marginTop": 8
     },
     "children": [
       "flex-layout.col#newsletter-footer-left",

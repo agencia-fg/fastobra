@@ -13,7 +13,7 @@
       "menu-item#saldao"
     ]
   },
-  "menu-item#mais-vendidos": {
+  "menu-item#mais-vendidos": { 
     "props": {
       "id": "menu-item-mais-vendidos",
       "type": "custom",

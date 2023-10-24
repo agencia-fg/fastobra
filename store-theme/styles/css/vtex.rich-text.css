@@ -355,6 +355,82 @@
   margin-bottom: 20px;
   margin-top: 40px;
 }
+
+.headingLevel4--flutuante-atendimento{
+  line-height: 14px; 
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #003a7f;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  margin-top: 0px;
+  text-decoration: none;
+}
+
+.link--flutuante-atendimento, .paragraph--flutuante-atendimento{
+  line-height: 26px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  display: block;
+  color: #363631;
+}
+
+.paragraph--estoque-indisponivel{
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 900; 
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #e74448; 
+}
+
+.container--indisponivel{
+  background: #f8f8f8; 
+  justify-content: center; 
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+  padding-top: 2rem; 
+}
+
+.container--indisponivel .paragraph--indisponivel{
+  font-size: 15px;
+  font-weight: 500;
+}
+ 
+.container--text-seo .headingLevel1--text-seo{
+  margin-top: 0; 
+  font-size: 32px;
+  color: black;
+  font-weight: 700;
+}
+
+.container--text-seo .headingLevel3--text-seo{
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #002470;
+  font-size: 24px;
+  font-weight: 700; 
+  margin-bottom: 0px;
+  margin-top: 40px; 
+}
+
+.container--text-seo .link--text-seo{
+  color: #002470;
+  font-weight: 700; 
+}
+
+.container--text-seo .link--text-seo:hover{
+  color: #ff6344; 
+} 
+
+
+.paragraph--text-seo{
+  color: black; 
+  font-size: 16px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -379,10 +455,14 @@
     font-size: 24px;
   } 
 }
-
+ 
 /* MOBILE */
 
 @media only screen and (max-width: 768px) {
+  .container--newsletter-home{
+    text-align: center;  
+    justify-content: center;
+  }
   .container--shelfTitle .paragraph--shelfTitle.paragraph--custom, 
   .paragraph--obras-ambiente.paragraph--shelfTitle{ 
     font-size: 24px; 

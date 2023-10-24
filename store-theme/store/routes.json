@@ -30,6 +30,10 @@
     "path": "/institucional/devolucoes"
   },
   "store.custom#frete-entrega": {
-    "path": "/institucional/frete-entrega"
+    "path": "/institucional/frete-entrega" 
+  },
+  "store.custom#trabalhe-conosco": { 
+    "path": "/institucional/trabalhe-conosco"
   }
 }
+ 

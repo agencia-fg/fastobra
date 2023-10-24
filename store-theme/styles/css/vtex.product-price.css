@@ -16,6 +16,11 @@
   display: block;
 }
  
+.spotPrice::after{
+  content: ' Pix';
+  color: #ff6344; 
+}
+
 .installments.installments--summary{
   font-family: 'Raleway', sans-serif;
   line-height: 14px;

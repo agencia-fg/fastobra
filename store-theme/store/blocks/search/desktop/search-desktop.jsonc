@@ -10,7 +10,7 @@
             "hiddenFacets": {
                 "priceRange": true,
                 "specificationFilters":{
-                    "hiddenFilters":[
+                    "hiddenFilters":[ 
                         {  
                             "name": "embalagem"
                         } 

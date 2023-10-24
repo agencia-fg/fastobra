@@ -52,13 +52,13 @@
       "marginBottom": 7, 
       "paddingTop": 4,
       "paddingBottom": 7,
-      "blockClass": "product-main"
+      "blockClass": "product-main" 
     },
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
-
+ 
   "stack-layout": {
-    "props": {
+    "props": { 
       "blockClass": "product"
     },
     "children": [
@@ -83,7 +83,7 @@
     "props": {
       "aspectRatio": {
         "desktop": "auto",
-        "phone": "16:9"
+        "phone": "auto"
       },
       "zoomMode": "disabled", 
       "displayThumbnailsArrows": false,
@@ -103,7 +103,7 @@
       "flex-layout.row#brand-share", 
       "product-rating-summary", 
       "product-separator", 
-      "flex-layout.col#product-price",  
+      "flex-layout.row#product-price",  
       "product-quantity",
       "product-assembly-options",
       "product-gifts",
@@ -173,7 +173,8 @@
       "colGap": 7,
       "marginTop": 4,
       "marginBottom": 7, 
-      "paddingTop": 7
+      "paddingTop": 7,
+      "blockClass": "product-main"  
     },
     "children": [
       "flex-layout.col#stack",
@@ -185,13 +186,17 @@
     "props": {
       "preventVerticalStretch": true,
       "rowGap": 0,
-      "blockClass": "info-availability"
+      "blockClass": ["infos-pdp", "info-availability"]
     },
-    "children": [
+    "children": [ 
       "flex-layout.row#product-name",
       "product-identifier.product",
-      "sku-selector",
-      "flex-layout.row#availability"
+      "flex-layout.row#brand-share", 
+      "product-rating-summary",  
+      "product-separator",
+      "add-to-list-btn#pdp",
+      "rich-text#estoque-indisponivel",
+      "link#fabrica"  
     ]
   },
 
@@ -212,11 +217,61 @@
       }
     }
   },
-
+ 
   "product-description":{
     "props":{
       "collapseContent": false 
     }
-  }
- 
+  },
+
+  "add-to-list-btn#pdp": { 
+      "props":{ 
+          "blockClass": "pagina-produto"
+      }  
+  },
+
+  "flex-layout.row#description-mobile": {
+    "children": ["disclosure-layout#description"],
+    "props": {  
+      "blockClass": "description-mobile",
+      "marginBottom": 7 
+    }
+  },
+  
+  "disclosure-layout#description": {
+    "children": ["disclosure-trigger#description", "disclosure-content#description"],
+    "props": {
+      "blockClass": "description" 
+    }
+  },
+
+  "disclosure-trigger#description": {
+    "children": ["rich-text#question-description"]
+  },
+
+  "disclosure-content#description": {
+    "children": ["product-description"]  
+  },
+
+  "rich-text#question-description": {
+    "props": {
+      "text": "Descrição do produto"
+    }
+  },
+
+  "rich-text#estoque-indisponivel": {
+    "props": {
+      "text": "ESTE PRODUTO ENCONTRA-SE INDISPONÍVEL NO MOMENTO",
+      "blockClass": "estoque-indisponivel"
+    }
+  },
+  
+  "link#fabrica": {
+    "props": {
+      "href": "https://api.whatsapp.com/send?phone=5511940168899&text=Ol%C3%83%C2%A1%20gostaria%20de%20encomendar%20o%20produto%20Sikaglass%20300%201,30X100mts%20-%20SIKA",
+      "label": "pedir para fabricar", 
+      "blockClass": "fabrica" 
+    }
+  } 
 }
+ 

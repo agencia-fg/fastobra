@@ -62,3 +62,17 @@
     padding: 0px 10px;
     max-width: 170px;
 }
+
+@media(max-width: 768px){
+    .newsletterhome{ 
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+        padding: 0 30px;
+    }
+    .newsletterhome .nascimento{ 
+        max-width: 95%;
+    }
+    .newsletterhome button{
+        margin-top: 25px;
+    }
+}

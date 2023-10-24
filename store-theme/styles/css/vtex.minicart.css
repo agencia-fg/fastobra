@@ -87,3 +87,104 @@
     padding: 18px 15px;
     position: relative; 
 }
+
+:global(.vtex-product-list-0-x-productName--minicart){
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #002470;
+    margin-bottom: 12px;
+    display: block;
+    line-height: 14px;
+}
+
+:global(.vtex-product-list-0-x-price){
+    line-height: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #111110;
+    text-align: center; 
+}
+ 
+:global(.vtex-product-list-0-x-productPriceCurrency){
+    display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--bottomInfo){
+    align-items: center;
+} 
+
+:global(.vtex-product-list-0-x-productImage){
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    padding: 8px;
+} 
+
+:global(.vtex-flex-layout-0-x-flexRowContent--minicart-footer){
+    padding: 23px 30px;
+    background: #e3e3e3;
+}
+
+:global(.vtex-minicart-2-x-minicartSummary),
+:global(.vtex-minicart-2-x-minicartCheckoutButton){
+    padding: 0;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child,
+:global(.vtex-checkout-summary-0-x-summarySmallDisclaimer),
+:global(.vtex-product-list-0-x-deleteIcon){ 
+    display: none;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemContainer), 
+:global(.vtex-checkout-summary-0-x-summaryItemLabel){
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #4d4d4d; 
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--minicart-footer){
+    box-shadow: none; 
+}
+
+.minicartCheckoutButton :global(.vtex-button__label){
+    font-size: 0px;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::after{
+    content: 'Fechar pedido';
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #003a7f;
+}
+
+.minicartCheckoutButton :global(.vtex-button){
+    background: transparent; 
+    border: 1px solid #003a7f;
+    transition: all 0.4s;
+}
+
+.minicartCheckoutButton{
+    margin-top: 25px;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover{
+    background: #cbe1f7;  
+}
+
+:global(.vtex-dropdown__container){
+    border: 1px solid #003a7f!important;
+}
+
+:global(.vtex-product-list-0-x-removeButton){
+    width: 13px;
+    height: 15px;  
+    background-repeat: no-repeat;
+    background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi4zMjYiIGhlaWdodD0iMTQuNzk1IiB2aWV3Qm94PSIwIDAgMTIuMzI2IDE0Ljc5NSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMwOC4xNzIgLTIwMy4yMDUpIj48cGF0aCBkPSJNMjAuNTY5LDI0LjY0OEgxMy42MzVBMS42MzMsMS42MzMsMCwwLDEsMTIsMjMuMDE4VjEyLjcxYS41MS41MSwwLDAsMSwuNTEtLjUxaDkuMTgzYS41MS41MSwwLDAsMSwuNTEuNTFWMjMuMDE4QTEuNjMzLDEuNjMzLDAsMCwxLDIwLjU2OSwyNC42NDhaTTEzLjAyLDEzLjIydjkuOGEuNjEyLjYxMiwwLDAsMCwuNjE1LjYxaDYuOTM0YS42MTIuNjEyLDAsMCwwLC42MTUtLjYxdi05LjhaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyOTcuMjMyIDE5My4zNTIpIiBmaWxsPSIjMDAyNDcwIi8+PHBhdGggZD0iTTE5LjY1NiwxMy4yMkg4LjM1YS41MS41MSwwLDEsMSwwLTEuMDJIMTkuNjU2YS41MS41MSwwLDEsMSwwLDEuMDJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMDAuMzMyIDE5My4zNTIpIiBmaWxsPSIjMDAyNDcwIi8+PHBhdGggZD0iTTIyLjg0LDYuMzY3YS41MS41MSwwLDAsMS0uNTEtLjUxVjQuMzQ5QTEuMzUyLDEuMzUyLDAsMCwxLDIzLjY3OSwzSDI0LjhhLjUxLjUxLDAsMSwxLDAsMS4wMkgyMy42NzlhLjMyOS4zMjksMCwwLDAtLjMyOS4zMjlWNS44NTdBLjUxLjUxLDAsMCwxLDIyLjg0LDYuMzY3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjg5LjUzNyAyMDAuMjA1KSIgZmlsbD0iIzAwMjQ3MCIvPjxwYXRoIGQ9Ik0yNy43ODQsNi4zNjdhLjUxLjUxLDAsMCwxLS41MS0uNTFWNC4zNDlhLjMyOS4zMjksMCwwLDAtLjMyOS0uMzI5SDI1LjgyOGEuNTEuNTEsMCwxLDEsMC0xLjAyaDEuMTE3YTEuMzUyLDEuMzUyLDAsMCwxLDEuMzQ5LDEuMzQ5VjUuODU3QS41MS41MSwwLDAsMSwyNy43ODQsNi4zNjdabS0uMzU1LDcuMzE2YS41MS41MSwwLDAsMS0uMzYtLjE0OGwtMy4yMDctMy4yMDZhLjUxLjUxLDAsMSwxLC43MjItLjcyMmwzLjIwNywzLjIwNmEuNTEuNTEsMCwwLDEtLjM2Mi44N1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI4OC41MDYgMjAwLjIwNSkiIGZpbGw9IiMwMDI0NzAiLz48cGF0aCBkPSJNMjQuMjI5LDMyLjU0YS41MS41MSwwLDAsMS0uMzYyLS44N2wzLjIwNy0zLjIwNmEuNTEuNTEsMCwxLDEsLjcyMi43MjJsLTMuMjA3LDMuMjA2QS41MS41MSwwLDAsMSwyNC4yMjksMzIuNTRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyODguNTA0IDE4MS4zNDgpIiBmaWxsPSIjMDAyNDcwIi8+PC9nPjwvc3ZnPg==);
+}

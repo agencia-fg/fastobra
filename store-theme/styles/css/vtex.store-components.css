@@ -100,7 +100,12 @@
 :global(.vtex-login-2-x-container) :global(.vtex-login-2-x-label){
   width: 125px;
   justify-content: right; 
+  font-weight: 600;
 }
+
+:global(.vtex-login-2-x-container) :global(.vtex-login-2-x-label):hover{
+  font-weight: 700;
+} 
 
 .logoLink .logoContainer{
   max-width: 100%;
@@ -129,6 +134,9 @@
     margin-bottom: 0px;
     max-height: 600px;
   }
+  .shippingContainer :global(.vtex-address-form__postalCode-forgottenURL){
+    position: absolute; 
+  } 
 }
 
 .productImagesContainer--quickview .carouselContainer {
@@ -303,8 +311,22 @@
 }
 
 .shippingContainer :global(.vtex-address-form__postalCode-forgottenURL){
-  display: none; 
-}
+  right: 40px;
+  bottom: 15px; 
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0px; 
+  text-decoration: underline; 
+  color: #ff6344;
+} 
+
+.shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) :global(.vtex__icon-external-link) {
+  display: none;
+} 
+
+.shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) :global(.vtex__icon-external-link){
+  width: 100%;
+} 
 
 .shippingContainer :global(.vtex-button__label){
   color: #fff;
@@ -391,9 +413,21 @@
   color: black;
 }
 
+.searchIcon{
+  color: #093b5f;
+}
+
 
 @media(max-width: 768px){
   :global(.vtex-search-result-3-x-searchResultContainer) .container{
     padding: 0;
   } 
+  .carouselGaleryCursor .swiperCaretNext,
+  .carouselGaleryCursor .swiperCaretPrev,
+  .carouselGaleryCursor .swiperPaginationClickable{
+    display: none!important;
+  } 
+  .shippingContainer :global(.vtex-button){
+    margin-bottom: 25px; 
+  }
 }   

@@ -5,7 +5,7 @@
       "search-result-layout.desktop",
       "search-result-layout.mobile",
       "search-not-found-layout"
-    ]
+    ] 
   },
 
   "store.search": {
@@ -13,6 +13,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "maxItemsPerPage": 12, 
         "simulationBehavior": "skip",
         "orderByField": "OrderByTopSaleDESC" 
       }
@@ -25,10 +26,10 @@
       "context": {
         "orderByField": "OrderByTopSaleDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
-      }
+      } 
     }
   },
 
@@ -38,6 +39,7 @@
       "context": {
         "orderByField": "OrderByTopSaleDESC",
         "skusFilter": "ALL",
+        "maxItemsPerPage": 12,
         "simulationBehavior": "skip"
       }
     }
@@ -49,6 +51,7 @@
       "context": {
         "orderByField": "OrderByTopSaleDESC",
         "skusFilter": "ALL",
+        "maxItemsPerPage": 12,
         "simulationBehavior": "skip"
       }
     }
@@ -60,6 +63,7 @@
       "context": { 
         "orderByField": "OrderByTopSaleDESC",
         "skusFilter": "ALL",
+        "maxItemsPerPage": 12, 
         "simulationBehavior": "skip"
       }
     }
@@ -130,13 +134,13 @@
   },
   "flex-layout.row#fetchprevious": { 
     "props": {
-      "marginBottom": 3
+      "marginBottom": 3 
     },
     "children": ["search-fetch-previous"]
   },
   "flex-layout.row#fetchmore": {
     "props": {
-      "marginTop": 8 
+      "marginTop": 7 
     },
     "children": ["search-fetch-more"]
   },

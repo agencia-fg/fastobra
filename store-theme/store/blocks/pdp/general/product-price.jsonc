@@ -1,15 +1,29 @@
 {
-    "flex-layout.col#product-price": { 
-      "children": [
-        "product-list-price", 
-        "product-selling-price#summary",
-        "product-spot-price#price",
-        "product-installments#summary" 
-      ],
-      "props": { 
-        "width": "100%",  
-        "blockClass": "product-price" 
-      }
-    }     
+  "flex-layout.row#product-price": { 
+    "children": [
+      "flex-layout.col#product-price",
+      "add-to-list-btn#pdp"
+    ],
+    "props": { 
+      "width": "100%",  
+      "blockClass": "product-price",
+      "preventVerticalStretch": true,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "between"
+    }
+  },
+
+  "flex-layout.col#product-price": { 
+    "children": [
+      "product-list-price", 
+      "product-selling-price#summary",
+      "product-spot-price#price",
+      "product-installments#summary" 
+    ],
+    "props": {  
+      "blockClass": "product-price" 
+    }
+  }
+  
 } 
   

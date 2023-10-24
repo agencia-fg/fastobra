@@ -7,3 +7,7 @@
 :global(.vtex-store-components-3-x-productDescriptionText) h2{
     font-size: 18px;
 }
+
+:global(.vtex-address-form__postalCode-forgottenURL) a{
+    color: #ff6344; 
+}

@@ -23,7 +23,7 @@
     "product-spot-price#price": {
       "props": {
         "blockClass": "summary-vitrine",
-        "message": "ou {spotPriceValue}"
+        "message": "ou {spotPriceValue} no" 
       }
     },
     
@@ -45,11 +45,25 @@
         "blockClass": "summary"
       }
     },  
+
+    "product-list-price#summary-produtos-aplicados": {
+      "props": {
+        "blockClass": "summary",
+        "message": "de: {listPriceValue} " 
+      }
+    },
      
     "product-selling-price#summary": {
       "props": {
         "blockClass": "summary",
         "message": "{sellingPriceValue} Á vista"
+      }
+    },
+
+    "product-selling-price#summary-produtos-aplicados": {
+      "props": {
+        "blockClass": "summary", 
+        "message": "Por: {sellingPriceValue}"
       }
     },
 

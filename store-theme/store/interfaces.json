@@ -11,11 +11,16 @@
         "component": "NewsletterHome"
     },
 
-    "newsletter-footer": {
+    "newsletter-footer": { 
         "component": "NewsletterFooter"
     },
 
     "formulario-contato": {
         "component": "FormularioContato"
+    },
+
+    "cookie": {
+        "component": "Cookie"
     }
+
 } 

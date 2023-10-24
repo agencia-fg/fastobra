@@ -1,0 +1,129 @@
+{
+    "flex-layout.row#texto-seo":{
+        "children": [ 
+            "flex-layout.col#texto-seo"
+        ], 
+        "props":{ 
+            "marginBottom": 6 
+        }
+    },
+ 
+    "flex-layout.col#texto-seo": {
+        "children": [
+            "condition-layout.category#adesivo-chapisco",
+            "condition-layout.category#pintura-e-protecao",
+            "condition-layout.category#tintas",
+            "condition-layout.category#coberturas", 
+            "condition-layout.category#drenagem-e-fundacao",
+            "condition-layout.category#geocompostos",
+            "condition-layout.category#mantas-geotextil" 
+        ] 
+    }, 
+    
+    "condition-layout.category#adesivo-chapisco": {
+        "props": {
+        "conditions": [
+            {  
+            "subject": "category", 
+                "arguments": {
+                    "ids": ["23"]
+                }
+            } 
+        ],
+        "matchType": "any",
+        "Then": "rich-text#adesivo-chapisco" 
+        } 
+    },
+
+    "condition-layout.category#pintura-e-protecao": {
+        "props": {
+        "conditions": [
+            {  
+            "subject": "department",  
+                "arguments": {
+                    "ids": ["30"] 
+                }
+            } 
+        ],
+        "matchType": "any",
+        "Then": "rich-text#pintura-e-protecao" 
+        }
+    },
+
+    "condition-layout.category#tintas": {
+        "props": {
+        "conditions": [
+            {  
+            "subject": "category", 
+                "arguments": {
+                    "ids": ["31"] 
+                } 
+            } 
+        ],
+        "matchType": "any",
+        "Then": "rich-text#tintas" 
+        }
+    },
+
+    "condition-layout.category#coberturas": {
+        "props": {
+        "conditions": [
+            {  
+            "subject": "department",  
+                "arguments": {
+                    "ids": ["43"] 
+                }
+            } 
+        ],
+        "matchType": "any",
+        "Then": "rich-text#coberturas" 
+        }
+    },
+
+    "condition-layout.category#drenagem-e-fundacao": {
+        "props": {
+        "conditions": [
+            {  
+            "subject": "department",  
+                "arguments": { 
+                    "ids": ["1"]  
+                }
+            } 
+        ],
+        "matchType": "any",
+        "Then": "rich-text#drenagem-e-fundacao" 
+        }
+    },
+
+    "condition-layout.category#geocompostos": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",
+                "arguments": { 
+                    "ids": ["2"]  
+                } 
+            } 
+        ],
+        "matchType": "any",
+        "Then": "rich-text#geocompostos" 
+        }
+    },
+
+    "condition-layout.category#mantas-geotextil": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",
+                "arguments": { 
+                    "ids": ["3"]  
+                } 
+            } 
+        ],
+        "matchType": "any",
+        "Then": "rich-text#mantas-geotextil" 
+        }
+    } 
+ 
+}   
+  
