@@ -541,7 +541,7 @@
     "props": { 
       "blockClass": ["vitrine-produto", "full"], 
       "marginBottom": 7, 
-      "marginTop": 10 
+      "marginTop": 2 
     },
     "children": ["flex-layout.col#shelf-01"]
   }, 

@@ -20,3 +20,11 @@
   text-transform: capitalize;
   color: #363631;
 }
+
+
+@media(max-width: 768px){
+  .stackContainer--product{
+    max-width: 340px; 
+    margin: auto;
+  }
+}

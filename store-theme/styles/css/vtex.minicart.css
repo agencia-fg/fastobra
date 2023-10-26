@@ -81,11 +81,16 @@
     top: 18px;
 }
 
-.closeIconContainer{
+.closeIconContainer{ 
     justify-content: space-between;
     align-items: center;
-    padding: 18px 15px;
+    padding: 18px 15px; 
     position: relative; 
+    padding-bottom: 0px; 
+}
+
+.minicartProductListContainer{
+    padding-top: 18px;
 }
 
 :global(.vtex-product-list-0-x-productName--minicart){

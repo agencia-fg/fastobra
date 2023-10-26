@@ -2,6 +2,7 @@
     "footer-layout.mobile": {
         "children": [
           "flex-layout.row#newsletter-footer", 
+          "flex-layout.row#texto-seo",    
           "flex-layout.row#menu-footer",
           "flex-layout.row#footer-3-desktop",
           "image#whats-flutuante",

@@ -16,7 +16,24 @@
             "condition-layout.category#coberturas", 
             "condition-layout.category#drenagem-e-fundacao",
             "condition-layout.category#geocompostos",
-            "condition-layout.category#mantas-geotextil" 
+            "condition-layout.category#mantas-geotextil",
+            "condition-layout.category#impermeabilizacao",
+            "condition-layout.category#argamassas-impermeabilizantes",
+            "condition-layout.category#polimericos-acrilicos",
+            "condition-layout.category#telas-estruturantes",
+            "condition-layout.category#primers",
+            "condition-layout.category#blocos-de-asfalto",
+            "condition-layout.category#membranas-liquidas",
+            "condition-layout.category#epis-e-seguranca",
+            "condition-layout.category#desmoldantes", 
+            "condition-layout.category#aditivos-para-argamassas",
+            "condition-layout.category#groutes",
+            "condition-layout.category#juntas-e-perfilados",
+            "condition-layout.category#expansores-e-argamassar-para-alvenaria",
+            "condition-layout.category#fibras",
+            "condition-layout.category#argamassas-de-assentamento",
+            "condition-layout.category#argamassas",
+            "condition-layout.category#rejuntes" 
         ] 
     }, 
     
@@ -123,7 +140,261 @@
         "matchType": "any",
         "Then": "rich-text#mantas-geotextil" 
         }
-    } 
- 
+    },
+
+    "condition-layout.category#impermeabilizacao": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",  
+                "arguments": {  
+                    "ids": ["6"]  
+                } 
+            } 
+        ],
+        "matchType": "any",
+        "Then": "rich-text#impermeabilizacao" 
+        }
+    },
+
+    "condition-layout.category#argamassas-impermeabilizantes": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",
+                "arguments": {   
+                    "ids": ["7"]   
+                } 
+            } 
+        ],
+        "matchType": "any",
+        "Then": "rich-text#argamassas-impermeabilizantes" 
+        }
+    },
+
+    "condition-layout.category#polimericos-acrilicos": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",
+                "arguments": {   
+                    "ids": ["8"]   
+                } 
+            } 
+        ],
+        "matchType": "any",
+        "Then": "rich-text#polimericos-acrilicos" 
+        } 
+    },
+
+    "condition-layout.category#telas-estruturantes": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",
+                "arguments": {      
+                    "ids": ["9"]     
+                }  
+            } 
+        ],
+        "matchType": "any",
+        "Then": "rich-text#telas-estruturantes" 
+        }
+    },
+
+    "condition-layout.category#primers": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",
+                "arguments": {      
+                    "ids": ["11"]     
+                }   
+            } 
+        ],
+        "matchType": "any",
+        "Then": "rich-text#primers" 
+        }
+    },
+
+    "condition-layout.category#blocos-de-asfalto": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",
+                "arguments": {      
+                    "ids": ["12"]     
+                }   
+            } 
+        ],
+        "matchType": "any",
+        "Then": "rich-text#blocos-de-asfalto" 
+        }
+    },
+
+    "condition-layout.category#membranas-liquidas": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",
+                "arguments": {      
+                    "ids": ["13"]     
+                }   
+            } 
+        ], 
+        "matchType": "any",
+        "Then": "rich-text#membranas-liquidas" 
+        }
+    },
+
+    "condition-layout.category#epis-e-seguranca": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",   
+                "arguments": {      
+                    "ids": ["64"]     
+                }   
+            } 
+        ], 
+        "matchType": "any",
+        "Then": "rich-text#epis-e-seguranca" 
+        }
+    },
+
+    "condition-layout.category#desmoldantes": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category", 
+                "arguments": {      
+                    "ids": ["15"]     
+                }   
+            } 
+        ], 
+        "matchType": "any",
+        "Then": "rich-text#desmoldantes" 
+        }
+    },
+
+    "condition-layout.category#aditivos-para-argamassas": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category", 
+                "arguments": {      
+                    "ids": ["16"]     
+                }   
+            } 
+        ], 
+        "matchType": "any",
+        "Then": "rich-text#aditivos-para-argamassas" 
+        }
+    },
+
+    "condition-layout.category#groutes": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category", 
+                "arguments": {      
+                    "ids": ["18"]     
+                }   
+            }  
+        ], 
+        "matchType": "any",
+        "Then": "rich-text#groutes" 
+        }
+    },
+
+    "condition-layout.category#juntas-e-perfilados": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category", 
+                "arguments": {      
+                    "ids": ["19"]     
+                }   
+            }  
+        ], 
+        "matchType": "any",
+        "Then": "rich-text#juntas-e-perfilados" 
+        }
+    },
+
+    "condition-layout.category#expansores-e-argamassar-para-alvenaria": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category", 
+                "arguments": {      
+                    "ids": ["20"]     
+                }    
+            }  
+        ], 
+        "matchType": "any",
+        "Then": "rich-text#expansores-e-argamassar-para-alvenaria" 
+        }
+    },
+
+    "condition-layout.category#fibras": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category", 
+                "arguments": {      
+                    "ids": ["21"]     
+                }    
+            }  
+        ], 
+        "matchType": "any",
+        "Then": "rich-text#fibras" 
+        }
+    },
+
+    "condition-layout.category#argamassas-de-assentamento": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",   
+                "arguments": {      
+                    "ids": ["26"]      
+                }   
+            } 
+        ], 
+        "matchType": "any",
+        "Then": "rich-text#argamassas-de-assentamento" 
+        } 
+    },
+
+    "condition-layout.category#argamassas": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",   
+                "arguments": {      
+                    "ids": ["27"]      
+                }   
+            } 
+        ], 
+        "matchType": "any",
+        "Then": "rich-text#argamassas" 
+        } 
+    },
+
+    "condition-layout.category#rejuntes": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",   
+                "arguments": {       
+                    "ids": ["28"]      
+                }    
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#rejuntes" 
+        } 
+    }
 }   
-  
+    

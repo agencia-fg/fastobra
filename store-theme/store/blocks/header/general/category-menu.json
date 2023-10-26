@@ -21,7 +21,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/301?map=productClusterIds",
         "noFollow": false,
         "tagTitle": "Mais Vendidos",
         "text": "Mais Vendidos"
@@ -34,9 +34,9 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "itemProps": {
+      "itemProps": { 
         "type": "internal",
-        "href": "/",
+        "href": "/153?map=productClusterIds",
         "noFollow": false,
         "tagTitle": "Manta Asfálticas",
         "text": "Manta Asfálticas"
@@ -51,7 +51,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/154?map=productClusterIds",
         "noFollow": false,
         "tagTitle": "Impermeabilizantes",
         "text": "Impermeabilizantes"
@@ -65,8 +65,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "/",
+        "type": "internal", 
+        "href": "/156?map=productClusterIds",
         "noFollow": false,
         "tagTitle": "Pintura e Decoração",
         "text": "Pintura e Decoração"

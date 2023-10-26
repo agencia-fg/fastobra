@@ -486,4 +486,7 @@
   .container--newsletter-footer::before{ 
     margin: 0px auto 12px auto;
   }
+  .wrapper--text-seo{
+    padding: 0px 12px 
+  }
 } 

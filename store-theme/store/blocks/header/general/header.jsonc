@@ -38,7 +38,8 @@
       "flex-layout.col#drawer-menu"
     ],
     "props": {  
-      "blockClass": "drawer-menu"
+      "blockClass": "drawer-menu",  
+      "maxWidth": "260px"
     }
   }, 
 

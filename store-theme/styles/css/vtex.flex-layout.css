@@ -345,7 +345,8 @@
 .flexRow--newsletter-home{
   background: #002470;
   position: relative;
-  padding: 15px 0px;
+  padding: 15px 0px;  
+  margin-bottom: 150px;
 }
 
 .flexRow--newsletter-home::after{
@@ -865,6 +866,9 @@
 }
 
 @media(max-width: 768px){
+  .flexRow--newsletter-home{
+    margin-bottom: 30px;
+  } 
   .flexRow--newsletter-home::after{
     clip-path: polygon(0 0, 100% 0%, 100% 80%, 50% 100%, 0 80%);
     height: 185px;
@@ -876,7 +880,7 @@
     padding: 15px 10px;
   } 
   .flexRow--product-main .flexCol--add :global(.vtex-button){
-    margin-bottom: 25px; 
+    margin-bottom: 18px;  
   }  
   .flexRowContent--obras-ambiente .flexCol--grid-obras-ambiente{
     grid-template-columns: 1fr; 
@@ -965,5 +969,9 @@
   }
   .flexRow--produtos-aplicados{
     padding-bottom: 30px;
+  }
+  .flexCol--infos-pdp :global(.vtex-store-components-3-x-productNameContainer){
+    font-size: 18px;
+    text-transform: uppercase; 
   }
 }  
