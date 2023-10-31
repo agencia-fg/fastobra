@@ -32,7 +32,11 @@ const ContactForm: React.FC = () => {
         console.log('Dados enviados com sucesso!');
         setFormData({
             email: '',
-          });
+        });
+        const box = document.getElementById('mensagemsucesso');
+        if (box != null) {
+          box.style.display = 'block';
+        } 
       } else { 
         // Lidar com erros, como validações do servidor.
         console.error('Ocorreu um erro ao enviar os dados.');
@@ -43,7 +47,7 @@ const ContactForm: React.FC = () => {
   }; 
 
   return (
-    <form onSubmit={handleSubmit} >
+    <form onSubmit={handleSubmit} > 
         <div className={styles.footernewsletter}> 
             <div>
                 <input
@@ -58,7 +62,8 @@ const ContactForm: React.FC = () => {
             </div>
             <div>
                 <button type="submit">Cadastrar</button>
-            </div>    
+            </div>     
+            <div id="mensagemsucesso" style={{ display: 'none' }} className={styles.sucessomensagem}><h3>Obrigado!</h3> <p>Você foi cadastrado em nossa base de e-mails com o endereço (teste@gmail.com). Você pode se descadastrar a qualquer momento clicando no link de descadastramento dentro de nossas newsletters.</p></div>
         </div>
     </form> 
   ); 

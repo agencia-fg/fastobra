@@ -430,4 +430,7 @@
   .shippingContainer :global(.vtex-button){
     margin-bottom: 25px; 
   }
+  .shippingContainer :global(.vtex-address-form-4-x-input){
+    font-size: 16px; 
+  } 
 }   

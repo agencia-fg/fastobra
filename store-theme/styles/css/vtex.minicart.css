@@ -93,6 +93,10 @@
     padding-top: 18px;
 }
 
+.drawerContent :global(.vtex-product-list-0-x-productImage){
+    height: 80px; 
+}
+
 :global(.vtex-product-list-0-x-productName--minicart){
     font-size: 12px;
     font-weight: 600;

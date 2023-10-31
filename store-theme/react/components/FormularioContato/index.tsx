@@ -88,7 +88,7 @@ const ContactForm: React.FC = () => {
                 <input
                     type="subject"
                     id="subject"
-                    name="subject"
+                    name="subject" 
                     value={formData.subject}
                     onChange={handleChange}
                     className={styles.input}
@@ -109,9 +109,9 @@ const ContactForm: React.FC = () => {
                 ></textarea>
             </div>  
             <div>
-                <button type="submit">Enviar</button>
+                <button type="submit">Enviar</button> 
             </div>   
-            <div id="mensagemsucesso" className={styles.sucessomensagem}>Sua mensagem foi enviada com sucesso!</div>
+            <div id="mensagemsucesso" className={styles.sucessomensagem} >Sua mensagem foi enviada com sucesso!</div>
         </div>
     </form>
   ); 

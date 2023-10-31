@@ -1,6 +1,8 @@
 {
     "header-layout.desktop": {
         "children": [
+            "custom-styles",
+            "cookie",
             "flex-layout.row#top-header",
             "sticky-layout#header-desktop",
             "flex-layout.row#header-menu"

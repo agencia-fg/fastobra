@@ -10,13 +10,28 @@
   },
 
   "search-bar": {
+    "blocks": [ 
+    ],
     "props": {
-      "autocompleteFullWidth": true,
-      "placeholder": " O que você procura ?"
+      "placeholder": "O que você procura?",
+      "blockClass": "search-bar-header"     
+    }  
+  }, 
+
+  "autocomplete-result-list.v2": { 
+    "blocks": [ 
+      "product-summary.shelf"
+    ],
+    "props": {
+      "maxSuggestedProducts": 2,
+      "maxTopSearches": 10,  
+      "maxHistory": 5,
+      "autocompleteWidth": 90
     }
   },
 
-  "flex-layout.col#category-menu": {
+
+  "flex-layout.col#category-menu": { 
     "props": {
       "verticalAlign": "middle"
     },
@@ -55,9 +70,9 @@
   }, 
 
   "drawer-close-button#drawer-menu":{
-    "props":{
-      "type":"filled",
-      "text": "Departamentos"  
+    "props":{ 
+      "type":"filled", 
+      "text": "DEPARTAMENTOS"  
     }
   },
    
@@ -95,20 +110,20 @@
     "props": {
       "blockClass": [
         "bloco-whatsapp-topo"
-      ], 
+      ],  
       "preventHorizontalStretch": true
     }
   },
 
-  "rich-text#topo-whatsapp": {
-    "props": {
-      "text": "[Compre pelo Whatsapp](https://api.whatsapp.com/send?phone=5511940168899)",
+  "rich-text#topo-whatsapp": {  
+    "props": { 
+      "text": "[Compre pelo Whatsapp](https://api.whatsapp.com/send?target=_blankphone=5511940168899)", 
       "blockClass": "texto-whatsapp"
-    }
-  },
-
+    } 
+  },  
+  
   "flex-layout.row#aviso-topo": {
-    "children": [ 
+    "children": [   
       "rich-text#topo-aviso",
       "flex-layout.col#flutuante-atendimento"
     ],

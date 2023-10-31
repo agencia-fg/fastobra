@@ -31,7 +31,7 @@ const Cookie: React.FC = () => {
  
  
   return (
-    <div className={`${styles.contentcookie} ${verify && styles.ativo}`}>
+    <div className={`${styles.contentcookie} ${verify && styles.ativo}`} style={{display: "none"}}>
         <div className={styles.cookie}>
             <h4>Esse site salva seu histórico de uso. Ao continuar navegando nele, entendemos que Você concorda com a nossa <a href="/institucional/politicas"> Política de Privacidade.</a></h4>
             <button onClick={setLocalStorageBtn}>Aceitar e continuar</button>

@@ -489,4 +489,7 @@
   .wrapper--text-seo{
     padding: 0px 12px 
   }
+  .container--copyrigth{
+    justify-content: center;
+  }
 } 

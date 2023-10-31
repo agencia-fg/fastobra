@@ -39,17 +39,37 @@
       "preload": true,
       "images": [ 
         {
-          "image": "/arquivos/banner-primario.png", 
-          "mobileImage": "/arquivos/03-Banner-Full-Manta-Asfáltica-Mobile.jpg"
+          "image": "/arquivos/ids/163059/04-Banner-Full-Pré-Black-Friday-Desk.jpg?v=638337767991630000", 
+          "mobileImage": "/arquivos/ids/163060/04-Banner-Full-Pré-Black-Friday-Mobile.jpg?v=638337768514600000",
+          "link": {
+            "attributeTitle": "Ofertas",
+            "url": "/301?map=productClusterIds"
+          }
         },
         {
-          "image": "https://tfcvxe.vteximg.com.br/arquivos/01-Banner-Full-Bianco-Desk.jpg",
-          "mobileImage": "/arquivos/01-Banner-Full-Bianco-Mobile.jpg"
+          "image": "/arquivos/ids/163018/01-Banner-Full-Bianco-Desk.jpg?v=638318794661230000",
+          "mobileImage": "/arquivos/ids/163019/01-Banner-Full-Bianco-Mobile.jpg?v=638318795620330000",
+          "link": {
+            "attributeTitle": "Bianco",
+            "url": "/bianco?_q=Bianco&map=ft"
+          }
         }, 
         {
-          "image": "https://tfcvxe.vteximg.com.br/arquivos/ids/159250/01-Semana-do-brasil.jpg?v=638294265313770000",
-          "mobileImage": "/arquivos/02-Banner-Full-Impermeabilizantes-Mobile.jpg"
-        }
+          "image": "/arquivos/ids/163020/02-Banner-Full-Impermeabilizantes-Desk.jpg?v=638318796600500000",
+          "mobileImage": "/arquivos/ids/163021/02-Banner-Full-Impermeabilizantes-Mobile.jpg?v=638318796968530000",
+          "link": {
+            "attributeTitle": "Viaplus",
+            "url": "/viaplus?_q=Viaplus&map=ft"
+          }
+        },
+        {
+          "image": "/arquivos/ids/163022/03-Banner-Full-Manta-Asfáltica-Desk.jpg?v=638318797624430000",
+          "mobileImage": "/arquivos/ids/163023/03-Banner-Full-Manta-Asfáltica-Mobile.jpg?v=638318798199000000",
+          "link": {
+            "attributeTitle": "Manta",
+            "url": "/153?map=productClusterIds"
+          }
+        } 
       ]
     }
   },
@@ -192,7 +212,7 @@
       "src": "/arquivos/banner-middle-01.png", 
       "blockClass": "grid-departamentos",
       "link": { 
-        "url": "/",
+        "url": "/drenagem-e-fundacao",
         "attributeTitle": "",    
         "newTab": false   
       }
@@ -205,7 +225,7 @@
       "src": "/arquivos/fastobra_banner_secundario_2.png", 
       "blockClass": "grid-departamentos",
       "link": { 
-        "url": "/",
+        "url": "/impermeabilizacao",
         "attributeTitle": "",    
         "newTab": false   
       }
@@ -218,7 +238,7 @@
       "src": "/arquivos/fastobra_banner_secundario_3.png", 
       "blockClass": "grid-departamentos",
       "link": { 
-        "url": "/",
+        "url": "/estrutura",
         "attributeTitle": "",    
         "newTab": false   
       }
@@ -231,7 +251,7 @@
       "src": "/arquivos/fastobra_banner_secundario_4.png", 
       "blockClass": "grid-departamentos",
       "link": { 
-        "url": "/",
+        "url": "/argamassas-de-assentamento",
         "attributeTitle": "",    
         "newTab": false   
       }
@@ -244,7 +264,7 @@
       "src": "/arquivos/fastobra_banner_secundario_5.png", 
       "blockClass": "grid-departamentos",
       "link": { 
-        "url": "/",
+        "url": "/pintura-e-protecao",
         "attributeTitle": "",    
         "newTab": false   
       }
@@ -257,7 +277,7 @@
       "src": "/arquivos/fastobra_banner_secundario_6.png", 
       "blockClass": "grid-departamentos",
       "link": { 
-        "url": "/",
+        "url": "/epis-e-seguranca", 
         "attributeTitle": "",    
         "newTab": false   
       }
@@ -272,7 +292,7 @@
     "props": { 
       "blockClass": "obras-ambiente", 
       "marginBottom": 9,  
-      "marginTop": 9 
+      "marginTop": 9   
     },
     "children": ["flex-layout.col#obras-ambiente"]
   },
@@ -303,7 +323,7 @@
       "src": "/arquivos/cozinhas%20e%20banheiros%20banner.jpg", 
       "blockClass": "grid-obras-ambiente",
       "link": { 
-        "url": "/",
+        "url": "/168?map=productClusterIds",
         "attributeTitle": "",    
         "newTab": false   
       }
@@ -316,7 +336,7 @@
       "src": "/arquivos/lajes%20e%20coberturas%20banner.jpg", 
       "blockClass": "grid-obras-ambiente",
       "link": { 
-        "url": "/",
+        "url": "/170?map=productClusterIds",
         "attributeTitle": "",    
         "newTab": false   
       }
@@ -329,7 +349,7 @@
       "src": "/arquivos/piscinas%20banner.jpg", 
       "blockClass": "grid-obras-ambiente",
       "link": { 
-        "url": "/",
+        "url": "/169?map=productClusterIds",
         "attributeTitle": "",    
         "newTab": false   
       }
@@ -342,7 +362,7 @@
       "src": "/arquivos/fundação%20banner.jpg", 
       "blockClass": "grid-obras-ambiente", 
       "link": { 
-        "url": "/",
+        "url": "/171?map=productClusterIds",
         "attributeTitle": "",    
         "newTab": false   
       }
@@ -369,7 +389,7 @@
   // SLIDE MARCAS 
 
   "flex-layout.row#slide-marcas": { 
-    "title": "Bloco marcas",
+    "title": "Bloco marcas", 
     "props": { 
       "blockClass": "slide-marcas", 
       "marginBottom": 9,  

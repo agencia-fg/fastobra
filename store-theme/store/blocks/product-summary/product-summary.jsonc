@@ -81,9 +81,26 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection"
+      "flex-layout.col#flags" 
     ]
   },
+
+  "flex-layout.col#flags": {
+    "children": [ 
+      "vtex.product-highlights@2.x:product-highlights#collection",
+      "product-price-savings#discount" 
+    ],
+    "props": { 
+      "blockClass": "flags-summary"
+    }
+  },
+
+  "product-price-savings#discount": {
+    "props": { 
+        "message": "- {savingsPercentage}",
+        "blockClass": "savingPercentage"
+    } 
+}, 
 
   "product-summary-image#shelf": {
     "props": { 

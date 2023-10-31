@@ -53,7 +53,7 @@
 }
 
 .contentcookie.ativo{
-    display: block;
+    display: block!important;
     opacity: 1; 
     transition: all 0.4s;
     z-index: 9999; 

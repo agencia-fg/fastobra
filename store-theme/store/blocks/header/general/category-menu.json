@@ -78,10 +78,10 @@
       "id": "menu-item-saldao",
       "type": "custom",
       "iconId": null,
-      "highlight": false,
+      "highlight": false,  
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/158?map=productClusterIds",
         "noFollow": false,
         "tagTitle": "Saldão",
         "text": "Saldão"

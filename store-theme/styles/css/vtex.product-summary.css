@@ -227,8 +227,9 @@
 
 @media(max-width: 768px){
   .container--produtos-aplicados .element--produtos-aplicados{
-    width: 97%;
-    grid-template-columns: 160px 1fr;
+    width: 100%; 
+    grid-template-columns: 130px 1fr; 
+    grid-template-rows: 190px; 
   }
   .container--productLine :global(.vtex-flex-layout-0-x-flexCol--product-price-summary){
     padding: 15px 5px;

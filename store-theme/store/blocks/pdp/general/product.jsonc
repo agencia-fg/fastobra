@@ -63,7 +63,7 @@
     },
     "children": [
       "flex-layout.row#product-image",
-      "vtex.product-highlights@2.x:product-highlights#collection" 
+      "flex-layout.col#flags" 
     ]
   },
 
@@ -121,6 +121,7 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "blockClass": "brand-share",
+      "preserveLayoutOnMobile": true, 
       "marginTop": 4, 
       "marginBottom": 3 
     } 

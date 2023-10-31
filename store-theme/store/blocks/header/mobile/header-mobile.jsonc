@@ -1,6 +1,8 @@
 {
     "header-layout.mobile": {
-        "children": [
+        "children": [             
+            "custom-styles",
+            "cookie",
             "flex-layout.row#top-header",
             "sticky-layout#header-mobile",
             "flex-layout.row#search-mobile"

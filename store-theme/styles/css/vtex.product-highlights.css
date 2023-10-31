@@ -2,7 +2,7 @@
   left: 5px;
   top: 10px;
   position: relative;  
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .productHighlightText {
@@ -17,4 +17,5 @@
   padding: 5px 8px;
   margin-bottom: 3px; 
   border-radius: 3px;
+  display: block;
 }

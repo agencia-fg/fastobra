@@ -199,7 +199,7 @@
         },
         "on": {
           "base": "#3f3f40",
-          "base--inverted": "#000000cf", 
+          "base--inverted": "white", 
           "action-primary": "#ffffff",
           "action-secondary": "#003a7f",
           "emphasis": "#ffffff",

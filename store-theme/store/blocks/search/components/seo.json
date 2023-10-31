@@ -33,7 +33,10 @@
             "condition-layout.category#fibras",
             "condition-layout.category#argamassas-de-assentamento",
             "condition-layout.category#argamassas",
-            "condition-layout.category#rejuntes" 
+            "condition-layout.category#rejuntes",
+            "condition-layout.category#reparo-estrutural-e-pisos-de-concreto",
+            "condition-layout.category#ferramentas",
+            "condition-layout.category#lubrificantes" 
         ] 
     }, 
     
@@ -395,6 +398,52 @@
         "matchType": "any",
         "Then": "rich-text#rejuntes" 
         } 
-    }
-}   
+    },
+
+    "condition-layout.category#reparo-estrutural-e-pisos-de-concreto": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",   
+                "arguments": {       
+                    "ids": ["48"]       
+                }    
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#reparo-estrutural-e-pisos-de-concreto" 
+        } 
+    },
+
+    "condition-layout.category#ferramentas": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["57"]       
+                }    
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#ferramentas"  
+        } 
+    },
+
+    "condition-layout.category#lubrificantes": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",     
+                "arguments": {       
+                    "ids": ["61"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#lubrificantes"  
+        } 
+    } 
+
+}    
     

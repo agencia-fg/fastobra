@@ -6,9 +6,7 @@
             "flex-layout.row#menu-footer", 
             "flex-layout.row#footer-2-desktop",
             "flex-layout.row#footer-3-desktop",
-            "image#whats-flutuante",
-            "custom-styles",
-            "cookie"
+            "image#whats-flutuante"
         ] 
     } 
 }  

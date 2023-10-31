@@ -1,10 +1,14 @@
-.newsletterhome{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 184px;
-    align-items: end;
-    gap: 10px;
-}
- 
+.newsletterhome label{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.1445px;
+    line-height: 17px;
+    color: #FFF;
+    margin-bottom: 5px;
+    display: block;
+} 
+
 .newsletterhome button{
     height: 42.43px;
     background: #EA5B0B;
@@ -27,52 +31,74 @@
     cursor: pointer;
 }
 
-.newsletterhome label{
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14.1445px;
-    line-height: 17px;
-    color: #FFF;
-    margin-bottom: 5px;
-    display: block;
-}
+@media(min-width: 768px){
 
-.newsletterhome input{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 10px; 
-    width: 100%;
-    height: 42px;
-    border-radius: 5.5px;
-    border: none;  
-    color: #626262;
-    font-family: 'Raleway', sans-serif; 
-    font-size: 14px;
-    outline: none;
+    .newsletterhome .nascimento{
+        padding: 0px 10px;
+        max-width: 170px;
+    } 
+
+    .newsletterhome{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 184px;
+        align-items: end; 
+        gap: 10px;
+    }
+    
+    .newsletterhome input{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 10px; 
+        width: 100%;
+        height: 42px;
+        border-radius: 5.5px;
+        border: none;  
+        color: #626262;
+        font-family: 'Raleway', sans-serif; 
+        font-size: 14px;
+        outline: none;
+        padding: 10px; 
+    } 
 } 
- 
-.newsletterhome .input{
-    padding: 10px; 
-}
-
-.newsletterhome .nascimento{
-    padding: 0px 10px;
-    max-width: 170px;
-}
 
 @media(max-width: 768px){
-    .newsletterhome{ 
-        grid-template-columns: 1fr;
-        margin-top: 100px;
-        padding: 0 30px;
+    .newsletterhome{
+        padding-top: 90px;
+        width: 280px;
+        margin: auto;         
     }
-    .newsletterhome .nascimento{ 
-        max-width: 95%;
-    }
-    .newsletterhome button{
-        margin-top: 25px;
-    }
+
+    .newsletterhome input{
+        width: 100%;
+        height: 42px;
+        border-radius: 5.5px;
+        border: none;  
+        color: #626262;
+        font-family: 'Raleway', sans-serif; 
+        font-size: 16px;
+        outline: none;
+        padding: 10px; 
+    } 
+
+    .newsletterhome input::placeholder{
+        font-size: 14px; 
+    } 
+
+    .newsletterhome .nascimento{
+        padding: 0px 10px;
+        background: white;
+        width: 262px;   
+    } 
+
+    .newsletterhome div{
+        margin-bottom: 12px; 
+    } 
+ 
+    .newsletterhome div:nth-child(2),
+    .newsletterhome div:nth-child(3){ 
+        margin-bottom: 25px;
+    } 
+
 }
