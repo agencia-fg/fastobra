@@ -76,7 +76,6 @@
     "vtex.product-context": "0.x",
     "vtex.search-page-context": "0.x",
     "vtex.format-currency": "0.x",
-    "tfcvxe.custom-app": "0.x",
     "vtex.store-graphql": "2.x",
     "vtex.category-menu": "2.x"
   },
