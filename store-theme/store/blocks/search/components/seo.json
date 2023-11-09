@@ -36,7 +36,12 @@
             "condition-layout.category#rejuntes",
             "condition-layout.category#reparo-estrutural-e-pisos-de-concreto",
             "condition-layout.category#ferramentas",
-            "condition-layout.category#lubrificantes" 
+            "condition-layout.category#lubrificantes",
+            "condition-layout.category#fachada",
+            "condition-layout.category#automotivo-e-transportes",
+            "condition-layout.category#nautico",
+            "condition-layout.category#silicones",
+            "condition-layout.category#tubos-de-drenagem"
         ] 
     }, 
     
@@ -443,7 +448,82 @@
         "matchType": "any",
         "Then": "rich-text#lubrificantes"  
         } 
-    } 
+    },
+
+    "condition-layout.category#fachada": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["96"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#fachada"  
+        } 
+    },
+
+    "condition-layout.category#automotivo-e-transportes": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["80"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#automotivo-e-transportes"
+        } 
+    },
+
+    "condition-layout.category#nautico": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["90"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#nautico"
+        } 
+    },
+
+    "condition-layout.category#silicones": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",     
+                "arguments": {       
+                    "ids": ["55"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#silicones"
+        } 
+    },
+
+    "condition-layout.category#tubos-de-drenagem": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",     
+                "arguments": {       
+                    "ids": ["4"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#tubos-de-drenagem"
+        } 
+    }
 
 }    
     
