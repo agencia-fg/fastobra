@@ -423,118 +423,148 @@
           "image": "/arquivos/Sika%20Logo%20(2).png",
           "mobileImage": "/arquivos/Sika%20Logo%20(2).png",
           "link": {
-            "url": "/"  
+            "url": "/sika"  
           }          
         }, 
         {
           "image": "/arquivos/Vedacit%20Pro%20logo.png",
           "mobileImage": "/arquivos/Vedacit%20Pro%20logo.png",
           "link": {
-            "url": "/"  
+            "url": "/vedacit"  
           } 
         },
         {
           "image": "/arquivos/Viapol%20logo.png",
           "mobileImage": "/arquivos/Viapol%20logo.png",
           "link": {
-            "url": "/"  
+            "url": "/viapol"  
           } 
         },
         {
           "image": "/arquivos/Weber%20Quartzolit%20Logo.png",
           "mobileImage": "/arquivos/Weber%20Quartzolit%20Logo.png",
           "link": {
-            "url": "/"  
+            "url": "/weber-quartzolit"  
           } 
         },
         {
           "image": "/arquivos/Tytan%20Logo.png",
           "mobileImage": "/arquivos/Tytan%20Logo.png",
           "link": {
-            "url": "/"  
+            "url": "/tytan"  
           } 
         },
         {
           "image": "/arquivos/MC-Bauchimie%20Logo.png",
           "mobileImage": "/arquivos/MC-Bauchimie%20Logo.png",
           "link": {
-            "url": "/"  
+            "url": "/mb-bauchimie"  
           } 
         },
         {
           "image": "/arquivos/tubolit.jpg",
           "mobileImage": "/arquivos/tubolit.jpg",
           "link": {
-            "url": "/"  
+            "url": "/tubolit"  
           } 
         },
         {
           "image": "/arquivos/Portokoll%20Logo.png",
           "mobileImage": "/arquivos/Portokoll%20Logo.png",
           "link": {
-            "url": "/"  
+            "url": "/portokoll"  
           } 
         },
         {
           "image": "/arquivos/Quimicryl%20Logo.png",
           "mobileImage": "/arquivos/Quimicryl%20Logo.png",
           "link": {
-            "url": "/"  
+            "url": "/quimicryl"  
           } 
         },
         {
           "image": "/arquivos/salvabras.jpg",
           "mobileImage": "/arquivos/salvabras.jpg",
           "link": {
-            "url": "/"  
+            "url": "/salvabras"  
           } 
         },
         {
           "image": "/arquivos/Kanaflex%20Logo.png",
           "mobileImage": "/arquivos/Kanaflex%20Logo.png",
           "link": {
-            "url": "/"  
+            "url": "/kanaflex"  
           } 
         },
         {
           "image": "/arquivos/Maccaferri%20Logo.png",
-          "mobileImage": "/arquivos/Maccaferri%20Logo.png" 
+          "mobileImage": "/arquivos/Maccaferri%20Logo.png",
+          "link": {
+            "url": "/maccaferri"  
+          }
         },
         {
           "image": "/arquivos/3m%20Logo.png",
-          "mobileImage": "/arquivos/3m%20Logo.png" 
+          "mobileImage": "/arquivos/3m%20Logo.png",
+          "link": {
+            "url": "/3m"  
+          }
         },
         {
           "image": "/arquivos/Ciser%20Logo.png",
-          "mobileImage": "/arquivos/Ciser%20Logo.png" 
+          "mobileImage": "/arquivos/Ciser%20Logo.png",
+          "link": {
+            "url": "/ciser"  
+          }
         },
         {
           "image": "/arquivos/Denver%20Logo.png",
-          "mobileImage": "/arquivos/Denver%20Logo.png" 
+          "mobileImage": "/arquivos/Denver%20Logo.png",
+          "link": {
+            "url": "/denver"  
+          }
         },
         {
           "image": "/arquivos/Dryko%20Logo.png",
-          "mobileImage": "/arquivos/Dryko%20Logo.png" 
+          "mobileImage": "/arquivos/Dryko%20Logo.png",
+          "link": {
+            "url": "/dryko"  
+          }
         },
         {
           "image": "/arquivos/Icobit%20Logo.png",
-          "mobileImage": "/arquivos/Icobit%20Logo.png" 
+          "mobileImage": "/arquivos/Icobit%20Logo.png",
+          "link": {
+            "url": "/icobit"  
+          }
         },
         {
           "image": "/arquivos/ITW%20Logo.png",
-          "mobileImage": "/arquivos/ITW%20Logo.png" 
+          "mobileImage": "/arquivos/ITW%20Logo.png",
+          "link": {
+            "url": "/itw"  
+          }
         },
         {
           "image": "/arquivos/marluvas.jpg",
-          "mobileImage": "/arquivos/marluvas.jpg" 
+          "mobileImage": "/arquivos/marluvas.jpg",
+          "link": {
+            "url": "/marluvas"  
+          } 
         },
         {
           "image": "/arquivos/MBCC%201.jpg",
-          "mobileImage": "/arquivos/MBCC%201.jpg" 
+          "mobileImage": "/arquivos/MBCC%201.jpg",
+          "link": {
+            "url": "/mbcc"  
+          } 
         },
         {
           "image": "/arquivos/Penetron%20logo.png",
-          "mobileImage": "/arquivos/Penetron%20logo.png" 
+          "mobileImage": "/arquivos/Penetron%20logo.png",
+          "link": { 
+            "url": "/penetron"   
+          } 
         }
       ]
     }
