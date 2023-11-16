@@ -6,6 +6,7 @@ const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({
     email: '',     
   }); 
+  const [emails, setEmails] = useState('') 
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -30,10 +31,11 @@ const ContactForm: React.FC = () => {
       if (response.ok) {
         // Exibir uma mensagem de sucesso ou redirecionar o usuário após o envio bem-sucedido.
         console.log('Dados enviados com sucesso!');
+        setEmails(formData.email);
         setFormData({
             email: '',
-        });
-        const box = document.getElementById('mensagemsucesso');
+        });        
+        const box = document.getElementById('mensagemsucessoa');
         if (box != null) {
           box.style.display = 'block';
         } 
@@ -54,19 +56,19 @@ const ContactForm: React.FC = () => {
                     type="email"
                     id="email"
                     name="email"
-                    value={formData.email}
+                    value={formData.email} 
                     onChange={handleChange} 
                     placeholder='Inira seu melhor e-mail!'
                     required
                 />
-            </div>
-            <div>
+            </div> 
+            <div> 
                 <button type="submit">Cadastrar</button>
             </div>     
-            <div id="mensagemsucesso" style={{ display: 'none' }} className={styles.sucessomensagem}><h3>Obrigado!</h3> <p>Você foi cadastrado em nossa base de e-mails com o endereço (teste@gmail.com). Você pode se descadastrar a qualquer momento clicando no link de descadastramento dentro de nossas newsletters.</p></div>
+            <div id="mensagemsucessoa" style={{ display: 'none' }} className={styles.sucessomensagem}><h3>Obrigado!</h3> <p>Você foi cadastrado em nossa base de e-mails com o endereço ({emails}). Você pode se descadastrar a qualquer momento clicando no link de descadastramento dentro de nossas newsletters.</p></div>
         </div>
-    </form> 
-  ); 
+    </form>  
+  );   
 };
 
 export default ContactForm;

@@ -1,11 +1,6 @@
 /* Geral */
-
-body :global(.render-container){
-    overflow-x: hidden;
-}
-
 :global(.vtex-store-components-3-x-productDescriptionText) strong{
-    font-weight: 600;
+    font-weight: 600; 
 }  
 
 :global(.vtex-store-components-3-x-productDescriptionText) h2{

@@ -10,7 +10,7 @@
   "flex-layout.row#menu-footer": {
     "children": [
       "flex-layout.col#menu-footer-01",
-      "flex-layout.col#menu-footer-02",
+      "flex-layout.col#menu-footer-02",  
       "flex-layout.col#menu-footer-03",
       "flex-layout.col#menu-footer-04"
     ], 

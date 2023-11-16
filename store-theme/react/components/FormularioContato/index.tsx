@@ -108,7 +108,7 @@ const ContactForm: React.FC = () => {
                   required
                 ></textarea>
             </div>  
-            <div>
+            <div> 
                 <button type="submit">Enviar</button> 
             </div>   
             <div id="mensagemsucesso" className={styles.sucessomensagem} >Sua mensagem foi enviada com sucesso!</div>

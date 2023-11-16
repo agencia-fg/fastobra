@@ -32,6 +32,10 @@ const ContactForm: React.FC = () => {
       if (response.ok) {
         // Exibir uma mensagem de sucesso ou redirecionar o usuário após o envio bem-sucedido.
         console.log('Dados enviados com sucesso!');
+        const box = document.getElementById('mensagemsucesso');
+        if (box != null) {
+          box.style.display = 'block'; 
+        }
         setFormData({
             nome: '',
             email: '',
@@ -90,6 +94,7 @@ const ContactForm: React.FC = () => {
             <div>
                 <button type="submit">Cadastrar</button>
             </div>    
+            <div id="mensagemsucesso" className={styles.sucessomensagem} >Sua mensagem foi enviada com sucesso!</div>
         </div>
     </form>
   ); 
