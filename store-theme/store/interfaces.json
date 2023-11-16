@@ -21,6 +21,10 @@
 
     "cookie": {
         "component": "Cookie"
+    },
+
+    "texto-seo-colecao": {
+        "component": "TextoSeoColecao"
     }
 
 } 

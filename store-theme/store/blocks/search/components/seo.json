@@ -41,7 +41,16 @@
             "condition-layout.category#automotivo-e-transportes",
             "condition-layout.category#nautico",
             "condition-layout.category#silicones",
-            "condition-layout.category#tubos-de-drenagem"
+            "condition-layout.category#tubos-de-drenagem",
+            "condition-layout.category#papelao-ondulado",
+            "condition-layout.category#pavimentacao",
+            "condition-layout.category#espumas-expansivas",
+            "condition-layout.category#vernizes-e-hidrorepelentes",
+            "condition-layout.category#delimitador-de-profundidade",
+            "condition-layout.category#aditivos-para-concreto",
+            "condition-layout.category#fixacao---parafusos-e-ferragens",
+            "condition-layout.category#polidores"
+
         ] 
     }, 
     
@@ -522,6 +531,126 @@
         ],  
         "matchType": "any",
         "Then": "rich-text#tubos-de-drenagem"
+        } 
+    },
+
+    "condition-layout.category#papelao-ondulado": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",     
+                "arguments": {       
+                    "ids": ["37"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#papelao-ondulado"
+        } 
+    },
+
+    "condition-layout.category#pavimentacao": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",     
+                "arguments": {       
+                    "ids": ["52"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#pavimentacao"
+        } 
+    },
+
+    "condition-layout.category#espumas-expansivas": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",     
+                "arguments": {       
+                    "ids": ["40"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#espumas-expansivas"
+        } 
+    },
+
+    "condition-layout.category#vernizes-e-hidrorepelentes": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",     
+                "arguments": {       
+                    "ids": ["32"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#vernizes-e-hidrorepelentes"
+        } 
+    },
+
+    "condition-layout.category#delimitador-de-profundidade": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",     
+                "arguments": {       
+                    "ids": ["99"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#delimitador-de-profundidade"
+        } 
+    },
+
+    "condition-layout.category#aditivos-para-concreto": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",     
+                "arguments": {       
+                    "ids": ["17"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#aditivos-para-concreto"
+        } 
+    },
+
+    "condition-layout.category#fixacao---parafusos-e-ferragens": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",     
+                "arguments": {       
+                    "ids": ["62"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#fixacao---parafusos-e-ferragens"
+        } 
+    },
+
+    "condition-layout.category#polidores": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",     
+                "arguments": {       
+                    "ids": ["88"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#polidores"
         } 
     }
 
