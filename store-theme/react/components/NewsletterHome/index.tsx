@@ -36,7 +36,7 @@ const ContactForm: React.FC = () => {
         if (box != null) {
           box.style.display = 'block'; 
         }
-        setFormData({
+        setFormData({ 
             nome: '',
             email: '',
             birthdate: '',   
@@ -92,7 +92,7 @@ const ContactForm: React.FC = () => {
             />
             </div>
             <div>
-                <button type="submit">Cadastrar</button>
+                <button type="submit">Cadastrar</button> 
             </div>    
             <div id="mensagemsucesso" className={styles.sucessomensagem} >Sua mensagem foi enviada com sucesso!</div>
         </div>

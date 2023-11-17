@@ -33,7 +33,7 @@
 
 .newsletterhome .sucessomensagem{
     display: none;
-    text-align: center;
+    text-align: center; 
     box-sizing: border-box; 
     margin-top: 20px;  
     padding: 10px;   
@@ -78,6 +78,11 @@
 } 
 
 @media(max-width: 768px){
+
+    .newsletterhome .sucessomensagem{
+        bottom: -18px; 
+    }
+
     .newsletterhome{
         padding-top: 90px;
         width: 280px;
