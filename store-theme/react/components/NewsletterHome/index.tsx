@@ -5,8 +5,7 @@ import styles from './style.css'
 const ContactForm: React.FC = () => { 
   const [formData, setFormData] = useState({
     nome: '',
-    email: '',
-    birthdate: '',      
+    email: '',       
   }); 
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -38,8 +37,7 @@ const ContactForm: React.FC = () => {
         }
         setFormData({ 
             nome: '',
-            email: '',
-            birthdate: '',   
+            email: '',   
           });
       } else { 
         // Lidar com erros, como validações do servidor.
@@ -85,7 +83,6 @@ const ContactForm: React.FC = () => {
                 type="date"
                 id="birthdate"
                 name="birthdate"
-                value={formData.birthdate} 
                 onChange={handleChange}
                 className={styles.nascimento}
                 required 
