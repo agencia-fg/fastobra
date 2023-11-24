@@ -49,8 +49,23 @@
             "condition-layout.category#delimitador-de-profundidade",
             "condition-layout.category#aditivos-para-concreto",
             "condition-layout.category#fixacao---parafusos-e-ferragens",
-            "condition-layout.category#polidores"
-
+            "condition-layout.category#polidores",
+            "condition-layout.category#produto-para-infiltracao",
+            "condition-layout.category#grauteamento",
+            "condition-layout.category#mantas-para-telhado",
+            "condition-layout.category#tipos-de-argamassa",
+            "condition-layout.category#massa-corrida",
+            "condition-layout.category#reforma-da-casa",
+            "condition-layout.category#reforma-rapida",
+            "condition-layout.category#como-usar-cimento-queimado-na-parede",
+            "condition-layout.category#ferramenta-para-casa",
+            "condition-layout.category#tipos-de-chave-de-fenda",
+            "condition-layout.category#kit-de-ferramentas",
+            "condition-layout.category#argamassa-para-porcelanato",
+            "condition-layout.category#vedalaje",
+            "condition-layout.category#cimento-queimado",
+            "condition-layout.category#ofertas-de-sao-joao",
+            "condition-layout.category#Black-Friday-material-de-construcao"
         ] 
     }, 
     
@@ -651,6 +666,246 @@
         ],  
         "matchType": "any",
         "Then": "rich-text#polidores"
+        } 
+    },
+
+    "condition-layout.category#produto-para-infiltracao": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["101"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#produtos-para-infiltracao"
+        } 
+    },
+
+    "condition-layout.category#grauteamento": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["102"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#grauteamento"
+        } 
+    },
+
+    "condition-layout.category#mantas-para-telhado": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["105"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#mantas-para-telhado"
+        } 
+    },
+
+    "condition-layout.category#tipos-de-argamassa": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["120"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#tipos-de-argamassa"
+        } 
+    },
+
+    "condition-layout.category#massa-corrida": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["119"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#massa-corrida"
+        } 
+    },
+
+    "condition-layout.category#reforma-da-casa": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["122"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#reforma-da-casa"
+        } 
+    },
+
+    "condition-layout.category#reforma-rapida": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["123"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#reforma-rapida"
+        } 
+    },
+
+    "condition-layout.category#como-usar-cimento-queimado-na-parede": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["127"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#como-usar-cimento-queimado-na-parede"
+        } 
+    },
+
+    "condition-layout.category#ferramenta-para-casa": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["124"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#ferramenta-para-casa"
+        } 
+    },
+
+    "condition-layout.category#tipos-de-chave-de-fenda": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["128"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#tipos-de-chave-de-fenda"
+        } 
+    },
+
+    "condition-layout.category#kit-de-ferramentas": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["125"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#kit-de-ferramentas"
+        } 
+    },
+
+    "condition-layout.category#argamassa-para-porcelanato": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["129"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#argamassa-para-porcelanato"
+        } 
+    },
+
+    "condition-layout.category#vedalaje": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["132"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#vedalaje"
+        } 
+    },
+
+    "condition-layout.category#cimento-queimado": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["300"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#cimento-queimado"
+        } 
+    },
+
+    "condition-layout.category#ofertas-de-sao-joao": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["100"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#ofertas-de-sao-joao"
+        } 
+    },
+
+    "condition-layout.category#Black-Friday-material-de-construcao": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["130"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#Black-Friday-material-de-construcao"
         } 
     }
 

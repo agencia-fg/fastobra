@@ -362,7 +362,31 @@
   margin-top: 40px;
 }
 
-.headingLevel4--flutuante-atendimento {
+.headingLevel4--flutuante-atendimento{
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #003a7f;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  margin-top: 0px;
+  text-decoration: none;
+}
+
+.strong--flutuante-atendimento{
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #003a7f;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  margin-top: 0px;
+  text-decoration: none;
+}
+
+.vtex-rich-text-0-x-paragraph--flutuante-atendimento .title{
   line-height: 14px;
   font-size: 14px;
   font-weight: bold;

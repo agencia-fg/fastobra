@@ -875,6 +875,16 @@
   background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOS45MTkiIGhlaWdodD0iMjkuOTE5IiB2aWV3Qm94PSIwIDAgMjkuOTE5IDI5LjkxOSI+PHBhdGggZD0iTTI1LjUzNyw0LjM4MkExNC45NiwxNC45NiwwLDAsMCw0LjM4MSwyNS41MzgsMTQuOTYsMTQuOTYsMCwwLDAsMjUuNTM3LDQuMzgyWk03LjUsMjUuODUxYTcuNTc1LDcuNTc1LDAsMCwxLDE0LjkyLDAsMTMuMTc4LDEzLjE3OCwwLDAsMS0xNC45MiwwWm0yLjctMTIuNzY5YTQuNzU3LDQuNzU3LDAsMSwxLDQuNzU3LDQuNzU3QTQuNzYyLDQuNzYyLDAsMCwxLDEwLjIsMTMuMDgyWk0yMy45MzcsMjQuNjM1YTkuMzQzLDkuMzQzLDAsMCwwLTUuNDMxLTYuMSw2LjUxLDYuNTEsMCwxLDAtNy4wOTQsMCw5LjM0MSw5LjM0MSwwLDAsMC01LjQzMSw2LjEsMTMuMjA2LDEzLjIwNiwwLDEsMSwxNy45NTcsMFptMCwwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMSkiLz48L3N2Zz4=);
 } 
 
+.flexRowContent--grid--search .stretchChildrenWidth:first-child{
+  order: 2;
+  padding-right: 0;
+}
+
+.flexRowContent--grid--search .stretchChildrenWidth:last-child{
+  order: 1;
+  padding-right: 32px;
+}
+
 @media(max-width: 768px){
   :global(.vtex-wish-list-1-x-wishlistIconContainer--pagina-produto){
     display: block;

@@ -165,6 +165,12 @@
       "blockClass": "infos-product-summary",
       "preventVerticalStretch": true  
     }
+  },
+
+  "product-summary-name":{
+    "props": { 
+      "tag": "h2"
+    }
   }
 
 }

@@ -178,7 +178,7 @@
 
   "rich-text#flutuante-atendimento": {
     "props": {
-      "text": "#### Contato \n  sac@fastobra.com.br  [Telefone: (11) 3103 4660](tel:11940168899)  [Whatsapp: (11) 9.4016-8899](https://api.whatsapp.com/send?phone=5511940168899) \n \n #### ATENDIMENTO \n Segunda à Quinta - 8h às 18h \n Sexta - 8h às 17h",
+      "text": "\n**Contato** \n sac@fastobra.com.br  [Telefone: (11) 3103 4660](tel:11940168899)  [Whatsapp: (11) 9.4016-8899](https://api.whatsapp.com/send?phone=5511940168899) \n \n **ATENDIMENTO** \n Segunda à Quinta - 8h às 18h \n Sexta - 8h às 17h",
       "blockClass": "flutuante-atendimento" 
     } 
   },

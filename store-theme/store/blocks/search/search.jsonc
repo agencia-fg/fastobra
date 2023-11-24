@@ -76,11 +76,12 @@
     }
   },
   "flex-layout.row#result": {
-    "children": ["flex-layout.col#filter", "flex-layout.col#content"],
+    "children": ["flex-layout.col#content", "flex-layout.col#filter"],
     "props": {
       "preventHorizontalStretch": false, 
       "fullWidth": true,
       "colGap": 7,  
+      "blockClass": "grid--search",
       "marginBottom": 10 
     }
   },
