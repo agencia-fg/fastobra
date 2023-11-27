@@ -65,7 +65,7 @@ const ContactForm: React.FC = () => {
             <div> 
                 <button type="submit">Cadastrar</button>
             </div>     
-            <div id="mensagemsucessoa" style={{ display: 'none' }} className={styles.sucessomensagem}><h3>Obrigado!</h3> <p>Você foi cadastrado em nossa base de e-mails com o endereço ({emails}). Você pode se descadastrar a qualquer momento clicando no link de descadastramento dentro de nossas newsletters.</p></div>
+            <div id="mensagemsucessoa" style={{ display: 'none' }} className={styles.sucessomensagem}><span>Obrigado!</span> <p>Você foi cadastrado em nossa base de e-mails com o endereço ({emails}). Você pode se descadastrar a qualquer momento clicando no link de descadastramento dentro de nossas newsletters.</p></div>
         </div>
     </form>  
   );   

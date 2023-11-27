@@ -65,7 +65,12 @@
             "condition-layout.category#vedalaje",
             "condition-layout.category#cimento-queimado",
             "condition-layout.category#ofertas-de-sao-joao",
-            "condition-layout.category#Black-Friday-material-de-construcao"
+            "condition-layout.category#Black-Friday-material-de-construcao",
+            "condition-layout.category#ferramentas--maquinas-e-equipamentos",
+            "condition-layout.category#casa-renovada",
+            "condition-layout.category#melhores-marcas-de-desmoldantes-para-concreto",
+            "condition-layout.category#ferramentas--ferramentas-manuais",
+            "condition-layout.category#reparo-estrutural-e-pisos-de-concreto--agente-de-cura"
         ] 
     }, 
     
@@ -907,6 +912,81 @@
         "matchType": "any",
         "Then": "rich-text#Black-Friday-material-de-construcao"
         } 
+    },
+
+    "condition-layout.category#ferramentas--maquinas-e-equipamentos": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category",     
+                "arguments": {       
+                    "ids": ["59"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#ferramentas--maquinas-e-equipamentos"
+        } 
+    },
+
+    "condition-layout.category#casa-renovada": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["121"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#casa-renovada"
+        } 
+    },
+
+    "condition-layout.category#melhores-marcas-de-desmoldantes-para-concreto": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "department",     
+                "arguments": {       
+                    "ids": ["131"]       
+                }     
+            } 
+        ],  
+        "matchType": "any",
+        "Then": "rich-text#melhores-marcas-de-desmoldantes-para-concreto"
+        } 
+    },
+
+    "condition-layout.category#ferramentas--ferramentas-manuais": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category", 
+                "arguments": {      
+                    "ids": ["58"]     
+                }   
+            } 
+        ], 
+        "matchType": "any",
+        "Then": "rich-text#ferramentas--ferramentas-manuais" 
+        }
+    },
+
+    "condition-layout.category#reparo-estrutural-e-pisos-de-concreto--agente-de-cura": {
+        "props": {
+        "conditions": [
+            {  
+                "subject": "category", 
+                "arguments": {      
+                    "ids": ["53"]     
+                }   
+            } 
+        ], 
+        "matchType": "any",
+        "Then": "rich-text#reparo-estrutural-e-pisos-de-concreto--agente-de-cura" 
+        }
     }
 
 }    
