@@ -30,7 +30,7 @@ export function SearchDescriptionData() {
     },
     '/colecao-mantas-asfalticas': {
       'bloco-text': [
-        '<h2>Manta Asfáltica com preço imperdível, você encontra na FastObra! </h2>',
+        '<h2>Manta Asfáltica com preço imperdível, você encontra na FastObra.! </h2>',
         '<p>Essencial para a impermeabilização de telhados, a <strong>manta asfáltica</strong> é extremamente eficaz para o processo. Não à toa, é amplamente utilizada no Brasil. Afinal, é super versátil e composta por material que pode ser utilizado em projetos variados.  </p>',
         '<p>Sendo assim, é um dos recursos mais usados quando falamos da impermeabilização de telhados, a <strong>manta asfáltica adesiva</strong> ou líquida está disponível na FastObra. Conheça! </p>',
         '<h2>Para que serve a manta asfáltica? </h2>',
