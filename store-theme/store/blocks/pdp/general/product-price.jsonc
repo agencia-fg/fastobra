@@ -16,8 +16,8 @@
   "flex-layout.col#product-price": { 
     "children": [
       "product-list-price", 
-      "product-selling-price#summary",
       "product-spot-price#price",
+      "product-selling-price#summary",
       "product-installments#summary" 
     ],
     "props": {  
