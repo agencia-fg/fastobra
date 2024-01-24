@@ -25,6 +25,10 @@
 
     "texto-seo-colecao": {
         "component": "TextoSeoColecao"
+    },
+
+    "custom-shipping-simulator" : {
+        "component" : "CustomShippingSimulator"
     }
 
 } 
