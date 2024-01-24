@@ -62,7 +62,7 @@ const CustomShippingSimulator = () => {
             {/* <input className={style.input__text } name="cep" type="text" placeholder='Cep' onChange={handlePostalCode} /> */}
             <InputMask mask="99999-999" onChange={handlePostalCode} className={style.input__text} name="cep" type="text" placeholder='Cep' ></InputMask>
             <button className={style.btnCalc} type="button" onClick={fetchShippingData}> Calcular </button>
-            <a className={style.consultPostalCode} href='https://buscacepinter.correios.com.br/app/endereco/index.php?t' target='_blank'> Não sei meu CEP</a>
+            <br/><a className={style.consultPostalCode} href='https://buscacepinter.correios.com.br/app/endereco/index.php?t' target='_blank'> Não sei meu CEP</a>
             {error && (<> Erro</>)}
 
             <ul className={style.listWrapper}>
