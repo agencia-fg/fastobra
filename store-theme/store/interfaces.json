@@ -27,6 +27,10 @@
         "component": "TextoSeoColecao"
     },
 
+    "custom-shipping-simulator" : {
+        "component" : "CustomShippingSimulator"
+    },
+
     "whosale-price-custom": {
         "component": "WholesalePrice"
     },
