@@ -19,6 +19,19 @@
   text-transform: uppercase;
 }
 
+.paragraph--texto-varejo {
+  color: #6A6F81;
+  margin: 0;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 0em;
+  padding: 0px 0px 5px 0px;
+  text-align: left;
+  white-space: nowrap;
+}
+
 .paragraph--aviso-topo-frete {
   color: #fff;
   font-family: 'Raleway', sans-serif;

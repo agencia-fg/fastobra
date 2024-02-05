@@ -151,10 +151,22 @@
 
   "flex-layout.col#price-minicart": {
     "children": [
+      // "rich-text#unidade-text",
+      "minicart-text",
       "price"
     ],
     "props": {
       "blockClass": "price-minicart"
+    }
+  },
+
+  "minicart-text" :{
+
+  },
+
+  "rich-text#unidade-text" : {
+    "props" : {
+      "text" : "R$ 32,33 por un"
     }
   },
 

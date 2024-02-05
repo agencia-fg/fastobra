@@ -25,6 +25,14 @@
 
     "texto-seo-colecao": {
         "component": "TextoSeoColecao"
+    },
+
+    "whosale-price-custom": {
+        "component": "WholesalePrice"
+    },
+
+    "minicart-text" : {
+        "component" : "MinicartText"
     }
 
 } 
