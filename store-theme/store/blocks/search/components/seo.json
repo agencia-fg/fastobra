@@ -10,6 +10,7 @@
  
     "flex-layout.col#texto-seo": {
         "children": [
+            "rich-text#seo-geral",
             "condition-layout.category#adesivo-chapisco",
             "condition-layout.category#pintura-e-protecao",
             "condition-layout.category#tintas",
@@ -73,6 +74,14 @@
             "condition-layout.category#reparo-estrutural-e-pisos-de-concreto--agente-de-cura"
         ] 
     }, 
+
+    "rich-text#seo-geral":{
+        "props": {
+            "title": "Texto SEO",  
+            "text": "",
+            "blockClass": "text-seo"
+        }
+    },
     
     "condition-layout.category#adesivo-chapisco": {
         "props": {
