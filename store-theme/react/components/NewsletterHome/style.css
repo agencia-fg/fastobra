@@ -121,3 +121,31 @@
     } 
 
 }
+.success {
+    position: fixed;
+    width: fit-content;
+    height: 150px;
+    background:rgb(255 99 68 / 93%);
+    box-shadow: 1px 2px 9px 3px #000000bf;
+    top: 50%;
+    right: 25%;
+    z-index: 99999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+    /* align-items: center; */
+    color : #FFFFFF;
+
+}
+
+@media screen and (max-width: 768px) {
+    .success {
+        top: 35%;
+        left: 0;
+        max-width: 98%;
+        right: unset;
+        margin: 0 auto;
+    }
+}

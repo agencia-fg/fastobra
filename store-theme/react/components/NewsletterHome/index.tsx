@@ -7,6 +7,7 @@ const ContactForm: React.FC = () => {
     nome: '',
     email: '',       
   }); 
+  const [success, setSucces] = useState(true)
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -27,10 +28,14 @@ const ContactForm: React.FC = () => {
         },
         body: JSON.stringify(formData),
       });
-
+      console.log(response, "response form")
       if (response.ok) {
         // Exibir uma mensagem de sucesso ou redirecionar o usuário após o envio bem-sucedido.
         console.log('Dados enviados com sucesso!');
+        setSucces(true)
+        setTimeout(function( ) {
+          setSucces(false)
+        }, 2000)
         const box = document.getElementById('mensagemsucesso');
         if (box != null) {
           box.style.display = 'block'; 
@@ -42,8 +47,11 @@ const ContactForm: React.FC = () => {
       } else { 
         // Lidar com erros, como validações do servidor.
         console.error('Ocorreu um erro ao enviar os dados.');
+        setSucces(false)
+
       }
     } catch (error) {
+      setSucces(false)
       console.error('Ocorreu um erro ao enviar os dados.', error);
     }
   };
@@ -92,6 +100,14 @@ const ContactForm: React.FC = () => {
                 <button type="submit">Cadastrar</button> 
             </div>    
             <div id="mensagemsucesso" className={styles.sucessomensagem} >Sua mensagem foi enviada com sucesso!</div>
+            {success && (
+              <div className={styles.success}> 
+                <strong>Obrigado!</strong>
+                <br/>Seu cadastro foi enviado com sucesso. 
+                <br/>Para se descadastrar da nossa base, basta clicar no link descadastrar em nossos emails.
+              </div>)
+            }
+        
         </div>
     </form>
   ); 
