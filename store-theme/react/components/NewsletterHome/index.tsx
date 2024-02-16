@@ -7,7 +7,7 @@ const ContactForm: React.FC = () => {
     nome: '',
     email: '',       
   }); 
-  const [success, setSucces] = useState(true)
+  const [success, setSucces] = useState(false)
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
