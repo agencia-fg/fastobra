@@ -5,12 +5,12 @@ import styles from './style.css'
 const ContactForm: React.FC = () => { 
   const [formData, setFormData] = useState({
     nome: '',
-    email: '',       
+    email: '',
   }); 
   const [success, setSucces] = useState(false)
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const { name, value } = e.target;
+    const { name, value } = e.target
     setFormData({
       ...formData,
       [name]: value,
@@ -42,8 +42,12 @@ const ContactForm: React.FC = () => {
         }
         setFormData({ 
             nome: '',
-            email: '',   
+            email: ''
           });
+
+        //@ts-ignore limpa o campo data de nascimento
+        document.getElementsByClassName("tfcvxe-store-theme-0-x-nascimento")[0]?.value = "0000-00-00"
+
       } else { 
         // Lidar com erros, como validações do servidor.
         console.error('Ocorreu um erro ao enviar os dados.');
