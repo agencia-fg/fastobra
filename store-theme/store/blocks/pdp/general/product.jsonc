@@ -108,7 +108,7 @@
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button", 
-      "product-separator",   
+      // "product-separator",   
       "availability-subscriber"
       // "custom-shipping-simulator"      
     ] 
