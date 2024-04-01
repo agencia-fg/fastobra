@@ -99,6 +99,7 @@ const WholesalePrice = () => {
                 <span className={styles.spotPricePixContainer}> ou {spotPricePix} no <span style={{color: "#FF6344", fontWeight: "bold"}}> PIX </span></span>
                 <span className={styles.spotPricePixContainer}> ou em até {lowerInstallment?.NumberOfInstallments}x de {lowerInstallment?.Value}</span>
         </div>
+       
     </>
 }
 

@@ -547,3 +547,7 @@
     justify-content: center;
   }
 } 
+
+.paragraph--precoPromocaiInfo {
+  font-size: 13px;
+}

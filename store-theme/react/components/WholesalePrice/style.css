@@ -133,3 +133,7 @@ color: #003A7F;
 position: relative;
 top: -4px;
 }
+
+/* .wrapperPrice::after {
+    content: "Os descontos serão aplicados no checkout";
+} */

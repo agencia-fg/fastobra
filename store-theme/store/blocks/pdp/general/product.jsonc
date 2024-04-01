@@ -109,8 +109,8 @@
       "product-gifts",
       "flex-layout.row#buy-button", 
       "product-separator",   
-      "availability-subscriber", 
-      "custom-shipping-simulator"      
+      "availability-subscriber"
+      // "custom-shipping-simulator"      
     ] 
   }, 
 

@@ -39,5 +39,21 @@
             "text" :"Preço de varejo",
             "blockClass" : ["texto-varejo"]
         }
+    },
+
+
+    "condition-layout.product#conditional-price-info": {
+        "props": {
+            "conditions": [
+                {
+                    "subject": "productClusters",
+                    "arguments": {
+                        "id": "305"
+                    }
+                }
+            ],
+            "Then": "rich-text#priceInfo",
+            "Else" : "rich-text#empty-text"
+        }
     }
 }

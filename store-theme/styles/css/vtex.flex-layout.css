@@ -785,7 +785,7 @@
 }
 
 .flexRow--product-main .flexRow--product-price .flexRowContent--product-price{
-  align-items: center;
+  /* align-items: center; */
 } 
 
 .flexRow--product-main :global(.vtex-wish-list-1-x-wishlistIconContainer--pagina-produto) :global(.vtex-button__label){
