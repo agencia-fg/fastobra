@@ -14,7 +14,7 @@ function FreeShipping({ titleFrete, valueFrete }: PropsFreeShipping) {
     const { useOrderForm } = OrderForm
     const OrderFormContext = useOrderForm()
     console.log(OrderFormContext, "userordero")
-    const totalValue = OrderFormContext.orderForm.totalizers[0].value
+    const totalValue = OrderFormContext.orderForm.value || ""
     console.log(totalValue, "totalvalue")
     const valorFrete = Number(valueFrete);
     const calculateBar = ((totalValue / valorFrete) * 100).toFixed(2);
@@ -37,7 +37,7 @@ console.log(RealNovo, "realnovo")
 
             <p>
 
-                <strong>Parabéns!</strong> Você ganhou <strong>  FRETE GRÁTIS! </strong>
+                <strong>  Parabéns!</strong> Você ganhou <strong>  FRETE GRÁTIS! </strong>
             </p>
 
         )
