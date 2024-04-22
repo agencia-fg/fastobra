@@ -37,6 +37,9 @@
     
     "bar-free-shipping": {
         "component": "FreeShipping"
+    },
+    "overlay-order-placed":{
+        "component":"OverlayOrderPlaced"
     }
 
 
