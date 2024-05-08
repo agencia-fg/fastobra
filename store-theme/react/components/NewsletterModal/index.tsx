@@ -91,7 +91,7 @@ const ContactForm: React.FC = () => {
                 />
             </div>
             <div>
-                <button type="submit">Cadastrar e ver copum</button> 
+                <button type="submit">Cadastrar e ver cupom</button> 
             </div>    
         </div>
     </form>
