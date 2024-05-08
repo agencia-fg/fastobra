@@ -22,7 +22,10 @@
 
     "product-spot-price#price": {
       "props": {
-        "blockClass": "summary-vitrine",
+        "blockClass": [
+          "summary-vitrine",
+          "produto---preco"
+        ],
         "message": "ou {spotPriceValue} no" 
       }
     },
@@ -56,7 +59,7 @@
     "product-selling-price#summary": {
       "props": {
         "blockClass": "summary",
-        "message": "{sellingPriceValue} Á vista"
+        "message": "{sellingPriceValue} à vista"
       }
     },
 

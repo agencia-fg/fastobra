@@ -35,6 +35,7 @@
   "list-context.image-list#full-banner-home": {
     "children": ["slider-layout#full-banner-home"],
     "props": {
+      "blockClass": "banner-images-home",
       "height": 570,
       "preload": true,
       "images": [ 
@@ -121,7 +122,6 @@
   "flex-layout.col#newsletter-home-rigth":{
     "children": ["newsletter-home"],
     "props": {   
-      "width": "65%",
       "verticalAlign": "middle"
     }
   },

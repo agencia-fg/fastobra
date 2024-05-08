@@ -2,7 +2,7 @@
   "flex-layout.row#product-price": { 
     "children": [
       "flex-layout.col#product-price",
-      "add-to-list-btn#pdp"
+        "flex-layout.col#product-price-2"
     ],
     "props": { 
       "width": "100%",  
@@ -15,14 +15,32 @@
 
   "flex-layout.col#product-price": { 
     "children": [
-      "product-list-price", 
+      "condition-layout.product#condition-texto-varejo",
+      "condition-layout.product#condition-listprice-varejo",
+      // "product-list-price", 
       "product-selling-price#summary",
       "product-spot-price#price",
-      "product-installments#summary" 
+      "product-installments#summary"
+      
     ],
     "props": {  
-      "blockClass": "product-price" 
+      "blockClass": ["product-price", "pdp-price-row"] 
     }
+  },
+
+  "flex-layout.col#product-price-2": {
+    "children" : [
+      "whosale-price-custom",
+      "condition-layout.product#conditional-price-info"
+    ]
+  }, 
+
+
+  "rich-text#priceInfo" : {
+    "props" : {
+      "text" : "*Os descontos serão aplicados no checkout",
+      "blockClass": ["precoPromocaiInfo"]
+    }     
   }
   
 } 

@@ -19,6 +19,19 @@
   text-transform: uppercase;
 }
 
+.paragraph--texto-varejo {
+  color: #6A6F81;
+  margin: 0;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 0em;
+  padding: 0px 0px 5px 0px;
+  text-align: left;
+  white-space: nowrap;
+}
+
 .paragraph--aviso-topo-frete {
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -362,7 +375,31 @@
   margin-top: 40px;
 }
 
-.headingLevel4--flutuante-atendimento {
+.headingLevel4--flutuante-atendimento{
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #003a7f;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  margin-top: 0px;
+  text-decoration: none;
+}
+
+.strong--flutuante-atendimento{
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #003a7f;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  margin-top: 0px;
+  text-decoration: none;
+}
+
+.vtex-rich-text-0-x-paragraph--flutuante-atendimento .title{
   line-height: 14px;
   font-size: 14px;
   font-weight: bold;
@@ -544,6 +581,7 @@
   .container--copyrigth {
     justify-content: center;
   }
+<<<<<<< HEAD
 
   .headingLevel2--newsletter-modal__title {
     font-size: 25px;
@@ -561,3 +599,10 @@
     margin-bottom: 0;
   }
 } 
+=======
+} 
+
+.paragraph--precoPromocaiInfo {
+  font-size: 13px;
+}
+>>>>>>> 03330e61491eee67d96c4f48bc191c35dd3430ee

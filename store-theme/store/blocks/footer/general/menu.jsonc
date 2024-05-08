@@ -337,7 +337,7 @@
       "menu-item#manta-liquida",
       "menu-item#manta",
       "menu-item#vedalit",
-      "menu-item#impermeabilizantes",
+      "menu-item#impermeabilizante",
       "menu-item#cimento-queimado",
       "menu-item#graute",
       "menu-item#fundacao",
@@ -646,7 +646,7 @@
     }
   },
 
-  "menu-item#impermeabilizantes": {
+  "menu-item#impermeabilizante": {
     "props": {
       "id": "menu-item-impermeabilizantes",
       "type": "custom",

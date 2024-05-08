@@ -104,15 +104,32 @@
       "product-rating-summary", 
       "product-separator", 
       "flex-layout.row#product-price",  
-      "product-quantity",
+      "flex-layout.row#product-quantity-and-addToList",
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button", 
-      "product-separator",   
-      "availability-subscriber", 
-      "shipping-simulator"        
+      // "product-separator",   
+      "availability-subscriber"
+      // "custom-shipping-simulator"      
     ] 
   }, 
+
+  "flex-layout.row#product-quantity-and-addToList": { 
+      "props" : {
+        "blockClass" : ["quantity__addToList-row"]
+      },
+
+      "children" : [
+      "product-quantity#pdp-quantity",
+      "add-to-list-btn#pdp"
+      ]
+  },
+
+  "product-quantity#pdp-quantity" : {
+    "props" : {
+      "blockClass" : ["product__quantity"]
+    }
+  },
 
   "flex-layout.row#brand-share":{
     "children": ["vtex.store-components:product-brand", "share#default"],

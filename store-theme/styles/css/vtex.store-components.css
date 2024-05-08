@@ -433,4 +433,15 @@
   .shippingContainer :global(.vtex-address-form-4-x-input){
     font-size: 16px; 
   } 
+
+  :global(.vtex-store-components-3-x-imageElement--fullbanner) {
+    height: 100%;
+  }
 }   
+
+@media screen and (min-width: 1600px) {
+  :global(.vtex-store-components-3-x-imageElement--fullbanner) {
+    max-height: unset!important;
+  }
+}
+

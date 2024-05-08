@@ -19,14 +19,14 @@
     transition: all 0.4s;
 }
 
-.contentcookie h4{
+.contentcookie span{
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0px;
     color: #fff;
 }
 
-.contentcookie h4 a{
+.contentcookie span a{
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0px;

@@ -29,6 +29,22 @@
 
     "texto-seo-colecao": {
         "component": "TextoSeoColecao"
+    },
+
+    "custom-shipping-simulator" : {
+        "component" : "CustomShippingSimulator"
+    },
+
+    "whosale-price-custom": {
+        "component": "WholesalePrice"
+    } ,
+    
+    "bar-free-shipping": {
+        "component": "FreeShipping"
+    },
+    "overlay-order-placed":{
+        "component":"OverlayOrderPlaced"
     }
+
 
 } 

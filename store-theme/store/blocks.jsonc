@@ -9,9 +9,8 @@
  */
 {
   "store.orderplaced": { 
-    "blocks": ["order-placed"]
+    "blocks": ["order-placed","overlay-order-placed"]
   },
-
   "store.account": {
     "blocks": ["my-account"], 
     "parent": {
