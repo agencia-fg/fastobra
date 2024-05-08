@@ -1111,7 +1111,61 @@
       "text": "## LAJES",   
       "blockClass": "shelfTitle"  
     } 
-  }
+  },
 
+  // NEWSLETTER MODAL
+  "modal-trigger#newsletter": {
+    "children": ["modal-layout#newsletter"],
+    "props": { 
+      "trigger": "load-session"
+    } 
+  },
+  "modal-layout#newsletter": {
+    "props": { 
+      "blockClass": "newslettermodal",
+      "customPixelEventId": "newslettermodal"
+    },
+    "children": [
+      "flex-layout.row#newsletter-modal",
+      "flex-layout.row#newsletter-modal-success"
+    ]
+  },
+  "flex-layout.row#newsletter-modal": {
+    "props": { 
+      "blockClass": "newsletter-modal",
+      "htmlId": "newsletter-modal"
+    },
+    "children": [
+      "flex-layout.col#newsletter-modal-title",
+      "flex-layout.col#newsletter-modal-content"
+    ]
+  },
+  "flex-layout.row#newsletter-modal-success": {
+    "props": { 
+      "blockClass": "newsletter-modal-success",
+      "htmlId": "newsletter-modal-success"
+    }
+  },
+  "flex-layout.col#newsletter-modal-title": {
+    "children": [ "rich-text#modal-title"],
+    "props": { 
+      "blockClass": "newsletter-modal-title",
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#newsletter-modal-content": {
+    "children": ["newsletter-modal"],
+    "props": { 
+      "blockClass": "newsletter-modal-content",
+      "width": "100%"
+    }
+  },
+  "rich-text#modal-title": {
+    "props": {
+      "text": "## Quer ganhar **10% OFF** \n ## na **primeira compra?** \n É só fazer o seu cadastro na FastObra!", 
+      "blockClass": "newsletter-modal__title",
+      "tag": "h2"
+    }
+  }
+  
 } 
- 

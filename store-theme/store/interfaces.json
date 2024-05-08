@@ -15,6 +15,10 @@
         "component": "NewsletterFooter"
     },
 
+    "newsletter-modal": {
+        "component": "NewsletterModal"
+    },
+
     "formulario-contato": {
         "component": "FormularioContato"
     },

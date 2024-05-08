@@ -13,7 +13,8 @@
             "flex-layout.row#produtos-aplicados", 
             "flex-layout.row#shelf-05", 
             "flex-layout.row#obras-ambiente",
-            "flex-layout.row#slide-marcas" 
+            "flex-layout.row#slide-marcas",
+            "modal-trigger#newsletter" 
         ]    
     }
      
