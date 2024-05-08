@@ -10,7 +10,7 @@ type PropsFreeShipping = {
 }
 
 function FreeShipping({ titleFrete, valueFrete }: PropsFreeShipping) {
-
+    valueFrete = "15000"
     const { useOrderForm } = OrderForm
     const OrderFormContext = useOrderForm()
     console.log(OrderFormContext, "userordero")
