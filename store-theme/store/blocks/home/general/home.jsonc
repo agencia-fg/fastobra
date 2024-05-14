@@ -1126,9 +1126,15 @@
       "customPixelEventId": "newslettermodal"
     },
     "children": [
+      "modal-header",
       "flex-layout.row#newsletter-modal",
       "flex-layout.row#newsletter-modal-success"
     ]
+  },
+  "modal-header":{
+    "props": { 
+      "blockClass": "newslettermodal-header"
+    }
   },
   "flex-layout.row#newsletter-modal": {
     "props": { 

@@ -91,3 +91,11 @@
 .paper--newslettermodal {
   background: transparent;
 }
+
+.headerContainer--newslettermodal-header {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  border: 0;
+  filter: invert(1);
+}

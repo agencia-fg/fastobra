@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 //@ts-expect-error
-import img from './assets/Tela-02.png';
+import img from './assets/Tela-03.png';
 //@ts-ignore 
 import styles from './style.css'
 
