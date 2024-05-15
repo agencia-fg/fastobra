@@ -64,6 +64,9 @@
   },
   "store.custom#cimento-queimado": { 
     "path": "/cimento-queimado"
+  },
+  "store.custom#colecao-viaplus": { 
+    "path": "/viaplus"
   }
 }
  
