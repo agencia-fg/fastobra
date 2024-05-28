@@ -76,7 +76,7 @@
     }
   },
   "flex-layout.row#result": {
-    "children": ["flex-layout.col#content", "flex-layout.col#filter"],
+    "children": ["flex-layout.col#filter", "flex-layout.col#content"],
     "props": {
       "preventHorizontalStretch": false, 
       "fullWidth": true,
