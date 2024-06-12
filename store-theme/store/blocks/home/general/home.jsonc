@@ -1084,7 +1084,7 @@
   "rich-text#produtos-aplicados-04": {
     "title": "Titulo - Produtos aplicados",
     "props": {
-      "text": "## ACABAMETOS",   
+      "text": "## ACABAMENTOS",   
       "blockClass": "shelfTitle"  
     } 
   },
