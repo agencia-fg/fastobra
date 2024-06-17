@@ -75,11 +75,16 @@
 }
 
 .box{
-    max-width: 150px; 
-    min-width: 150px;
+    /* max-width: 150px;  */
+    /* min-width: 150px; */
     width: 151px;
     right: -120px!important;
+    min-width: 10rem !important;
 } 
+
+.accountOptions {
+    width:90% ;
+}
 
 .arrowUp{
     display: none;
@@ -91,7 +96,7 @@
 }
 
 .content .contentForm{
-    min-width: 20rem;
+    min-width: 10rem;
     padding: 0px;
 }
 
