@@ -58,7 +58,7 @@ const ContactForm: React.FC = () => {
                     name="email"
                     value={formData.email} 
                     onChange={handleChange} 
-                    placeholder='Inira seu melhor e-mail!'
+                    placeholder='Insira seu melhor e-mail!'
                     required
                 />
             </div> 
