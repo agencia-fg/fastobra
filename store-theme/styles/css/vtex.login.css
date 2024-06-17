@@ -79,6 +79,7 @@
     /* min-width: 150px; */
     width: 151px;
     right: -120px!important;
+    min-width: 10rem !important;
 } 
 
 .accountOptions {
@@ -95,7 +96,7 @@
 }
 
 .content .contentForm{
-    min-width: 20rem;
+    min-width: 10rem;
     padding: 0px;
 }
 
