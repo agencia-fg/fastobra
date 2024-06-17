@@ -1168,7 +1168,7 @@
   },
   "rich-text#modal-title": {
     "props": {
-      "text": "## Quer ganhar **10% OFF** \n ## na **primeira compra?** \n É só fazer o seu cadastro na FastObra!", 
+      "text": "## Quer ganhar **5% OFF** \n ## na **primeira compra?** \n É só fazer o seu cadastro na FastObra!", 
       "blockClass": "newsletter-modal__title",
       "tag": "h2"
     }

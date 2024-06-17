@@ -1,10 +1,16 @@
-import React, { useState } from 'react';
+import { canUseDOM } from 'vtex.render-runtime';
+
+import React, { useState , useEffect } from 'react';
 //@ts-expect-error
-import img from './assets/Tela-03.png';
+import img from './assets/New-tela-03.png';
 //@ts-ignore 
 import styles from './style.css'
 
 const ContactForm: React.FC = () => { 
+  const [isIOS, setIsIOS] = useState(false);
+
+  const [checked, setChecked] = useState(false);
+
   const [formData, setFormData] = useState({
     nome: '',
     email: '',       
@@ -52,6 +58,26 @@ const ContactForm: React.FC = () => {
       console.error('Ocorreu um erro ao enviar os dados.', error);
     }
   };
+
+  useEffect(() => {
+    if (checked) {
+      return
+    }
+    //@ts-ignore
+    if (canUseDOM) {      
+      //@ts-ignore 
+      if (window.navigator.userAgent.includes("iPhone") || window.navigator.userAgent.includes("iPad") ) {
+        const data = document.getElementsByClassName('tfcvxe-store-theme-0-x-nascimento')[1];
+        data?.classList.add(styles.ios);
+        data.addEventListener("click", function(){
+          data?.classList.remove(styles.ios);
+        });
+        setIsIOS(true);        
+      } else {
+        setChecked(true);    
+      }
+    }
+  }, [isIOS]);
 
   return (
     <form onSubmit={handleSubmit} >

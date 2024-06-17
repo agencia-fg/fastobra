@@ -124,8 +124,27 @@
     .newslettermodal .nascimento{
         padding: 0px 10px;
         background: white;
-        width: 93%; 
+        width: 100%;
     } 
+
+    .newslettermodal .nascimento[type="date"]{
+        position: relative;
+        width: 93%;
+        min-width: 93%;
+    }
+
+    .ios:after {
+        content: 'dd/mm/aaaa';
+        display: block;
+        font-family: 'Raleway', sans-serif; 
+        color: #979899;
+        font-size: 16px;
+        font-weight: initial;
+        outline: none;
+        position: absolute;        
+        left: 4%;
+        top: 31%;
+    }
 
     .newslettermodal div{
         margin-bottom: 12px; 
