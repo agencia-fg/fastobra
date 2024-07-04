@@ -4,7 +4,7 @@ import { useProduct } from 'vtex.product-context'
 import responsePlaceholder from './helpers/responsePlaceholder.json'
 import styles from './style.css'
 
-const promotionId = "254ced80-f077-41d0-87ca-167e0baf5b14"
+const promotionId = "e9f499ef-5ca9-41ba-b4e6-c8e4b173701c"
 
 const WholesalePrice = () => {
     const product = useProduct()?.product    
@@ -24,7 +24,7 @@ const WholesalePrice = () => {
             if (!response) return
 
             setPercentualDiscountValue(response.percentualDiscountValue)
-            setquantityToAffectBuyTogether(response.quantityToAffectBuyTogether)
+            setquantityToAffectBuyTogether(response.minimumQuantityBuyTogether)
         };
     
         const hasWholePrice = clusters.filter(i => {return i.id === "305"})
