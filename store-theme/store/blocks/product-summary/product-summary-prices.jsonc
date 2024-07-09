@@ -13,9 +13,9 @@
      
     "product-installments#summary": {
       "props": {
-        "installmentsCriteria": "max-quantity",       
+        "installmentsCriteria": "max-quantity-without-interest",       
         "blockClass": "summary",
-        "message": "ou em até {installmentsNumber} {installmentValue}",  
+        "message": "ou em até {installmentsNumber} {installmentValue}",   
         "hasInterest": true 
       }   
     },
