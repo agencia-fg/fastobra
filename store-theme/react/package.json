@@ -32,7 +32,6 @@
     "eslint": "^6.2.2",
     "eslint-config-vtex": "^11.0.0",
     "eslint-config-vtex-react": "^5.0.1",
-    "tfcvxe.store-theme": "https://parcelamento--tfcvxe.myvtex.com/_v/private/typings/linked/v1/tfcvxe.store-theme@0.0.46+build1720461886/public/@types/tfcvxe.store-theme",
     "vtex.add-to-cart-button": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.add-to-cart-button@0.30.2/public/@types/vtex.add-to-cart-button",
     "vtex.breadcrumb": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.breadcrumb@1.9.4/public/@types/vtex.breadcrumb",
     "vtex.carousel": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.carousel@2.12.1/public/@types/vtex.carousel",

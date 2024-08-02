@@ -1,24 +1,24 @@
 {
   "footer": {
     "blocks": [
-      "footer-layout.desktop", 
+      "footer-layout.desktop",
       "footer-layout.mobile"
     ]
   },
 
-  //MENU LINKS  
+  //MENU LINKS
   "flex-layout.row#menu-footer": {
     "children": [
       "flex-layout.col#menu-footer-01",
-      "flex-layout.col#menu-footer-02",  
+      "flex-layout.col#menu-footer-02",
       "flex-layout.col#menu-footer-03",
       "flex-layout.col#menu-footer-04"
-    ], 
+    ],
     "props": {
       "preventHorizontalStretch": true,
-      "colJustify": "between", 
-      "blockClass": "menu-footer"  
-    } 
+      "colJustify": "between",
+      "blockClass": "menu-footer"
+    }
   },
 
   "flex-layout.col#menu-footer-01": {
@@ -44,7 +44,7 @@
   "flex-layout.col#menu-footer-03": {
     "children": [
       "vtex.menu@2.x:menu#ajuda"
-    ], 
+    ],
     "props":{
       "preventVerticalStretch": true
     }
@@ -54,195 +54,195 @@
     "children": [
       "flex-layout.row#pagamentos-footer",
       "flex-layout.row#certificador-footer"
-       
-    ], 
+
+    ],
     "props":{
       "preventVerticalStretch": true
     }
-  }, 
+  },
 
   "flex-layout.row#pagamentos-footer": {
-    "children": [ 
+    "children": [
       "image#pagamento-01",
       "image#pagamento-02",
       "image#pagamento-03",
       "image#pagamento-04",
-      "image#pagamento-05", 
-      "image#pagamento-07",   
-      "image#pagamento-08",   
+      "image#pagamento-05",
+      "image#pagamento-07",
+      "image#pagamento-08",
       "image#pagamento-09",
       "image#pagamento-10",
-      "image#pagamento-11" 
-    ], 
+      "image#pagamento-11"
+    ],
     "props":{
-      "blockClass": "grid-pagamentos-footer" 
-    } 
-  }, 
+      "blockClass": "grid-pagamentos-footer"
+    }
+  },
 
-  "image#pagamento-01": { 
+  "image#pagamento-01": {
     "props": {
       "src": "assets/svg/pagamento-01.svg",
-      "link": {  
+      "link": {
         "url": "#",
-        "attributeTitle": "",    
-        "newTab": true   
+        "attributeTitle": "",
+        "newTab": true
       }
-    },  
+    },
     "title": "Selo de pagamento"
   },
 
-  "image#pagamento-02": { 
+  "image#pagamento-02": {
     "props": {
       "src": "assets/svg/pagamento-02.svg",
-      "link": {  
+      "link": {
         "url": "#",
-        "attributeTitle": "",    
-        "newTab": true   
+        "attributeTitle": "",
+        "newTab": true
       }
-    },  
+    },
     "title": "Selo de pagamento"
   },
 
-  "image#pagamento-03": { 
+  "image#pagamento-03": {
     "props": {
       "src": "assets/svg/pagamento-03.svg",
-      "link": {  
+      "link": {
         "url": "#",
-        "attributeTitle": "",    
-        "newTab": true   
+        "attributeTitle": "",
+        "newTab": true
       }
-    },  
+    },
     "title": "Selo de pagamento"
   },
 
-  "image#pagamento-04": { 
+  "image#pagamento-04": {
     "props": {
       "src": "assets/svg/pagamento-04.svg",
-      "link": {  
+      "link": {
         "url": "#",
-        "attributeTitle": "",    
-        "newTab": true   
+        "attributeTitle": "",
+        "newTab": true
       }
-    },  
+    },
     "title": "Selo de pagamento"
   },
 
-  "image#pagamento-05": { 
+  "image#pagamento-05": {
     "props": {
       "src": "assets/svg/pagamento-05.svg",
-      "link": {  
+      "link": {
         "url": "#",
-        "attributeTitle": "",    
-        "newTab": true   
+        "attributeTitle": "",
+        "newTab": true
       }
-    },  
+    },
     "title": "Selo de pagamento"
   },
 
-  "image#pagamento-07": { 
+  "image#pagamento-07": {
     "props": {
       "src": "assets/svg/pagamento-07.svg",
-      "link": {  
+      "link": {
         "url": "#",
-        "attributeTitle": "",    
-        "newTab": true   
+        "attributeTitle": "",
+        "newTab": true
       }
-    },  
+    },
     "title": "Selo de pagamento"
   },
 
-  "image#pagamento-08": { 
+  "image#pagamento-08": {
     "props": {
       "src": "assets/svg/pagamento-08.svg",
-      "link": {  
+      "link": {
         "url": "#",
-        "attributeTitle": "",    
-        "newTab": true   
+        "attributeTitle": "",
+        "newTab": true
       }
-    },  
+    },
     "title": "Selo de pagamento"
   },
 
-  "image#pagamento-09": { 
+  "image#pagamento-09": {
     "props": {
       "src": "assets/svg/pagamento-09.svg",
-      "link": {  
+      "link": {
         "url": "#",
-        "attributeTitle": "",    
-        "newTab": true   
+        "attributeTitle": "",
+        "newTab": true
       }
-    },  
+    },
     "title": "Selo de pagamento"
   },
 
-  "image#pagamento-10": { 
+  "image#pagamento-10": {
     "props": {
       "src": "assets/svg/pagamento-10.svg",
-      "link": {  
+      "link": {
         "url": "#",
-        "attributeTitle": "",    
-        "newTab": true   
+        "attributeTitle": "",
+        "newTab": true
       }
-    },  
+    },
     "title": "Selo de pagamento"
   },
 
-  "image#pagamento-11": { 
+  "image#pagamento-11": {
     "props": {
       "src": "assets/svg/pagamento-11.svg",
-      "link": {  
+      "link": {
         "url": "#",
-        "attributeTitle": "",    
-        "newTab": true   
+        "attributeTitle": "",
+        "newTab": true
       }
-    },  
+    },
     "title": "Selo de pagamento"
   },
 
   "flex-layout.row#certificador-footer": {
     "children": [
       "image#lets-encrypt",
-      "image#sage-google" 
-    ],   
+      "image#sage-google"
+    ],
     "props":{
       "blockClass": "selo-seguranca-footer",
-      "preventHorizontalStretch": true 
-    } 
-  }, 
+      "preventHorizontalStretch": true
+    }
+  },
 
-  "image#lets-encrypt": { 
+  "image#lets-encrypt": {
     "props": {
       "src": "assets/svg/lets-encrypt.svg",
-      "link": {  
+      "link": {
         "url": "#",
-        "attributeTitle": "",    
-        "newTab": true   
+        "attributeTitle": "",
+        "newTab": true
       }
-    },  
+    },
     "title": "Selo de segurança"
   },
 
-  "image#sage-google": { 
+  "image#sage-google": {
     "props": {
-      "src": "assets/svg/save-google.svg",  
-      "link": { 
-        "url": "#", 
-        "attributeTitle": "",    
-        "newTab": true   
-      } 
-    },  
+      "src": "assets/svg/save-google.svg",
+      "link": {
+        "url": "#",
+        "attributeTitle": "",
+        "newTab": true
+      }
+    },
     "title": "Google segurança"
   },
 
-  "flex-layout.row#footer-2-desktop": { 
+  "flex-layout.row#footer-2-desktop": {
     "children": [
       "vtex.menu@2.x:menu#marcas",
       "vtex.menu@2.x:menu#termos"
-    ], 
+    ],
     "props": {
       "blockClass": ["menu-row", "footer"],
       "paddingTop": 6,
-      "paddingBottom": 3, 
+      "paddingBottom": 3,
       "preventHorizontalStretch": true,
       "colJustify": "between"
     }
@@ -254,7 +254,7 @@
         {
           "name": "Facebook",
           "url": "https://www.facebook.com/fastobra"
-        }, 
+        },
         {
           "name": "Instagram",
           "url": "https://www.instagram.com/fastobra/"
@@ -264,27 +264,27 @@
   },
 
   "flex-layout.row#footer-3-desktop": {
-    "children": [ 
-      "flex-layout.col#copyrigth", 
-      "flex-layout.col#plataformas"  
-    ], 
+    "children": [
+      "flex-layout.col#copyrigth",
+      "flex-layout.col#plataformas"
+    ],
     "props": {
       "blockClass": "copyrigth",
-      "preventHorizontalStretch": false, 
+      "preventHorizontalStretch": false,
       "colJustify": "between"
     }
   },
 
   "flex-layout.col#plataformas": {
     "children": [
-      "image#vtex",  
+      "image#vtex",
       "image#linx"
     ],
     "props": {
       "blockClass": "plataformas-footer"
     }
   },
-  
+
   "flex-layout.col#copyrigth": {
     "children": [
       "rich-text#copyrigth"
@@ -296,45 +296,45 @@
       "text": "Copyright © 2023 - FastObra. Todos os direitos reservados. \n CNPJ: 02.559.428/0001-02",
       "blockClass": "copyrigth"
     },
-    "title": "Texto copyrigth footer"  
+    "title": "Texto copyrigth footer"
   },
 
-  "image#vtex": { 
+  "image#vtex": {
     "props": {
-      "src": "data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4NC45NjciIGhlaWdodD0iMzAuOTA0IiB2aWV3Qm94PSIwIDAgODQuOTY3IDMwLjkwNCI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAwKSI+PHBhdGggZD0iTTIyNi42ODcsMTg2LjE0SDE5OS43YTIuNzc1LDIuNzc1LDAsMCwwLTIuNDU0LDQuMDc1bDIuNyw1LjExM2gtNC44OTVhMS44LDEuOCwwLDAsMC0xLjU5MiwyLjYzOWw4LjY4NCwxNi40MzdhMS44LDEuOCwwLDAsMCwzLjE4MSwwbDIuMzU5LTQuNDQsMi45NTksNS42YTIuNzc3LDIuNzc3LDAsMCwwLDQuOTA4LjAwNmwxMy41MjktMjUuNDU5QTIuNywyLjcsMCwwLDAsMjI2LjY4NywxODYuMTRabS0xMi4xMjUsMTAuODc4TDIwOC43MjksMjA4YTEuMiwxLjIsMCwwLDEtMi4xMTcsMGwtNS43NzctMTAuOTM0YTEuMiwxLjIsMCwwLDEsMS4wNTUtMS43NTloMTEuNjQzYTEuMTY2LDEuMTY2LDAsMCwxLDEuMDI5LDEuNzEzWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE5My4yNDggLTE4Ni4xNCkiIGZpbGw9IiNmNzE5NjMiLz48cGF0aCBkPSJNOTM1LjU2MywzMTguMjc2SDkzMi42MXYxMC4xMTlhLjM0OS4zNDksMCwwLDEtLjM0OC4zNDhoLTIuMjc3YS4zNDkuMzQ5LDAsMCwxLS4zNDgtLjM0OFYzMTguMjc2aC0yLjk3YS4zMzQuMzM0LDAsMCwxLS4zNDgtLjMzMXYtMS43OWEuMzM0LjMzNCwwLDAsMSwuMzQ4LS4zMzFoOC44OTRhLjM0OS4zNDksMCwwLDEsLjM2NS4zMzF2MS43OTFBLjM0OS4zNDksMCwwLDEsOTM1LjU2MywzMTguMjc2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTg3My40MTQgLTMwNi40NjUpIiBmaWxsPSIjZjcxOTYzIi8+PHBhdGggZD0iTTEwODYuMzEyLDMyNi42MjRhMjIuOCwyMi44LDAsMCwxLTMuNTA5LjIyNmMtMi4yNDIsMC00LjIyNC0uNTc0LTQuMjI0LTMuNzM3VjMxNy4zNGMwLTMuMTYzLDItMy43Miw0LjI0MS0zLjcyYTIyLjUxOCwyMi41MTgsMCwwLDEsMy40OTEuMjI2Yy4yNDMuMDM1LjM0OC4xMjIuMzQ4LjM0OHYxLjYxOWEuMzQ5LjM0OSwwLDAsMS0uMzQ4LjM0OGgtMy42NjVjLS44MTcsMC0xLjExMi4yNzgtMS4xMTIsMS4xODJ2MS41ODJoNC42MzhhLjM0OS4zNDksMCwwLDEsLjM0OC4zNDh2MS42NTFhLjM0OC4zNDgsMCwwLDEtLjM0OC4zNDhoLTQuNjM4djEuODQzYzAsLjkuMywxLjE4MiwxLjExMiwxLjE4MmgzLjY2NWEuMzQ5LjM0OSwwLDAsMSwuMzQ4LjM0OHYxLjYxN0MxMDg2LjY2LDMyNi40ODUsMTA4Ni41NTYsMzI2LjU5LDEwODYuMzEyLDMyNi42MjRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTAxNC42ODUgLTMwNC40MikiIGZpbGw9IiNmNzE5NjMiLz48cGF0aCBkPSJNMTIyNC45LDMyOC43MjJoLTIuNzYzYS40NjEuNDYxLDAsMCwxLS40NTItLjI2MWwtMi40LTMuOC0yLjE3MSwzLjcyYy0uMTIyLjIwOS0uMjQzLjM0OC0uNDMzLjM0OGgtMi41NzJhLjIzLjIzLDAsMCwxLS4yNi0uMjI2LjMxOS4zMTksMCwwLDEsLjAzNS0uMTIybDMuNzY1LTYuMjc5LTMuOC01Ljk2MmEuMjE3LjIxNywwLDAsMSwuMjI2LS4zMzFoMi44Yy4xOTEsMCwuMzMxLjE3NC40MzMuMzMxbDIuMjIzLDMuNTExLDIuMTUyLTMuNTExYS41NjQuNTY0LDAsMCwxLC40MzMtLjMzMWgyLjU3MmEuMjE3LjIxNywwLDAsMSwuMjI2LjMzMWwtMy43ODUsNiwzLjk0OCw2LjI0MmEuMzkuMzksMCwwLDEsLjA1Mi4xNzRDMTIyNS4xMjMsMzI4LjY1MywxMjI1LjAzNiwzMjguNzIyLDEyMjQuOSwzMjguNzIyWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExNDAuMTU2IC0zMDYuNDQ4KSIgZmlsbD0iI2Y3MTk2MyIvPjxwYXRoIGQ9Ik03NTUuMzA2LDMxNi4yODJhLjI2OS4yNjksMCwwLDAtLjI2My4yMTZsLTIuNTIzLDkuMzM4Yy0uMDM1LjE5MS0uMDg3LjI2MS0uMjQzLjI2MXMtLjIwOC0uMDcyLS4yNDMtLjI2MWwtMi41MjYtOS4zNGEuMjY5LjI2OSwwLDAsMC0uMjYzLS4yMTZoLTIuNDgzYS4yNjguMjY4LDAsMCwwLS4yNjEuMzI5czMuMDgyLDEwLjcwOSwzLjExNiwxMC44MTVhMi42MTYsMi42MTYsMCwwLDAsMi42OCwxLjg4NiwyLjcsMi43LDAsMCwwLDIuNjc4LTEuODgyYy4wNDktLjE0NCwzLjA2Mi0xMC44MTksMy4wNjItMTAuODE5YS4yNjguMjY4LDAsMCwwLS4yNjEtLjMyOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03MDYuNTY2IC0zMDYuODg4KSIgZmlsbD0iI2Y3MTk2MyIvPjxwYXRoIGQ9Ik0yMjYuNjg3LDE4Ni4xNEgxOTkuN2EyLjc3NSwyLjc3NSwwLDAsMC0yLjQ1NCw0LjA3NWwyLjcsNS4xMTNoLTQuODk1YTEuOCwxLjgsMCwwLDAtMS41OTIsMi42MzlsOC42ODQsMTYuNDM3YTEuOCwxLjgsMCwwLDAsMy4xODEsMGwyLjM1OS00LjQ0LDIuOTU5LDUuNmEyLjc3NywyLjc3NywwLDAsMCw0LjkwOC4wMDZsMTMuNTI5LTI1LjQ1OUEyLjcsMi43LDAsMCwwLDIyNi42ODcsMTg2LjE0Wm0tMTIuMTI1LDEwLjg3OEwyMDguNzI5LDIwOGExLjIsMS4yLDAsMCwxLTIuMTE3LDBsLTUuNzc3LTEwLjkzNGExLjIsMS4yLDAsMCwxLDEuMDU1LTEuNzU5aDExLjY0M2ExLjE2NiwxLjE2NiwwLDAsMSwxLjAyOSwxLjcxM1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xOTMuMjQ4IC0xODYuMTQpIiBmaWxsPSIjZjcxOTYzIi8+PC9nPjwvc3ZnPg==", 
-      "link": { 
-        "url": "https://vtex.com/br-pt/", 
-        "attributeTitle": "",    
-        "newTab": true   
+      "src": "data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4NC45NjciIGhlaWdodD0iMzAuOTA0IiB2aWV3Qm94PSIwIDAgODQuOTY3IDMwLjkwNCI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAwKSI+PHBhdGggZD0iTTIyNi42ODcsMTg2LjE0SDE5OS43YTIuNzc1LDIuNzc1LDAsMCwwLTIuNDU0LDQuMDc1bDIuNyw1LjExM2gtNC44OTVhMS44LDEuOCwwLDAsMC0xLjU5MiwyLjYzOWw4LjY4NCwxNi40MzdhMS44LDEuOCwwLDAsMCwzLjE4MSwwbDIuMzU5LTQuNDQsMi45NTksNS42YTIuNzc3LDIuNzc3LDAsMCwwLDQuOTA4LjAwNmwxMy41MjktMjUuNDU5QTIuNywyLjcsMCwwLDAsMjI2LjY4NywxODYuMTRabS0xMi4xMjUsMTAuODc4TDIwOC43MjksMjA4YTEuMiwxLjIsMCwwLDEtMi4xMTcsMGwtNS43NzctMTAuOTM0YTEuMiwxLjIsMCwwLDEsMS4wNTUtMS43NTloMTEuNjQzYTEuMTY2LDEuMTY2LDAsMCwxLDEuMDI5LDEuNzEzWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE5My4yNDggLTE4Ni4xNCkiIGZpbGw9IiNmNzE5NjMiLz48cGF0aCBkPSJNOTM1LjU2MywzMTguMjc2SDkzMi42MXYxMC4xMTlhLjM0OS4zNDksMCwwLDEtLjM0OC4zNDhoLTIuMjc3YS4zNDkuMzQ5LDAsMCwxLS4zNDgtLjM0OFYzMTguMjc2aC0yLjk3YS4zMzQuMzM0LDAsMCwxLS4zNDgtLjMzMXYtMS43OWEuMzM0LjMzNCwwLDAsMSwuMzQ4LS4zMzFoOC44OTRhLjM0OS4zNDksMCwwLDEsLjM2NS4zMzF2MS43OTFBLjM0OS4zNDksMCwwLDEsOTM1LjU2MywzMTguMjc2WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTg3My40MTQgLTMwNi40NjUpIiBmaWxsPSIjZjcxOTYzIi8+PHBhdGggZD0iTTEwODYuMzEyLDMyNi42MjRhMjIuOCwyMi44LDAsMCwxLTMuNTA5LjIyNmMtMi4yNDIsMC00LjIyNC0uNTc0LTQuMjI0LTMuNzM3VjMxNy4zNGMwLTMuMTYzLDItMy43Miw0LjI0MS0zLjcyYTIyLjUxOCwyMi41MTgsMCwwLDEsMy40OTEuMjI2Yy4yNDMuMDM1LjM0OC4xMjIuMzQ4LjM0OHYxLjYxOWEuMzQ5LjM0OSwwLDAsMS0uMzQ4LjM0OGgtMy42NjVjLS44MTcsMC0xLjExMi4yNzgtMS4xMTIsMS4xODJ2MS41ODJoNC42MzhhLjM0OS4zNDksMCwwLDEsLjM0OC4zNDh2MS42NTFhLjM0OC4zNDgsMCwwLDEtLjM0OC4zNDhoLTQuNjM4djEuODQzYzAsLjkuMywxLjE4MiwxLjExMiwxLjE4MmgzLjY2NWEuMzQ5LjM0OSwwLDAsMSwuMzQ4LjM0OHYxLjYxN0MxMDg2LjY2LDMyNi40ODUsMTA4Ni41NTYsMzI2LjU5LDEwODYuMzEyLDMyNi42MjRaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTAxNC42ODUgLTMwNC40MikiIGZpbGw9IiNmNzE5NjMiLz48cGF0aCBkPSJNMTIyNC45LDMyOC43MjJoLTIuNzYzYS40NjEuNDYxLDAsMCwxLS40NTItLjI2MWwtMi40LTMuOC0yLjE3MSwzLjcyYy0uMTIyLjIwOS0uMjQzLjM0OC0uNDMzLjM0OGgtMi41NzJhLjIzLjIzLDAsMCwxLS4yNi0uMjI2LjMxOS4zMTksMCwwLDEsLjAzNS0uMTIybDMuNzY1LTYuMjc5LTMuOC01Ljk2MmEuMjE3LjIxNywwLDAsMSwuMjI2LS4zMzFoMi44Yy4xOTEsMCwuMzMxLjE3NC40MzMuMzMxbDIuMjIzLDMuNTExLDIuMTUyLTMuNTExYS41NjQuNTY0LDAsMCwxLC40MzMtLjMzMWgyLjU3MmEuMjE3LjIxNywwLDAsMSwuMjI2LjMzMWwtMy43ODUsNiwzLjk0OCw2LjI0MmEuMzkuMzksMCwwLDEsLjA1Mi4xNzRDMTIyNS4xMjMsMzI4LjY1MywxMjI1LjAzNiwzMjguNzIyLDEyMjQuOSwzMjguNzIyWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExNDAuMTU2IC0zMDYuNDQ4KSIgZmlsbD0iI2Y3MTk2MyIvPjxwYXRoIGQ9Ik03NTUuMzA2LDMxNi4yODJhLjI2OS4yNjksMCwwLDAtLjI2My4yMTZsLTIuNTIzLDkuMzM4Yy0uMDM1LjE5MS0uMDg3LjI2MS0uMjQzLjI2MXMtLjIwOC0uMDcyLS4yNDMtLjI2MWwtMi41MjYtOS4zNGEuMjY5LjI2OSwwLDAsMC0uMjYzLS4yMTZoLTIuNDgzYS4yNjguMjY4LDAsMCwwLS4yNjEuMzI5czMuMDgyLDEwLjcwOSwzLjExNiwxMC44MTVhMi42MTYsMi42MTYsMCwwLDAsMi42OCwxLjg4NiwyLjcsMi43LDAsMCwwLDIuNjc4LTEuODgyYy4wNDktLjE0NCwzLjA2Mi0xMC44MTksMy4wNjItMTAuODE5YS4yNjguMjY4LDAsMCwwLS4yNjEtLjMyOFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC03MDYuNTY2IC0zMDYuODg4KSIgZmlsbD0iI2Y3MTk2MyIvPjxwYXRoIGQ9Ik0yMjYuNjg3LDE4Ni4xNEgxOTkuN2EyLjc3NSwyLjc3NSwwLDAsMC0yLjQ1NCw0LjA3NWwyLjcsNS4xMTNoLTQuODk1YTEuOCwxLjgsMCwwLDAtMS41OTIsMi42MzlsOC42ODQsMTYuNDM3YTEuOCwxLjgsMCwwLDAsMy4xODEsMGwyLjM1OS00LjQ0LDIuOTU5LDUuNmEyLjc3NywyLjc3NywwLDAsMCw0LjkwOC4wMDZsMTMuNTI5LTI1LjQ1OUEyLjcsMi43LDAsMCwwLDIyNi42ODcsMTg2LjE0Wm0tMTIuMTI1LDEwLjg3OEwyMDguNzI5LDIwOGExLjIsMS4yLDAsMCwxLTIuMTE3LDBsLTUuNzc3LTEwLjkzNGExLjIsMS4yLDAsMCwxLDEuMDU1LTEuNzU5aDExLjY0M2ExLjE2NiwxLjE2NiwwLDAsMSwxLjAyOSwxLjcxM1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xOTMuMjQ4IC0xODYuMTQpIiBmaWxsPSIjZjcxOTYzIi8+PC9nPjwvc3ZnPg==",
+      "link": {
+        "url": "https://vtex.com/br-pt/",
+        "attributeTitle": "",
+        "newTab": true
       },
       "maxHeight": 28
-    },  
+    },
     "title": "Imagem - Vtex"
   },
 
-  "image#linx": { 
+  "image#linx": {
     "props": {
-      "src": "assets/svg/logo-fg-branco.svg",  
-      "link": { 
+      "src": "assets/svg/logo-fg-branco.svg",
+      "link": {
         "url": "https://agenciafg.com.br/",
-        "attributeTitle": "",    
-        "newTab": true   
+        "attributeTitle": "",
+        "newTab": true
       },
       "maxHeight": 28
-    }, 
+    },
     "title": "Imagem - Linx"
   },
 
-  "image#whats-flutuante": { 
+  "image#whats-flutuante": {
     "props": {
       "src": "assets/imgs/icon-wpp.png",
       "blockClass": "whats-flutuante",
-      "link": {  
-        "url": "https://api.whatsapp.com/send?phone=5511940168899", 
-        "attributeTitle": "",    
-        "newTab": true   
-      } 
-    },  
+      "link": {
+        "url": "https://api.whatsapp.com/send?phone=551131034660",
+        "attributeTitle": "",
+        "newTab": true
+      }
+    },
     "title": "Whats"
   },
 
@@ -342,9 +342,9 @@
 
   "flex-layout.row#newsletter-footer": {
     "title": "Bloco newsletrer home",
-    "props": { 
+    "props": {
       "blockClass": "newsletter-footer",
-      "fullWidth": false, 
+      "fullWidth": false,
       "marginBottom": 9,
       "marginTop": 8
     },
@@ -356,22 +356,22 @@
 
   "flex-layout.col#newsletter-footer-left":{
     "children": [ "rich-text#newsletter-footer-title"],
-    "props": { 
-      "width": "40%" 
-    }
-  },  
-
-  "rich-text#newsletter-footer-title": {   
     "props": {
-      "text": "Cadastre-se em nossa \n ### NEWSLETTER \n e fique por dentro de ofertas e novidades", 
+      "width": "40%"
+    }
+  },
+
+  "rich-text#newsletter-footer-title": {
+    "props": {
+      "text": "Cadastre-se em nossa \n ### NEWSLETTER \n e fique por dentro de ofertas e novidades",
       "blockClass": "newsletter-footer",
-      "verticalAlign": "middle" 
-    }     
-  }, 
- 
+      "verticalAlign": "middle"
+    }
+  },
+
   "flex-layout.col#newsletter-footer-rigth":{
     "children": ["newsletter-footer"],
-    "props": {    
+    "props": {
       "width": "60%",
       "verticalAlign": "middle"
     }

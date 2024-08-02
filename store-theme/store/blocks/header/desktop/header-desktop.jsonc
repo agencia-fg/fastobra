@@ -6,15 +6,15 @@
             "flex-layout.row#top-header",
             "sticky-layout#header-desktop",
             "flex-layout.row#header-menu"
-        ] 
-    }, 
+        ]
+    },
 
     "sticky-layout#header-desktop": {
         "props": {
             "blockClass": "sticky-header"
         },
         "children": [
-            "flex-layout.row#desktop" 
+            "flex-layout.row#desktop"
         ]
     },
 
@@ -39,28 +39,29 @@
             "flex-layout.row#aviso-topo",
             "flex-layout.row#whatsapp-topo",
             "login",
-            "minicart.v2"
+            "minicart.v2",
+            "image#whats-flutuante"
         ]
-    }, 
+    },
 
     // MENU DE CATEGORIAS
     "flex-layout.row#header-menu": {
         "children": ["vtex.menu@2.x:menu#category-menu"],
         "props": {
             "blockClass": "menu-categorias-header"
-        }  
-    }, 
+        }
+    },
 
-    "custom-category-menu#header-all-category-menu": { 
+    "custom-category-menu#header-all-category-menu": {
         "props": {
             "showAllDepartments": true,
-            "showSubcategories": true, 
-            "menuDisposition": "left", 
-            "departments": [],   
-            "sortSubcategories": "name", 
+            "showSubcategories": true,
+            "menuDisposition": "left",
+            "departments": [],
+            "sortSubcategories": "name",
             "mobileMode": false,
-            "alwaysShowSubcategories": true 
+            "alwaysShowSubcategories": true
         }
-    }  
+    }
 
-} 
+}
