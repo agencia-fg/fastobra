@@ -330,7 +330,7 @@
       "src": "assets/imgs/icon-wpp.png",
       "blockClass": "whats-flutuante",
       "link": {
-        "url": "https://api.whatsapp.com/send?phone=551131034660",
+        "url": "https://wa.me/551131034660/?text=Preciso%20de%20ajuda",
         "attributeTitle": "",
         "newTab": true
       }
