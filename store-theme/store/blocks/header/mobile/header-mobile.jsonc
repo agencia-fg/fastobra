@@ -1,12 +1,12 @@
 {
     "header-layout.mobile": {
-        "children": [             
+        "children": [
             "custom-styles",
             "cookie",
             "flex-layout.row#top-header",
             "sticky-layout#header-mobile",
             "flex-layout.row#search-mobile"
-        ] 
+        ]
     },
 
     "sticky-layout#header-mobile": {
@@ -18,25 +18,25 @@
     "flex-layout.row#search-mobile": {
         "children": [
             "search-bar"
-        ], 
+        ],
         "props": {
             "blockClass": "search-mobile"
-        } 
+        }
     },
-    
+
     "flex-layout.row#header-mobile": {
         "children": [
             "drawer",
-            "logo#mobile", 
+            "logo#mobile",
             "minicart.v2"
-        ], 
+        ],
         "props": {
             "blockClass": "main-header-mobile",
             "preventHorizontalStretch": true,
             "preserveLayoutOnMobile": true,
             "fullWidth": true,
             "colJustify": "between"
-        } 
+        }
     },
 
     "logo#mobile": {
@@ -48,5 +48,5 @@
             "height": "31"
         }
     }
-    
+
 }
