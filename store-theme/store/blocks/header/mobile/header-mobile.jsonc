@@ -5,8 +5,7 @@
             "cookie",
             "flex-layout.row#top-header",
             "sticky-layout#header-mobile",
-            "flex-layout.row#search-mobile",
-            "image#whats-flutuante"
+            "flex-layout.row#search-mobile"
         ]
     },
 

@@ -39,8 +39,7 @@
             "flex-layout.row#aviso-topo",
             "flex-layout.row#whatsapp-topo",
             "login",
-            "minicart.v2",
-            "image#whats-flutuante"
+            "minicart.v2"
         ]
     },
 
